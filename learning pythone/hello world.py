@@ -1,1 +1,1 @@
-print("hello erydttfuguigydrearsyuigohijrtetrdugyihuo")
+print("hello world")
