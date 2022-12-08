@@ -5,7 +5,7 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 print ("ff""dd")
 print ("ff","dd")
 
-print("aaa","bbb","fff",sep="44545")
+print("aaa","bbb","fff",sep=".")
 
 
 import time

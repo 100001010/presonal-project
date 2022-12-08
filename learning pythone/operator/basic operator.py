@@ -8,4 +8,4 @@ print(a*b)
 print(a%b)
 print(c//a)     #show integer
 print(c/3)      #show decimal
-print(a**2)     #power
+print(a**c)     #power
