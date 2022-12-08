@@ -1,11 +1,11 @@
 a=0.1
 b=20
-c=0.1
+c=12345578
 
 print(a+b)
 print(a-b)
 print(a*b)
 print(a%b)
 print(c//a)     #show integer
-print(c/a)      #show decimal
+print(c/3)      #show decimal
 print(a**2)     #power
