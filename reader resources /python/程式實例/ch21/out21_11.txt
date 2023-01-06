@@ -1,0 +1,3360 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--<meta http-equiv="x-ua-compatible" content="IE=edge" />-->
+    <title>OpenData.epa 行政院環境保護署 環境資源資料開放平台</title>
+    <link rel="shortcut icon" href="/Images/logo.ico" />
+    <link href="/Content/css?v=A4yZSyQPWWEG06hQpbAyCIjP-Vo3kTwtR32QJLZKJP81" rel="stylesheet"/>
+
+    <script src="/bundles/jquery?v=UgyEMAYOuSB9Bb6HcOEVHpd6fIIp54yF086SRNVcdIY1"></script>
+<script src="/bundles/jqueryui?v=5Q_vEBHKmRJQO96oVV1I8Me0ktMOsZpSvJZWIdI-VUw1"></script>
+<script src="/Scripts/js?v=8jvw4PSUPhPK_Sibh7UPEMUfHa-sbuH1-ksP0mGPGFc1"></script>
+
+    <style type="text/css">
+            .table_123 {
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 98%;
+            }
+
+            .table_123 td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                font-family: Helvetica,"Heiti TC","微軟正黑體";
+            }
+
+            .table_123 th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                font-family: Helvetica,"Heiti TC","微軟正黑體";
+            }
+
+            #RegisterDiv {
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                height: 43%;
+            }
+    </style>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-61930678-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+    <div id="NewsDiv" class="popup_box index_news_w" style="display: none;">
+        
+<div class="pop_title">
+    <h3>公告資訊</h3>
+    <p class="close"><a style="cursor: pointer;" title="關閉" onclick="document.getElementById('NewsDiv').style.display='None';document.getElementById('MaskDiv').style.display='None';return false;" onkeypress="document.getElementById('NewsDiv').style.display='None';document.getElementById('MaskDiv').style.display='None';">關閉</a></p>
+    <br class="CLEAR" />
+</div>
+<div class="index_newsbox">
+        <p class="day">2020/10/01</p>
+        <p class="data">
+            特有生物研究保育中心109/10/1下架13個資料集：【台灣新年數鳥嘉年華】、【特生中心102年度繁殖鳥大調查資料集】、【特生中心103年度繁殖鳥大調查資料集】、【特生中心2017新年數鳥資料集】、【特生中心社區蝴蝶調查資料集】、【特生中心蛾調志工蛾類調查資料集】、【特生中心慕光之城蛾類時空分布資料集】、【特生中心臉書社團植物調查資料集】、【特有生物研究保育中心冬季鳥類調查資料集】、【特有生物研究保育中心蛾類調查資料集】、【特有生物研究保育中心臉書社團蜘蛛調查資料集】、【臺灣新年數鳥嘉年華資料集】、【蘇花公路改善工程蛾類調查資料集】
+        </p>
+        <p class="day">2020/09/30</p>
+        <p class="data">
+            廢管處109/9/30下架3個資料集：【垃圾車清運路線資料-垃圾不落地(沿線收集)】、【垃圾車清運路線資料-垃圾不落地(定點收集)】、【垃圾車清運路線資料-未實施垃圾不落地】
+        </p>
+        <p class="day">2020/08/18</p>
+        <p class="data">
+            空保處 8/18 下架 1 個資料集：【公私場所與煙道基本參數檔】
+        </p>
+        <p class="day">2020/07/24</p>
+        <p class="data">
+            環保署廢管處資料集更名1項:「全國事業廢棄物產出申報量統計」更名為「應列管事業廢棄物產出申報量統計」
+        </p>
+        <p class="day">2020/07/24</p>
+        <p class="data">
+            環保署空保處資料集更名1項:「廢棄物焚化爐重金屬排放濃度定期檢測結果」更名為「固定污染源戴奧辛、重金屬（鉛、鎘、汞）及氯化氫排放檢測資料」
+        </p>
+        <p class="day">2020/07/06</p>
+        <p class="data">
+            環保署綜計處上架66個開放資料集。
+【環境影響評估報告書附表五：廢棄物、毒化物】
+【環境影響評估報告書附表五：水量、水質】
+【環境影響評估報告書附表五：空氣】
+【環境影響評估報告書附表五：施工階段】
+【環境影響說明書附表五：廢棄物、毒化物】
+【環境影響說明書附表五：水量、水質】
+【環境影響說明書附表五：空氣】
+【環境影響說明書附表五：施工階段】
+【環保署環境影響評估審查委員會簡報資料】
+【環境影響評估報告書環境敏感區位調查表】
+【環境影響說明書環境敏感區位調查表】
+【經過國家級重要濕地環境影響評估報告書】
+【經過山坡地環境影響評估報告書】
+【位於野生動物保護或棲息區環境影響評估報告書】
+【經過地質敏感區環境影響評估報告書】
+【經過水庫集水區環境影響評估報告書】
+【經過飲用水水源水質保護區環境影響評估報告書】
+【經過海岸保護區環境影響評估報告書】
+【經過國家公園區環境影響評估報告書】
+【經過水土保持區環境影響評估報告書】
+【經過活動斷層範圍環境影響評估報告書】
+【經過國家級重要濕地環境影響說明書】
+【經過山坡地環境影響說明書】
+【位於野生動物保護或棲息區環境影響說明書】
+【經過地質敏感區環境影響說明書】
+【經過水庫集水區環境影響說明書】
+【經過飲用水水源水質保護區環境影響說明書】
+【經過海岸保護區環境影響說明書】
+【經過國家公園區環境影響說明書】
+【經過水土保持區環境影響說明書】
+【經過活動斷層範圍環境影響說明書】
+【大眾捷運系統之開發類別環境影響評估報告書】
+【旅館或觀光旅館之興建或擴建類別環境影響評估報告書】
+【能源或輸變電工程之開發類別環境影響評估報告書】
+【環境保護工程之興建類別環境影響評估報告書】
+【探礦、採礦類別環境影響評估報告書】
+【機場之開發類別環境影響評估報告書】
+【鐵路之開發類別環境影響評估報告書】
+【園區之興建或擴建類別環境影響評估報告書】
+【道路之開發類別環境影響評估報告書】
+【旅館或觀光旅館之興建或擴建類別環境影響說明書】
+【能源或輸變電工程之開發類別環境影響說明書】
+【環境保護工程之興建類別環境影響說明書】
+【探礦、採礦類別環境影響說明書】
+【機場之開發類別環境影響說明書】
+【大眾捷運系統之開發類別環境影響說明書】
+【鐵路之開發類別環境影響說明書】
+【園區之興建或擴建類別環境影響說明書】
+【道路之開發類別環境影響說明書】
+【環境影響評估報告書審查結論】
+【環境影響評估書件資料】
+【環境影響評估書件以及其中涵蓋的生物類群列表】
+【協助環保署審查河川水質模式模擬案件】
+【環評主管機關受理審查之環境影響說明書】
+【環評主管機關受理審查之環境影響評估報告書】
+【環評主管機關受理審查之環境影響差異分析報告】
+【環評主管機關受理審查之變更內容對照表】
+【環評主管機關受理審查環境現況差異分析及對策檢討報告】
+【環評主管機關受理審查之因應對策】
+【環評主管機關受理審查之環境影響調查報告】
+【環境影響評估開發案範疇界定資料】
+【環境影響評估開發案公開會議資料】
+【環境影響評估開發案公開說明會資料】
+【環境影響評估開發案公聽會資料】
+【環境影響評估開發案現場勘察資料】
+【環境影響評估開發案基本資料】
+        </p>
+        <p class="day">2020/06/30</p>
+        <p class="data">
+            本平臺即將於 7/1 下架 1 個資料集：【地方環保局空氣品質監測資料(AQX_P_484)】
+        </p>
+        <p class="day">2020/06/22</p>
+        <p class="data">
+             本平臺即將於 7/1 下架 13 個資料集，分別為 6 個代外單位發布資料集，與 7 個移撥業務資料集，羅列如下：
+
+6 個代外單位發布資料集：
+【地方環保局空氣品質監測小時資料】
+【各縣市環保局海域及河川出海口水質監測資料】
+【各縣市環保局海域及河川出海口水質測站基本資料】
+【各縣市環保局河川水質監測資料】
+【跨機關水質資料】
+【各縣市環保局河川水質測站基本資料】
+
+7 個移撥業務資料集：
+【海灘水質資料查詢】
+【最新發布海灘水質檢驗結果】
+【海灘水質測站採樣檢驗歷史資料】
+【海域水質監測資料】
+【海灘夏季水質監測資料】
+【海域水質監測點基本資料】
+【海灘夏季水質快訊】
+        </p>
+        <p class="day">2020/05/05</p>
+        <p class="data">
+            試行版「環保署環境資料開放平臺」發布公告，整合ERDB與OpenData成為一新平臺，提供使用者透過整合之資料資源，進行即時與歷史資料下載，讓使用者更方便獲取環境的相關數據。此一開放平台以『試行版』方式全新推出，歡迎民眾前往試用。網址為data.epa.gov.tw
+        </p>
+        <p class="day">2020/04/23</p>
+        <p class="data">
+            環保署監資處上架1個開放資料集。【光化測站(林園)小時值資料】
+        </p>
+        <p class="day">2020/03/13</p>
+        <p class="data">
+            環保署廢管處將【列管污染源基本資料】資料集名稱改為【環境保護許可管理系統(暨解除列管)對象基本資料】。
+        </p>
+        <p class="day">2020/01/14</p>
+        <p class="data">
+            環保署環境督察總隊上架1個開放資料集。【督察檢測環境介質數據】
+        </p>
+        <p class="day">2019/11/26</p>
+        <p class="data">
+            環保署空保處上架4個開放資料集。【特殊性工業區品保品管後監測值資料檔(一般空氣污染物)】【特殊性工業區品保品管後監測值資料檔(氣象監測項目)】【特殊性工業區品保品管後監測值資料檔(有機光化前驅物)】【特殊性工業區人工操作監測值資料檔】
+        </p>
+        <p class="day">2019/05/31</p>
+        <p class="data">
+            資料集上架，平台於 2019/05/31 上架1個開放資料集。【社區蝴蝶觀賞地圖】
+        </p>
+        <p class="day">2019/05/30</p>
+        <p class="data">
+            資料集上架，平台於 2019/05/30 上架4個開放資料集。
+【社區哺乳兩爬類動物資料】
+【社區昆蟲資源資料】
+【社區賞鳥推薦地圖】
+【社區植物資源資料】
+        </p>
+        <p class="day">2019/05/29</p>
+        <p class="data">
+            資料集上架，平台於 2019/05/29 上架1個開放資料集。【社區鳥類資源資料】
+        </p>
+        <p class="day">2019/05/17</p>
+        <p class="data">
+            資料集上架，平台於 2019/05/17 上架1個開放資料集。【社區生態資源資料】
+        </p>
+        <p class="day">2019/04/16</p>
+        <p class="data">
+            資料集上架
+平台於2019/02/27 上架1個開放資料集。
+
+【行政院環境保護署毒物及化學物質局單位決算】
+        </p>
+</div>
+
+    </div>
+        <div id="QuestionDiv" class="popup_box" style="width: 50%; left: 25%; display: none;">
+            
+<script src="/bundles/jquery?v=UgyEMAYOuSB9Bb6HcOEVHpd6fIIp54yF086SRNVcdIY1"></script>
+
+<script src="/bundles/jqueryval?v=2ghtVqCM8JIEPGxCuZopth4zGa5gMbhnh7aDTCdn_Mw1"></script>
+
+<div class="pop_title">
+    <p class="close"><a style="cursor: pointer;" title="關閉" onclick="document.getElementById('QuestionDiv').style.display='None';document.getElementById('MaskDiv').style.display='None';return false;" onkeypress="document.getElementById('QuestionDiv').style.display='None';document.getElementById('MaskDiv').style.display='None';">關閉</a></p>
+    <br class="CLEAR" />
+</div>
+<div class="question_box">
+    <p class="thank">請您填寫環境資源資料平台（opendata.epa.gov.tw）問卷調查，相關成果產出將以整體統計數字呈現，並不會對外公佈任何個人資料，您的回復將協助我們提供更好的網站服務，謝謝您！</p>
+<form action="/Questionnaire/Create" data-ajax="true" data-ajax-complete="QuestionnaireSuccess" data-ajax-confirm="是否確認送出？" data-ajax-method="POST" id="formQuestionnaire" method="post"><input name="__RequestVerificationToken" type="hidden" value="0aDYvjCNvaLPyRG3OpxwdvdYVcHFa9lJhn6yMdQ7q338HG3f8D7_aY6TKSjkxm9tN7_n8lTkGzVEDKztQbfFaIpUxG6nvKL6POmomJzNWdOxtPF4u-ljOFSW6DMFrxwMAw4JXh8mjE6HIiPkT5h9pbLgtsfQjb2YChso_EpNX2I1" />        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <p>1、請問您是否滿意本平台所提供之環境資源開放資料？ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input id="Q1A1" name="Q1" type="radio" value="1" /><label for="Q1A1">非常滿意</label>
+                        <input id="Q1A2" name="Q1" type="radio" value="2" /><label for="Q1A2">滿意</label>
+                        <input id="Q1A3" name="Q1" type="radio" value="3" /><label for="Q1A3">普通</label>
+                        <input id="Q1A4" name="Q1" type="radio" value="4" /><label for="Q1A4">有待加強</label>
+                        <input id="Q1A5" name="Q1" type="radio" value="5" /><label for="Q1A5">不滿意</label>
+                        <input id="Q1A5Dissatisfy" name="Q1Dissatisfy" class="fill" type="text" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>2、請問您是否滿意本平台所提供之關鍵字及分類資料搜尋方式？</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input id="Q2A1" name="Q2" type="radio" value="1" /><label for="Q2A1">非常滿意</label>
+                        <input id="Q2A2" name="Q2" type="radio" value="2" /><label for="Q2A2">滿意</label>
+                        <input id="Q2A3" name="Q2" type="radio" value="3" /><label for="Q2A3">普通</label>
+                        <input id="Q2A4" name="Q2" type="radio" value="4" /><label for="Q2A4">有待加強</label>
+                        <input id="Q2A5" name="Q2" type="radio" value="5" /><label for="Q2A5">不滿意</label>
+                        <input id="Q2A5Dissatisfy" name="Q2Dissatisfy" class="fill" type="text" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>3、請問本平台所提供之多種資料開放格式(如XML、JSON、CSV)是否滿意？ </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input id="Q3A1" name="Q3" type="radio" value="1" /><label for="Q3A1">非常滿意</label>
+                        <input id="Q3A2" name="Q3" type="radio" value="2" /><label for="Q3A2">滿意</label>
+                        <input id="Q3A3" name="Q3" type="radio" value="3" /><label for="Q3A3">普通</label>
+                        <input id="Q3A4" name="Q3" type="radio" value="4" /><label for="Q3A4">有待加強</label>
+                        <input id="Q3A5" name="Q3" type="radio" value="5" /><label for="Q3A5">不滿意</label>
+                        <input id="Q3A5Dissatisfy" name="Q3Dissatisfy" class="fill" type="text" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>4、請問本平台的相關說明，如：使用範例、資料授權等資訊是否清楚易懂？</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input id="Q4A1" name="Q4" type="radio" value="1" /><label for="Q4A1">非常滿意</label>
+                        <input id="Q4A2" name="Q4" type="radio" value="2" /><label for="Q4A2">滿意</label>
+                        <input id="Q4A3" name="Q4" type="radio" value="3" /><label for="Q4A3">普通</label>
+                        <input id="Q4A4" name="Q4" type="radio" value="4" /><label for="Q4A4">有待加強</label>
+                        <input id="Q4A5" name="Q4" type="radio" value="5" /><label for="Q4A5">不滿意</label>
+                        <input id="Q4A5Dissatisfy" name="Q4Dissatisfy" class="fill" type="text" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>5、整體而言，您對本平台所提供的網站服務？</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input id="Q5A1" name="Q5" type="radio" value="1" /><label for="Q5A1">非常滿意</label>
+                        <input id="Q5A2" name="Q5" type="radio" value="2" /><label for="Q5A2">滿意</label>
+                        <input id="Q5A3" name="Q5" type="radio" value="3" /><label for="Q5A3">普通</label>
+                        <input id="Q5A4" name="Q5" type="radio" value="4" /><label for="Q5A4">有待加強</label>
+                        <input id="Q5A5" name="Q5" type="radio" value="5" /><label for="Q5A5">不滿意</label>
+                        <input id="Q5A5Dissatisfy" name="Q5Dissatisfy" class="fill" type="text" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+        </table>
+        <table class="color" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <p>6、請問您使用本網站的主要目的為？  </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input id="PurposeA1" name="Purpose" type="radio" value="1" /><label for="PurposeA1">查詢資料</label>
+                        <input id="PurposeA2" name="Purpose" type="radio" value="2" /><label for="PurposeA2">學術研究</label>
+                        <input id="PurposeA3" name="Purpose" type="radio" value="3" /><label for="PurposeA3">開發軟體</label>
+                        <input id="PurposeA4" name="Purpose" type="radio" value="4" /><label for="PurposeA4">無特定目的</label>
+                        <input id="PurposeA5" name="Purpose" type="radio" value="5" /><label for="PurposeA5">其他：</label>
+                        <input id="PurposeOther" name="PurposeOther" class="fill" type="text" disabled="disabled" />
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td height="5"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>7、請問您的工作單位屬於哪種類型？</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <input id="WorkTypeA1" name="WorkType" type="radio" value="1" /><label for="WorkTypeA1">政府單位</label>
+                        <input id="WorkTypeA2" name="WorkType" type="radio" value="2" /><label for="WorkTypeA2">學術單位</label>
+                        <input id="WorkTypeA3" name="WorkType" type="radio" value="3" /><label for="WorkTypeA3">公司企業</label>
+                        <input id="WorkTypeA4" name="WorkType" type="radio" value="4" /><label for="WorkTypeA4">開放資料團</label>
+                        <input id="WorkTypeA5" name="WorkType" type="radio" value="5" onclick="document.getElementById('WorkTypeOther').focus();" onkeypress="document.getElementById('WorkTypeOther').focus();" /><label for="WorkTypeA5" onclick="document.getElementById('WorkTypeOther').focus();" onkeypress="document.getElementById('WorkTypeOther').focus();">其他：</label>
+                        <input id="WorkTypeOther" name="WorkTypeOther" class="fill" type="text" disabled="disabled" />
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" height="70" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center">
+                    <p>
+                        <input class="a13" type="submit" value="送出" /><input id="QuestionnaireClear" class="a13" type="reset" value="清除" />
+                    </p>
+                </td>
+            </tr>
+        </table>
+</form>    <script type="text/javascript">
+
+        $("input[name=Purpose]").click(function () {
+            if ($("#PurposeA5").prop("checked")) {
+                $("#PurposeOther").removeAttr('disabled');
+            } else {
+                $("#PurposeOther").attr("disabled", true);
+            }
+        });
+
+        $("#PurposeA5").focus(function () {
+            $("#PurposeOther").focus();
+        });
+
+        $("input[name=WorkType]").click(function () {
+            if ($("#WorkTypeA5").prop("checked")) {
+                $("#WorkTypeOther").removeAttr('disabled');
+            } else {
+                $("#WorkTypeOther").attr("disabled", true);
+            }
+        });
+
+        $("#WorkTypeA5").focus(function () {
+            $("#WorkTypeOther").focus();
+        });
+
+        $("#QuestionnaireClear").click(function () {
+            $("#PurposeOther").attr("disabled", true);
+            $("#WorkTypeOther").attr("disabled", true);
+        });
+
+        $("#formQuestionnaire").submit(function () {
+            var form = document.getElementById('formQuestionnaire');
+            var checkSuccess = true;
+            var checkList = new Array("Q1", "Q2", "Q3", "Q4", "Q5", "Purpose", "WorkType");
+
+            for (var j = 0; j < checkList.length; j++) {
+                var answer = "";
+                var checkItem = eval("form." + checkList[j]);
+                for (var i = 0; i < checkItem.length; i++) {
+                    if (checkItem[i].checked) {
+                        answer = checkItem[i].value;
+                        break;
+                    }
+                }
+                if (checkSuccess && answer.length == 0) {
+                    alert("第" + (j + 1) + "題未選擇");
+                    checkSuccess = false;
+                    break;
+                }
+                else {
+
+                }
+            }
+
+            if (checkSuccess) {
+                var checkDissatisfyList = new Array("Q1A5", "Q2A5", "Q3A5", "Q4A5", "Q5A5");
+                for (var k = 0; k < checkDissatisfyList.length; k++) {
+                    var obj = document.getElementById(checkDissatisfyList[k]);
+                    if (obj.checked) {
+                        var dissatisfy = document.getElementById(checkDissatisfyList[k] + "Dissatisfy").value;
+                        var value = $.trim(dissatisfy);
+                        if (value.length == 0) {
+                            alert("第" + (k + 1) + "題不滿意說明未填");
+                            checkSuccess = false;
+                            break;
+                        }
+                        if (value.length > 200) {
+                            alert("第" + (k + 1) + "題不滿意說明長度勿超過200字");
+                            checkSuccess = false;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if (checkSuccess) {
+                if (!$("#PurposeA5").prop("checked"))
+                    $("#PurposeOther").val("");
+                if (!$("#WorkTypeA5").prop("checked"))
+                    $("#WorkTypeOther").val("");
+            }
+
+            return checkSuccess;
+        });
+
+        function QuestionnaireSuccess() {
+            alert("感謝您的意見！");
+            document.getElementById('QuestionnaireClear').click();
+            document.getElementById('QuestionDiv').style.display = 'None';
+            document.getElementById('MaskDiv').style.display = 'None';
+        }
+    </script>
+</div>
+
+        </div>
+            <div id="RegisterDiv" class="popup_box" style="width: 50%; left: 25%; display: none;">
+            
+
+<script src="/bundles/jquery?v=UgyEMAYOuSB9Bb6HcOEVHpd6fIIp54yF086SRNVcdIY1"></script>
+
+
+<script type="text/javascript">
+    function Step1Confirm() {
+        var Step1CheckStatus = $('#Register_chk_acceptAgreement').prop('checked') ? true : false;
+        if (Step1CheckStatus) {
+            document.getElementById('Register_div_step1').style.display = 'none';
+            document.getElementById('Register_div_step2').style.display = '';
+        }
+    }
+
+    //提交表單資料
+    function SubmitData() {
+        //document.getElementById('div_step1').style.display = '';
+        //document.getElementById('div_step2').style.display = 'none';
+        alert('表單已送出，請稍後。')
+    }
+    //下拉是連動
+    $(document).ready(function () {
+        $('#KeyWords').change(
+            function () {
+                console.log($('#KeyWords').val());
+                var selectedName = $.trim($('#KeyWords').val());
+                $.getJSON('/DevelopZone/GetDataName', { id: selectedName }, function (data) {
+                    $('#DdlDataNames').empty();
+                    $.each(data, function (i, item) {
+                        $('#DdlDataNames').append($('<option></option>').val(item.Value).text(item.Text));
+                    });
+                });
+            });
+    });
+    function QuestionnaireSuccess(e) {
+        console.log(e);
+        if (e.responseText != "OK") {
+            alert(e.responseText);
+        }
+        else {
+            alert("註冊成功");
+            location.reload();
+        }
+    }
+
+    function reFreshScreen() {
+        document.getElementById('Register_div_step2').style.display = 'None';
+        document.getElementById('Register_div_step1').style.display = '';
+        //清空資料
+
+        document.getElementById('Register_chk_acceptAgreement').checked = false;
+        document.getElementById('Register_to_eMail').value = '';
+
+        document.getElementById('Register_rad_unit_govement').checked = false;
+        document.getElementById('Register_rad_unit_school').checked = false;
+        document.getElementById('Register_rad_unit_company').checked = false;
+        document.getElementById('Register_rad_unit_personal').checked = false;
+
+        document.getElementById('Register_rad_use_research').checked = false;
+        document.getElementById('Register_rad_use_develop').checked = false;
+        document.getElementById('Register_rad_use_getInformation').checked = false;
+        document.getElementById('Register_rad_use_dataAnilis').checked = false;
+        document.getElementById('Register_rad_use_education').checked = false;
+
+        document.getElementById('Register_rad_use_Atmosphere').checked = false;
+        document.getElementById('Register_rad_use_water').checked = false;
+        document.getElementById('Register_rad_use_land').checked = false;
+        document.getElementById('Register_rad_use_forest').checked = false;
+        document.getElementById('Register_rad_use_ecology').checked = false;
+        document.getElementById('Register_rad_use_LivingEnvironment').checked = false;
+        document.getElementById('Register_rad_use_PollutionPrevention').checked = false;
+        document.getElementById('KeyWords').value = '';
+        document.getElementById('DdlDataNames').value = '';
+    }
+
+</script>
+<style>
+
+    .registInfo {
+        font-size: 14px;
+        color: #333333;
+    }
+</style>
+
+<div class="pop_title">
+    <p class="close">
+        <a style="cursor: pointer;" title="關閉" onclick="reFreshScreen(); document.getElementById('RegisterDiv').style.display = 'None'; document.getElementById('MaskDiv').style.display = 'None'; return false;" onkeypress="    document.getElementById('RegisterDiv').style.display = 'None'; document.getElementById('MaskDiv').style.display = 'None';">關閉</a>
+    </p>
+    <br class="CLEAR" />
+</div>
+<div class="question_box">
+    <p align="center" style="font-weight: 900; font-size: 18px; ">環境資源資料開放平台 資料使用權登記</p>
+    <br />
+    <div id="Register_div_step1" style="padding: 15px 15px;">
+        <span class="registInfo">
+            1. 為維護本平臺整體服務品質，若使用本平臺提供之RESTful API進行資料介接，須進行資料使用權限登記，網頁下載使用尚不在此限。<br />
+            2. 資料介接API開發說明，請參考本平臺之「<a target="_blank" href="http://opendata.epa.gov.tw/DevelopZone/Sample/">開發者專區</a>」。<br />
+            3. 若是介接本平臺資料進行站台或APP服務開發，請依照資料更新週期將資料取回後自行建立資料服務，並填寫申請表供本署備查，以免因站台或APP服務用量過高被本署視為攻擊行為而停止資料使用權限。<br />
+            4. 進行資料使用時，請事先詳閱本平臺之「<a target="_blank" href="http://opendata.epa.gov.tw/License/License/">資料規範</a>」及「<a target="_blank" href="http://opendata.epa.gov.tw/License/Notice/">注意事項</a>」相關內容。<br />
+        </span>
+        <br /><br /><br />
+        <p align="right" class="registInfo">
+            <input id="Register_chk_acceptAgreement" type="checkbox" />
+            我已閱讀上述說明，並將遵守上述規則使用平臺資料
+            <input id="btn_next" type="button" value="下一步" onclick="Step1Confirm();" />
+        </p>
+    </div>
+
+<form action="/DevelopZone/Register_SendData" data-ajax="true" data-ajax-complete="QuestionnaireSuccess" data-ajax-mode="replace" data-ajax-update="#result" id="form1" method="post"><input name="__RequestVerificationToken" type="hidden" value="moUBjkWokyoXH2xg3yF8VWg5WhJI0ZJqSo0Fi7-zjbT0SO8BBz375pOA_73KHRbfxSGvKsUhU5Be71X5yspXMjcEnhX5iGJqNMjI8TzG-jG5iIv7N42Nwioa1xiLf7tMCvgtqm6mauE5i3TgU-OERrrhzHWn8fTfCOm28qHcTVo1" />        <div id="Register_div_step2" class="registInfo" style="display:none">
+            <table cellspacing="0" cellpadding="0" style="width: 90%; border: none;">
+                <tr>
+                    <td>
+                        1.請填入您的電子郵件 (必填，寄送驗證碼所需，請填入可正常收取信件之電子郵件信箱)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:3px">
+                        <input id="Register_to_eMail" name="to_eMail" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2.請選擇您的身分 (必填)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <input id="Register_rad_unit_govement" name="UseUnit" value="1" type="radio" />政府單位
+                        <input id="Register_rad_unit_school" name="UseUnit" value="2" type="radio" />學術機關
+                        <input id="Register_rad_unit_company" name="UseUnit" value="3" type="radio" />公司行號
+                        <input id="Register_rad_unit_personal" name="UseUnit" value="4" type="radio" />個人使用
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3.請選擇資料用途 (必填)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <input id="Register_rad_use_research" name="Useage" value="1" type="radio" />研究用
+                        <input id="Register_rad_use_develop" name="Useage" value="2" type="radio" />系統/APP開發
+                        <input id="Register_rad_use_getInformation" name="Useage" value="3" type="radio" />資訊取得
+                        <input id="Register_rad_use_dataAnilis" name="Useage" value="4" type="radio" />數據分析
+                        <input id="Register_rad_use_education" name="Useage" value="5" type="radio" />環境教育
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        4.請選擇類別 (必填可複選)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        
+                        <input id="Register_rad_use_Atmosphere" name="UseCategorys1" value="1" type="checkbox" />大氣
+                        <input id="Register_rad_use_water" name="UseCategorys1" value="2" type="checkbox" />水
+                        <input id="Register_rad_use_land" name="UseCategorys1" value="3" type="checkbox" />地
+                        <input id="Register_rad_use_forest" name="UseCategorys1" value="4" type="checkbox" />林
+                        <input id="Register_rad_use_ecology" name="UseCategorys1" value="5" type="checkbox" />生態
+                        <input id="Register_rad_use_LivingEnvironment" name="UseCategorys1" value="6" type="checkbox" />生活環境與其他
+                        <input id="Register_rad_use_PollutionPrevention" name="UseCategorys1" value="7" type="checkbox" />污染防治
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5.選擇資料集 (必填)
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="KeyWords" name="KeyWords" style="width:100px; background-color:#FFF; height:24px;border:1px solid #abadb3; " /></td>
+                    
+                
+                </tr>
+                <tr><td><select class="query" id="DdlDataNames" name="DdlDataNames"><option value="">請選擇</option>
+<option value="OTH01577 ">「宜蘭垃圾車APP」各鄉鎮市清運點資料</option>
+<option value="OTH01879 ">0800資源回收免費服務專線-民眾通報路邊廢車統計表</option>
+<option value="OTH01877 ">0800資源回收免費服務專線-專人處理一般件問題查詢事業廢棄物統計</option>
+<option value="OTH01874 ">0800資源回收免費服務專線-專人處理一般件問題查詢非公告應回收廢棄物類統計</option>
+<option value="OTH01876 ">0800資源回收免費服務專線-專人處理一般件問題查詢非業務範圍統計</option>
+<option value="OTH01875 ">0800資源回收免費服務專線-專人處理一般件問題查詢活動統計</option>
+<option value="OTH01870 ">0800資源回收免費服務專線-專人處理一般件問題查詢廢容器統計</option>
+<option value="OTH01873 ">0800資源回收免費服務專線-專人處理一般件問題查詢廢乾電池、照明光源統計</option>
+<option value="OTH01871 ">0800資源回收免費服務專線-專人處理一般件問題查詢廢資訊物品統計</option>
+<option value="OTH01868 ">0800資源回收免費服務專線-專人處理一般件問題查詢廢電子電器統計</option>
+<option value="OTH01880 ">0800資源回收免費服務專線-專人處理一般件問題查詢廢輪胎、鉛蓄電池統計</option>
+<option value="OTH01869 ">0800資源回收免費服務專線-專人處理一般件問題查詢廢機動車輛統計</option>
+<option value="OTH01878 ">0800資源回收免費服務專線-整體話務達成狀況統計</option>
+<option value="OTH01591 ">104年度雲林縣環境用藥管理成果統計</option>
+<option value="OTH01387 ">105年度法定預算</option>
+<option value="ATM00240 ">30天觀測資料</option>
+<option value="WAT00520 ">APEC Ocean and Fisheries Working Group (OFWG)</option>
+<option value="ATM00627 ">BTEX監測小時值（每日更新）</option>
+<option value="ATM00763 ">CO_8hr平均值(每日提供17筆)                                </option>
+<option value="OTH00065 ">Environmental Policy Monthly</option>
+<option value="OTH01788 ">EPQSummary_Air</option>
+<option value="OTH01797 ">EPQSummary_EnvironmentalEducation</option>
+<option value="OTH01793 ">EPQSummary_EnvironmentalHealth</option>
+<option value="OTH01799 ">EPQSummary_EnvironmentalImpactAssessment</option>
+<option value="OTH01795 ">EPQSummary_EnvironmentalInformationSystem</option>
+<option value="OTH01796 ">EPQSummary_EnvironmentalMonitoringAndTesting</option>
+<option value="OTH01800 ">EPQSummary_InternationalIssues</option>
+<option value="OTH01792 ">EPQSummary_ManagementOfToxicSubstances</option>
+<option value="OTH01789 ">EPQSummary_NoiseAndVibration</option>
+<option value="OTH01801 ">EPQSummary_Other</option>
+<option value="OTH01794 ">EPQSummary_PublicNuisanceDispute</option>
+<option value="OTH01798 ">EPQSummary_RegionalEnvironmentalManagement</option>
+<option value="OTH01790 ">EPQSummary_SoilAndGroundwater</option>
+<option value="OTH02171 ">EPQSummary_TechnologyPlan</option>
+<option value="OTH01791 ">EPQSummary_WasteManagement</option>
+<option value="OTH01787 ">EPQSummary_WaterQualityProtection</option>
+<option value="OTH01560 ">ESCO能源技術服務業資訊</option>
+<option value="ATM00447 ">FAC_P_09</option>
+<option value="ATM00776 ">NAME</option>
+<option value="ATM00764 ">PM10小時值(每小時提供)                                    </option>
+<option value="ATM00765 ">PM10日均值(每日提供)                                     </option>
+<option value="ATM00756 ">PM2.5化學成分監測數據</option>
+<option value="ATM00766 ">PM2.5日均值(每日提供)                                    </option>
+<option value="WAT00537 ">UAV空拍監測資料</option>
+<option value="WAT00152 ">W03_Test                                          </option>
+<option value="OTH01405 ">一般民眾環境教育終身學習護照註冊及開通人數</option>
+<option value="OTH01435 ">一般廢棄物最終處置前組成分析資料</option>
+<option value="ATM00206 ">一週農業氣象預報</option>
+<option value="WAT00523 ">二仁溪污染整治小組及再生願景聯繫會報</option>
+<option value="OTH01606 ">二行程機車汰舊補助進度查詢</option>
+<option value="ATM00634 ">二氧化碳-小時值-每小時</option>
+<option value="OTH02120 ">人口及車輛數</option>
+<option value="ATM00015 ">十分鐘雨量資料</option>
+<option value="SOIL00061">土石流疏散避難圖</option>
+<option value="WAT00456 ">土石流潛勢溪流</option>
+<option value="SOIL00064">土石流警戒資料</option>
+<option value="WAT00479 ">土石違規採取案件區位資料</option>
+<option value="WAT00458 ">土砂觀測站水位資料</option>
+<option value="WAT00459 ">土砂觀測站流速資料</option>
+<option value="SOIL00054">土砂觀測站影像資料</option>
+<option value="SOIL00159">土壤及地下水污染場址列管概況</option>
+<option value="POP00002 ">土壤及地下水污染場址基本資料</option>
+<option value="POP00003 ">土壤及地下水污染管制區公告資料</option>
+<option value="SOIL00003">土壤污染物監測及管制標準</option>
+<option value="ATM00681 ">大屯火山地區火山氣體分析資料</option>
+<option value="ATM00680 ">大屯火山地區火山氣體連續觀測資料</option>
+<option value="SOIL00143">大屯火山地區地溫觀測資料</option>
+<option value="WAT00625 ">大屯火山地區溫泉水質分析資料</option>
+<option value="WAT00624 ">大屯火山地區溫泉水質連續觀測資料</option>
+<option value="ATM00543 ">大甲媽祖遶境即時空品監測成果(E-motor)</option>
+<option value="ATM00544 ">大甲媽祖遶境即時空品監測成果(全部)</option>
+<option value="ATM00540 ">大甲媽祖遶境即時空品監測成果(感測器#1)</option>
+<option value="ATM00541 ">大甲媽祖遶境即時空品監測成果(感測器#2)</option>
+<option value="ATM00542 ">大甲媽祖遶境即時空品監測成果(感測器#3)</option>
+<option value="SOIL00155">大型垃圾焚化廠操作營運情形</option>
+<option value="OTH02203 ">大眾捷運系統之開發類別環境影響評估報告書</option>
+<option value="OTH02218 ">大眾捷運系統之開發類別環境影響說明書</option>
+<option value="ATM00465 ">小區域有感地震報告資料</option>
+<option value="SOIL00099">山坡地土地可利用限度查定成果統計表</option>
+<option value="SOIL00147">山崩與地滑地質敏感區圖資</option>
+<option value="SOIL00142">工程地質探勘資料庫系統－參訓人數統計</option>
+<option value="SOIL00149">工程地質探勘資料庫－資料點位</option>
+<option value="OTH02147 ">工程會列管重大公共建設計畫                                     </option>
+<option value="POP00070 ">工業區污染源鑑識調查資料</option>
+<option value="POP00031 ">工業區燈號分級現況</option>
+<option value="WAT00024 ">已公告之飲用水水源水質保護區一覽表</option>
+<option value="WAT00023 ">已公告之飲用水取水口一定距離一覽表</option>
+<option value="SOIL00081">已設權礦區狀態統計表</option>
+<option value="SOIL00027">已設權礦區狀態統計資料</option>
+<option value="ECO00094 ">不同海拔生態分布情形</option>
+<option value="ATM00461 ">不良日數月報表</option>
+<option value="OTH00902 ">不法利得宣導資料</option>
+<option value="OTH01325 ">中油三輕環評監督委員會會議紀錄</option>
+<option value="OTH00978 ">中油三輕環境監測資料</option>
+<option value="OTH01326 ">中科后里環評監督小組會議紀錄</option>
+<option value="OTH00979 ">中科后里環境監測資料</option>
+<option value="OTH01327 ">六輕相關計畫環評監督委員會會議紀錄</option>
+<option value="OTH00980 ">六輕相關計畫環境監測資料</option>
+<option value="OTH01464 ">公文統計資料</option>
+<option value="OTH01803 ">公文線上簽核比率表</option>
+<option value="OTH01802 ">公文歸檔案件統計表</option>
+<option value="POP00032 ">公民營製造業、用水、電力及燃氣供應業污染防治支出</option>
+<option value="OTH00926 ">公民營廢棄物乙級清除機構許可資料</option>
+<option value="OTH00676 ">公民營廢棄物乙級處理機構許可資料</option>
+<option value="OTH00927 ">公民營廢棄物丙級清除機構許可資料</option>
+<option value="OTH00925 ">公民營廢棄物甲級清除機構許可資料</option>
+<option value="OTH00928 ">公民營廢棄物甲級處理機構許可資料</option>
+<option value="POP00019 ">公民營廢棄物清除機構資料</option>
+<option value="OTH01854 ">公民營廢棄物清除機構數</option>
+<option value="OTH01855 ">公民營廢棄物處理機構數</option>
+<option value="OTH00092 ">公告列管材質回收率統計資料</option>
+<option value="OTH00140 ">公告事業廢棄物清運機具資料</option>
+<option value="OTH01152 ">公告毒性化學物質及其毒性分類</option>
+<option value="OTH01551 ">公告飲用水水質處理藥劑</option>
+<option value="OTH00805 ">公告應回收項目之責任業者申報營業量或進口量年總量資料</option>
+<option value="OTH00802 ">公告應回收項目之責任業者列管家數統計</option>
+<option value="OTH00804 ">公告應回收項目之責任業者列管資料</option>
+<option value="SOIL00157">公告應回收廢物品及容器回收量</option>
+<option value="OTH01867 ">公私場所固定污染源指定物種之申報資料</option>
+<option value="ATM00469 ">公私場所參數檔彰化縣EPB</option>
+<option value="POP00052 ">公私場所與煙道基本參數檔</option>
+<option value="OTH00832 ">公害糾紛處理法</option>
+<option value="OTH00833 ">公害糾紛處理法施行細則</option>
+<option value="OTH02025 ">公害糾紛裁決委員會委員名單</option>
+<option value="OTH01198 ">公害糾紛裁決書</option>
+<option value="OTH01458 ">公害陳情上半年度統計分析報告</option>
+<option value="OTH01459 ">公害陳情年度統計分析報告</option>
+<option value="OTH00016 ">公害陳情案件分佈位置圖</option>
+<option value="OTH02116 ">公害陳情案件數</option>
+<option value="OTH00017 ">公害陳情警示區域範圍圖</option>
+<option value="OTH00162 ">公害鑑定單位資料</option>
+<option value="OTH01493 ">化學物質資料及登錄申請表</option>
+<option value="OTH01504 ">化學物質資料登錄申請表</option>
+<option value="OTH02114 ">太平洋區域溫室氣體觀測計畫：飛機觀測</option>
+<option value="OTH02115 ">太平洋區域溫室氣體觀測計畫：貨輪觀測</option>
+<option value="ATM00679 ">日空氣品質指標(AQI)</option>
+<option value="ATM00630 ">日累積雨量(每月更新)</option>
+<option value="ATM00347 ">月長期天氣展望</option>
+<option value="FRT00017 ">木材市價月分別報告表</option>
+<option value="FRT00018 ">木材市價單一樹種報表</option>
+<option value="OTH00815 ">水土保持戶外教室</option>
+<option value="WAT00299 ">水污定檢原物料使用量(化學雲資料)</option>
+<option value="WAT00366 ">水污染防治各項許可申請收費標準</option>
+<option value="WAT00663 ">水污染源許可及申報資料</option>
+<option value="OTH01848 ">水污染實收罰鍰</option>
+<option value="WAT00265 ">水污染管制資料交換</option>
+<option value="OTH01847 ">水污染罰鍰次數</option>
+<option value="OTH01846 ">水污染稽查次數</option>
+<option value="WAT00189 ">水利事業歷史用地取得作業執行情形</option>
+<option value="ECO00084 ">水利署兩棲類調查資料</option>
+<option value="ECO00083 ">水利署爬蟲類調查資料</option>
+<option value="OTH01351 ">水利署政府出版品書目</option>
+<option value="OTH01350 ">水利署研究計畫報告書基本資料</option>
+<option value="ECO00082 ">水利署哺乳類調查資料</option>
+<option value="ECO00081 ">水利署陸上昆蟲類調查資料</option>
+<option value="WAT00639 ">水利署魚類調查資料</option>
+<option value="ECO00080 ">水利署鳥類調查資料</option>
+<option value="ECO00076 ">水利署最新消息</option>
+<option value="ECO00077 ">水利署植物調查資料</option>
+<option value="ECO00079 ">水利署蝦蟹貝類調查資料</option>
+<option value="ECO00078 ">水利署藻類調查資料</option>
+<option value="OTH01460 ">水肥清運處理狀況</option>
+<option value="WAT00665 ">水庫水質月監測資料</option>
+<option value="WAT00664 ">水庫水質月監測資料(上架失敗)</option>
+<option value="WAT00005 ">水庫水質監測資料</option>
+<option value="WAT00014 ">水庫水質監測點基本資料</option>
+<option value="WAT00466 ">水庫堰壩基本資料</option>
+<option value="WAT00530 ">水量水質自動監測連線傳輸資料</option>
+<option value="WAT00478 ">水源保育與回饋費徵收與執行成果</option>
+<option value="WAT00476 ">水資源投資分析資料</option>
+<option value="WAT00529 ">水資源建設決算表</option>
+<option value="WAT00477 ">水質水量保護區基本資料</option>
+<option value="ATM00771 ">火點資料</option>
+<option value="WAT00661 ">主要水庫優養指數</option>
+<option value="SOIL00119">主要礦產品產銷量值表</option>
+<option value="SOIL00026">主要礦產品產銷量值資料</option>
+<option value="WAT00009 ">包裝及盛裝飲用水水源水質抽驗結果</option>
+<option value="WAT00068 ">包裝及盛裝飲用水水源水質抽驗資料</option>
+<option value="WAT00547 ">台中市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00540 ">台北市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00558 ">台東縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00553 ">台南市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="FRT00016 ">台灣地區木材市價摘要表</option>
+<option value="OTH01279 ">台灣地區垃圾處理場（廠）互惠緊急支援要點</option>
+<option value="ECO00070 ">台灣兩棲類爬蟲類基本資料</option>
+<option value="WAT00497 ">台灣周邊海域葉綠素甲平均濃度</option>
+<option value="ECO00018 ">台灣保育類野生動物名錄</option>
+<option value="ECO00019 ">台灣特有種動物清單資料集</option>
+<option value="ECO00021 ">台灣特有種植物清單資料集</option>
+<option value="POP00026 ">台灣產品碳足跡資訊</option>
+<option value="ECO00069 ">台灣植物基本資料</option>
+<option value="ECO00086 ">台灣新年數鳥嘉年華</option>
+<option value="ECO00071 ">台灣維管束植物紅皮書初評學名索引</option>
+<option value="ECO00020 ">台灣鱗翅目基本資料集</option>
+<option value="FRT00056 ">平地森林園區範圍界(3區)</option>
+<option value="OTH00974 ">本署環境影響評估審查委員會會議資料</option>
+<option value="OTH01674 ">正常執業技師基本資料</option>
+<option value="OTH01972 ">民眾檢舉案件資訊管理系統各區辦理案件數統計</option>
+<option value="OTH01597 ">玉山即時觀測影像</option>
+<option value="ATM00733 ">生物源網格空氣污染排放量(TWD97)</option>
+<option value="ECO00075 ">生態資源資料</option>
+<option value="OTH01477 ">交通事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="ATM00767 ">交通空氣品質監測站基本資料                                     </option>
+<option value="ATM00422 ">光化測站(土城)小時值資料</option>
+<option value="ATM00426 ">光化測站(小港)小時值資料</option>
+<option value="ATM00341 ">光化測站(朴子)小時值資料</option>
+<option value="ATM00428 ">光化測站(忠明)小時值資料</option>
+<option value="ATM00784 ">光化測站(林園)小時值資料</option>
+<option value="ATM00421 ">光化測站(萬華)小時值資料</option>
+<option value="ATM00423 ">光化測站(臺西)小時值資料</option>
+<option value="ATM00424 ">光化測站(臺南)小時值資料</option>
+<option value="ATM00427 ">光化測站(潮州)小時值資料</option>
+<option value="ATM00425 ">光化測站(橋頭)小時值資料</option>
+<option value="ATM00153 ">光化測站小時值資料</option>
+<option value="ATM00416 ">光化測站基本資料</option>
+<option value="SOIL00153">全國一般廢棄物產生量</option>
+<option value="SOIL00158">全國一般廢棄物處理量</option>
+<option value="WAT00517 ">全國土壤及地下水污染場址筆數及面積統計                               </option>
+<option value="WAT00522 ">全國工業區年度備查案件狀態統計表</option>
+<option value="OTH00307 ">全國公廁建檔資料</option>
+<option value="OTH00803 ">全國各縣市之責任業者列管家數統計</option>
+<option value="OTH00012 ">全國各縣市清潔隊資料</option>
+<option value="WAT00436 ">全國年度例行性計畫成果統計表 （摘要）</option>
+<option value="WAT00405 ">全國年度例行性計畫成果統計表（詳情）</option>
+<option value="SOIL00082">全國砂土石產銷存動態統計表</option>
+<option value="OTH01510 ">全國秋季淨灘(山、溪)活動一覽表</option>
+<option value="OTH01511 ">全國秋季淨灘(山、溪)活動成果表</option>
+<option value="WAT00404 ">全國場址公告與解列情形統計表</option>
+<option value="WAT00402 ">全國場址目前改善與整治進度</option>
+<option value="WAT00406 ">全國場址更新率統計報表</option>
+<option value="WAT00403 ">全國場址新增列管及解列統計表</option>
+<option value="WAT00012 ">全國飲用水水源水質保護區範圍圖</option>
+<option value="OTH01195 ">全國模範清潔人員名單</option>
+<option value="OTH00433 ">全國優質環保示範區資料</option>
+<option value="WAT00504 ">全臺溫泉點位</option>
+<option value="POP00073 ">共通性事業廢棄物再利用機構資料</option>
+<option value="OTH02145 ">再生粒料毒性特性溶出試驗結果</option>
+<option value="OTH00050 ">再生資源申報量統計</option>
+<option value="WAT00442 ">列管工業區下水道名單</option>
+<option value="WAT00443 ">列管公共污水下水道名單</option>
+<option value="OTH01856 ">列管公廁個數</option>
+<option value="ATM00284 ">列管污染源基本資料</option>
+<option value="POP00001 ">列管污染源基本資料發布</option>
+<option value="POP00061 ">列管污染源裁處資料</option>
+<option value="ATM00676 ">列管事業污染源裁處資料</option>
+<option value="WAT00444 ">列管社區下水道名單</option>
+<option value="OTH01865 ">列管毒性化學物質已取得許可業者查核家次</option>
+<option value="POP00004 ">列管毒性化學物質毒理資料</option>
+<option value="POP00030 ">各工廠空氣污染物排放資料</option>
+<option value="OTH00036 ">各公告類別申報事業廢棄物流向統計</option>
+<option value="OTH01355 ">各公告類別事業廢棄物再利用申報量統計</option>
+<option value="OTH01356 ">各公告類別事業廢棄物自行處理申報量統計</option>
+<option value="OTH01357 ">各公告類別事業廢棄物委託或共同處理申報量統計</option>
+<option value="OTH01358 ">各公告類別事業廢棄物境外輸出申報量統計</option>
+<option value="WAT00407 ">各月份場址更新率統計報表</option>
+<option value="OTH00035 ">各行業別申報事業廢棄物量統計</option>
+<option value="OTH01664 ">各事業廢棄物代碼申報流向統計</option>
+<option value="ATM00734 ">各空品區污染源管制後排放量一覽表</option>
+<option value="OTH02122 ">各級環保單位歲出決算</option>
+<option value="SOIL00144">各縣(市)已公告地質敏感區之行政區目錄</option>
+<option value="OTH00043 ">各縣市事業廢棄物申報流向統計</option>
+<option value="OTH00044 ">各縣市事業廢棄物依處理方式區分統計</option>
+<option value="OTH00053 ">各縣市事業廢棄物清除處理機構家數統計</option>
+<option value="WAT00536 ">各縣市海污風險地圖</option>
+<option value="ATM00675 ">各縣市環保局柴油車動力計排煙檢測站地址及電話</option>
+<option value="WAT00587 ">各縣市環保局海域及河川出海口水質測站基本資料</option>
+<option value="WAT00586 ">各縣市環保局海域及河川出海口水質監測資料</option>
+<option value="OTH01299 ">因應對策專案小組初審會議紀錄</option>
+<option value="WAT00636 ">地下水水位年度統計</option>
+<option value="WAT00637 ">地下水水位歷年統計</option>
+<option value="WAT00027 ">地下水污染物監測及管制標準</option>
+<option value="OTH01881 ">地下水場置性監測井位置圖</option>
+<option value="WAT00626 ">地下水補注地質敏感區圖資</option>
+<option value="WAT00538 ">地方政府海域水質監測資料</option>
+<option value="ATM00769 ">地方環保局空氣品質監測小時資料                                   </option>
+<option value="ATM00624 ">地方環保局空氣品質監測資料</option>
+<option value="ATM00781 ">地方環保局空氣品質監測資料(有效值)</option>
+<option value="OTH02144 ">地方環保局環保實收罰鍰</option>
+<option value="OTH02141 ">地方環保局環保罰鍰次數</option>
+<option value="OTH02142 ">地方環保局環保罰鍰金額</option>
+<option value="OTH02140 ">地方環保局環保稽查次數</option>
+<option value="WAT00383 ">地面水體分類及水質標準</option>
+<option value="ATM00434 ">地球新救援，一起擁有CO2腳ㄚ</option>
+<option value="OTH01431 ">地球環境季全國春季淨灘(山、溪)活動一覽表</option>
+<option value="OTH01509 ">地球環境季全國春季淨灘(山、溪)活動成果表</option>
+<option value="SOIL00148">地質遺跡地質敏感區圖資</option>
+<option value="SOIL00114">地質鑽探點位資料</option>
+<option value="SOIL00059">地震的等震圖</option>
+<option value="SOIL00057">地震報告(文字)</option>
+<option value="SOIL00056">地震報告(圖片)</option>
+<option value="SOIL00058">地震報告詳細資料</option>
+<option value="SOIL00060">地震報告資料</option>
+<option value="WAT00611 ">安定區域性聯合滲出水集中處理廠放流水檢測報告</option>
+<option value="OTH01403 ">年度環境保護人員訓練計畫</option>
+<option value="ATM00431 ">有人氣象測站基本資料</option>
+<option value="OTH00045 ">有害事業廢棄物申報量統計</option>
+<option value="WAT00046 ">有害健康物質之種類</option>
+<option value="WAT00067 ">污水經處理後注入地下水體水質標準</option>
+<option value="WAT00007 ">自來水水質抽驗結果(依件數)</option>
+<option value="WAT00008 ">自來水水質抽驗結果(依項目)</option>
+<option value="WAT00666 ">自來水水質抽驗資料</option>
+<option value="WAT00659 ">自來水水質抽驗檢驗結果</option>
+<option value="WAT00328 ">自來水生活用水量統計</option>
+<option value="WAT00631 ">自來水用水量</option>
+<option value="WAT00516 ">自來水供水普及率</option>
+<option value="OTH00163 ">自備飲料杯優惠店家資料</option>
+<option value="OTH00164 ">自備餐具優惠店家資料</option>
+<option value="OTH01429 ">行政院國家永續發展委員會全球資訊</option>
+<option value="WAT00384 ">行政院環保署及地方政府「水區、水體分類」公告說明表</option>
+<option value="OTH00550 ">行政院環境保護署「資料開放諮詢小組」委員名單</option>
+<option value="OTH00551 ">行政院環境保護署「資料開放諮詢小組」會議紀錄                            </option>
+<option value="OTH00261 ">行政院環境保護署「資料開放諮詢小組」會議資料</option>
+<option value="OTH01284 ">行政院環境保護署公害糾紛督導處理小組組織規程</option>
+<option value="ATM00466 ">行政院環境保護署年度施政計畫</option>
+<option value="OTH01531 ">行政院環境保護署法定預算</option>
+<option value="OTH02109 ">行政院環境保護署前瞻基礎建設計畫特別預算會計月報</option>
+<option value="OTH02165 ">行政院環境保護署政府資料開放行動計畫</option>
+<option value="OTH02023 ">行政院環境保護署毒物及化學物質局法定預算</option>
+<option value="OTH02162 ">行政院環境保護署毒物及化學物質局單位決算</option>
+<option value="OTH01811 ">行政院環境保護署毒物及化學物質局單位預算案</option>
+<option value="OTH02022 ">行政院環境保護署毒物及化學物質局會計月報</option>
+<option value="OTH01532 ">行政院環境保護署單位決算</option>
+<option value="OTH01467 ">行政院環境保護署單位決算書表</option>
+<option value="OTH01533 ">行政院環境保護署單位預算案</option>
+<option value="OTH01465 ">行政院環境保護署會計月報</option>
+<option value="OTH01466 ">行政院環境保護署會計月報(104.12以前)</option>
+<option value="OTH00214 ">行政院環境保護署補助地方政府自行車道路線資料</option>
+<option value="OTH01131 ">行政院環境保護署篩選認定毒性化學物質作業原則</option>
+<option value="OTH01536 ">行政院環境保護署環境保護人員訓練所法定預算</option>
+<option value="OTH01537 ">行政院環境保護署環境保護人員訓練所單位決算</option>
+<option value="OTH01538 ">行政院環境保護署環境保護人員訓練所單位預算案</option>
+<option value="OTH01519 ">行政院環境保護署環境保護人員訓練所會計月報</option>
+<option value="OTH01540 ">行政院環境保護署環境保護基金附屬單位決算</option>
+<option value="OTH01541 ">行政院環境保護署環境保護基金附屬單位法定預算</option>
+<option value="OTH01543 ">行政院環境保護署環境保護基金附屬單位會計月報</option>
+<option value="OTH01542 ">行政院環境保護署環境保護基金附屬單位預算案</option>
+<option value="OTH01393 ">行政院環境保護署環境保護基金附屬單位預算案_</option>
+<option value="OTH01272 ">行政院環境保護署環境保護產品申請審查作業規範</option>
+<option value="OTH01273 ">行政院環境保護署環境保護產品管理作業規範</option>
+<option value="OTH01270 ">行政院環境保護署環境保護產品證書規費收費標準</option>
+<option value="OTH01274 ">行政院環境保護署環境保護產品驗證機構管理要點</option>
+<option value="OTH01520 ">行政院環境保護署環境教育人員認證展延申請書</option>
+<option value="OTH01523 ">行政院環境保護署環境教育人員認證展延研習開課申請書</option>
+<option value="OTH01522 ">行政院環境保護署環境教育設施場所認證展延申請書</option>
+<option value="OTH01521 ">行政院環境保護署環境教育機構認證展延申請書</option>
+<option value="OTH01544 ">行政院環境保護署環境檢驗所法定預算</option>
+<option value="OTH01545 ">行政院環境保護署環境檢驗所單位決算</option>
+<option value="OTH01390 ">行政院環境保護署環境檢驗所單位決算書表</option>
+<option value="OTH01546 ">行政院環境保護署環境檢驗所單位預算案</option>
+<option value="OTH01391 ">行政院環境保護署環境檢驗所會計月報</option>
+<option value="OTH01392 ">行政院環境保護署環境檢驗所預算書表</option>
+<option value="ATM00753 ">行動監測車</option>
+<option value="ATM00770 ">行動監測車(歷史資料)</option>
+<option value="ATM00432 ">行政院環境保護署推動產品碳足跡標示作業要點</option>
+<option value="ATM00433 ">行政院環境保護署推動產品碳足跡標示審議會設置要點</option>
+<option value="OTH02186 ">位於野生動物保護或棲息區環境影響評估報告書</option>
+<option value="OTH02196 ">位於野生動物保護或棲息區環境影響說明書</option>
+<option value="ATM00699 ">低溫特報資料</option>
+<option value="OTH01471 ">低關注聚合物事前審定表單</option>
+<option value="ATM00698 ">即時天氣資料</option>
+<option value="WAT00634 ">即時水位資料</option>
+<option value="WAT00222 ">即時海水水位</option>
+<option value="OTH00019 ">我國重要環保統計資料</option>
+<option value="OTH00014 ">我國重要環保統計資料_</option>
+<option value="OTH01675 ">技師查核缺失相關資料</option>
+<option value="ATM00004 ">沙塵預報資料</option>
+<option value="ATM00118 ">汽車新車審驗資料</option>
+<option value="OTH01016 ">車機型號妥善率報表</option>
+<option value="WAT00224 ">巡守隊明細資料</option>
+<option value="WAT00120 ">防汛備料基本資料</option>
+<option value="OTH00034 ">事業廢棄物申報流向統計</option>
+<option value="SOIL00161">事業廢棄物申報統計</option>
+<option value="OTH00049 ">事業廢棄物申報量依物種統計</option>
+<option value="OTH00048 ">事業廢棄物申報量依製造程序統計</option>
+<option value="OTH00052 ">事業廢棄物申報境外處理之實際輸出入量統計</option>
+<option value="OTH01363 ">事業廢棄物共同清除、處理機構許可資料</option>
+<option value="OTH01331 ">事業廢棄物再利用申報量統計</option>
+<option value="OTH01352 ">事業廢棄物自行處理申報量統計</option>
+<option value="OTH01353 ">事業廢棄物委託或共同處理申報量統計</option>
+<option value="OTH00051 ">事業廢棄物進行再利用項目統計</option>
+<option value="OTH01354 ">事業廢棄物境外輸出申報量統計</option>
+<option value="OTH01359 ">事業廢棄物輸出/輸入申報量統計</option>
+<option value="OTH01450 ">使用中機動車輛噪音資料-汽油車</option>
+<option value="OTH01451 ">使用中機動車輛噪音資料-柴油車</option>
+<option value="OTH01449 ">使用中機動車輛噪音資料-機車</option>
+<option value="OTH01452 ">使用中機動車輛噪音檢驗之場所表</option>
+<option value="OTH01547 ">例行性補助計畫概述</option>
+<option value="OTH01301 ">其他環境影響評估書件專案小組審查會議紀錄</option>
+<option value="OTH01277 ">協助地方辦理非法棄置廢棄物案件債權保全追蹤運作程序</option>
+<option value="OTH02228 ">協助環保署審查河川水質模式模擬案件</option>
+<option value="OTH01676 ">受懲戒技師相關資料</option>
+<option value="POP00049 ">固定污染源CEMS監測數據紀錄值資料集(15分鐘紀錄值)</option>
+<option value="POP00053 ">固定污染源CEMS監測數據紀錄值資料集(1小時紀錄值)</option>
+<option value="POP00048 ">固定污染源CEMS監測數據紀錄值資料集(6分鐘紀錄值)</option>
+<option value="POP00071 ">固定污染源CEMS監測數據紀錄值資料集(取前日所有測項)</option>
+<option value="POP00047 ">固定污染源-公私場所參數檔</option>
+<option value="POP00042 ">固定污染源空氣污染防制費收費統計</option>
+<option value="ATM00633 ">固定污染源設置、變更、操作許可申請家數統計</option>
+<option value="POP00043 ">固定污染源-煙道即時量測值(不透光率-粒狀污染物)</option>
+<option value="POP00044 ">固定污染源-煙道即時量測值(氣狀污染物、排放流率)</option>
+<option value="POP00045 ">固定污染源-煙道法令量測值資料(日報)</option>
+<option value="POP00046 ">固定污染源-煙道基本參數檔</option>
+<option value="POP00062 ">固定污染源戴奧辛、重金屬（鉛、鎘、汞）及氯化氫排放檢測資料</option>
+<option value="OTH01278 ">垃圾全分類零廢棄方案第一階段執行計畫</option>
+<option value="OTH01852 ">垃圾回收清除車輛數</option>
+<option value="OTH01986 ">垃圾車清運路線資料-未實施垃圾不落地</option>
+<option value="OTH01740 ">垃圾車清運路線資料-垃圾不落地(定點收集)</option>
+<option value="OTH01741 ">垃圾車清運路線資料-垃圾不落地(沿線收集)</option>
+<option value="OTH01440 ">垃圾掩埋場操作、維護、管理說明</option>
+<option value="OTH01463 ">垃圾清理回收率指標資料</option>
+<option value="OTH01462 ">垃圾清理量資料</option>
+<option value="OTH01447 ">垃圾清運（處理）作業安全講習會執行成果</option>
+<option value="OTH01853 ">垃圾處理場(廠)座數</option>
+<option value="OTH01461 ">垃圾處理場(廠)統計</option>
+<option value="OTH01507 ">奈米化學物質登錄表單</option>
+<option value="ATM00346 ">季長期天氣展望</option>
+<option value="OTH01570 ">宜蘭縣4大水泥廠廢棄物再利用資料</option>
+<option value="OTH01596 ">宜蘭縣一般地區環境音量每季監測資料</option>
+<option value="ATM00638 ">宜蘭縣人工空氣品質監測站基本資料</option>
+<option value="ATM00640 ">宜蘭縣人工空氣品質監測站落塵量監測資料</option>
+<option value="ATM00639 ">宜蘭縣人工空氣品質監測站總懸浮微粒監測資料</option>
+<option value="WAT00620 ">宜蘭縣土壤採樣計畫採樣次數資料</option>
+<option value="OTH01573 ">宜蘭縣已核發應回收廢棄物回收處裡業登記名冊</option>
+<option value="ATM00645 ">宜蘭縣已補助新購電動二輪車申請案查詢</option>
+<option value="OTH01569 ">宜蘭縣公民營清除處理機構名冊</option>
+<option value="OTH01915 ">宜蘭縣公害糾紛緊急疏散處理小組名冊</option>
+<option value="OTH01914 ">宜蘭縣公害糾紛調處委員會委員名單</option>
+<option value="OTH01559 ">宜蘭縣公廁基本資料</option>
+<option value="OTH01600 ">宜蘭縣水肥清運業者經許可投入水肥處理站名冊</option>
+<option value="WAT00556 ">宜蘭縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00580 ">宜蘭縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="WAT00563 ">宜蘭縣水質監測站基本資料</option>
+<option value="ATM00644 ">宜蘭縣加油站資料</option>
+<option value="OTH01584 ">宜蘭縣生熟廚餘回收分類表</option>
+<option value="OTH01595 ">宜蘭縣交通音量每季監測資料</option>
+<option value="OTH01571 ">宜蘭縣再生家具販售目錄</option>
+<option value="OTH01910 ">宜蘭縣列管海岸資料</option>
+<option value="OTH01738 ">宜蘭縣各公所及清潔隊聯絡資料</option>
+<option value="OTH01736 ">宜蘭縣各公所歷年環境清潔競賽考核評比成績</option>
+<option value="OTH01909 ">宜蘭縣各鄉鎮市公所公設廣告欄設置地點</option>
+<option value="OTH01575 ">宜蘭縣各鄉鎮市清潔隊廚餘回收分類表</option>
+<option value="OTH01565 ">宜蘭縣各類噪音管制區公告</option>
+<option value="OTH01567 ">宜蘭縣有申請廢食用油工作證之合格清除機構</option>
+<option value="WAT00562 ">宜蘭縣自來水水質監測與指標資料</option>
+<option value="OTH01561 ">宜蘭縣自備環保杯享優惠業者名單</option>
+<option value="WAT00600 ">宜蘭縣自辦海域水質監測結果</option>
+<option value="WAT00602 ">宜蘭縣自辦港口水質監測結果</option>
+<option value="OTH01911 ">宜蘭縣利澤垃圾焚化廠位置資料</option>
+<option value="OTH01713 ">宜蘭縣依據噪音管制標準第八條公告噪音管制標準</option>
+<option value="OTH01902 ">宜蘭縣取得事業廢棄物(廚餘)再利用檢核身分機構名冊</option>
+<option value="ATM00467 ">宜蘭縣固定污染源自動連續監測系統(CEMS)開放資料</option>
+<option value="OTH01598 ">宜蘭縣垃圾掩埋場現況表</option>
+<option value="WAT00589 ">宜蘭縣垃圾衛生掩埋場地下水監測井位置資料</option>
+<option value="WAT00588 ">宜蘭縣垃圾衛生掩埋場地下水監測基準值</option>
+<option value="OTH01599 ">宜蘭縣垃圾衛生掩埋場進場量資料</option>
+<option value="WAT00590 ">宜蘭縣垃圾衛生掩埋場歷年地下水監測結果</option>
+<option value="OTH01572 ">宜蘭縣社區資源回收站名冊</option>
+<option value="OTH01587 ">宜蘭縣政府第9屆環境影響評估審查委員會委員名冊</option>
+<option value="OTH00106 ">宜蘭縣重要環保統計資料</option>
+<option value="OTH01737 ">宜蘭縣柴油車排煙動力計檢測站</option>
+<option value="WAT00599 ">宜蘭縣海域水質監測標準值</option>
+<option value="OTH01732 ">宜蘭縣偏遠地區移動式機車檢驗站機車定檢服務行程表</option>
+<option value="WAT00564 ">宜蘭縣區域性地下水監測井基本資料</option>
+<option value="WAT00618 ">宜蘭縣場置性地下水監測井基本資料</option>
+<option value="WAT00601 ">宜蘭縣港口水質監測標準值</option>
+<option value="OTH01912 ">宜蘭縣超商賣場廟宇紙錢集中門市名冊</option>
+<option value="OTH01562 ">宜蘭縣飲料販賣業提報減量計畫之優惠方案</option>
+<option value="OTH01574 ">宜蘭縣資源回收物分類指引明細表</option>
+<option value="ATM00643 ">宜蘭縣電動機車充電站資料</option>
+<option value="OTH01583 ">宜蘭縣綠色商店名冊</option>
+<option value="OTH01557 ">宜蘭縣領有病媒防治及環境衛生用藥許可執照業者名單</option>
+<option value="OTH01568 ">宜蘭縣廢棄車輛拖吊資料</option>
+<option value="OTH01564 ">宜蘭縣噪音監測站名冊</option>
+<option value="ATM00641 ">宜蘭縣機車排氣定檢站資料</option>
+<option value="OTH01576 ">宜蘭縣歷年資源回收成果統計表</option>
+<option value="OTH01755 ">宜蘭縣歷屆環境教育獎得獎名單</option>
+<option value="OTH01566 ">宜蘭縣環保局公務統計報表下載</option>
+<option value="OTH01601 ">宜蘭縣環保局申辦表單下載</option>
+<option value="OTH01558 ">宜蘭縣環保局各項計畫執行成果</option>
+<option value="OTH01556 ">宜蘭縣環保局招標公告</option>
+<option value="OTH01563 ">宜蘭縣環保局新聞稿</option>
+<option value="OTH01554 ">宜蘭縣環保局環保大事記</option>
+<option value="OTH01555 ">宜蘭縣環保法規</option>
+<option value="OTH01588 ">宜蘭縣環保旅店名冊</option>
+<option value="OTH01602 ">宜蘭縣環境教育設施場所名冊</option>
+<option value="WAT00509 ">岩心沉積物採樣點資料庫</option>
+<option value="SOIL00076">岩屑崩滑分布圖</option>
+<option value="SOIL00131">底泥申報各類水體數量</option>
+<option value="SOIL00130">底泥申報單位數量</option>
+<option value="SOIL00151">底泥品質檢測資料</option>
+<option value="OTH01401 ">招標公告資訊</option>
+<option value="FRT00020 ">林火預警資料</option>
+<option value="OTH01304 ">林務局所轄森林遊樂區基本資料</option>
+<option value="FRT00019 ">林業文化園區</option>
+<option value="OTH00256 ">林道清單</option>
+<option value="WAT00016 ">河川水質季監測資料</option>
+<option value="WAT00001 ">河川水質測點基本資料(含地理圖資)</option>
+<option value="WAT00652 ">河川水質監測站位置圖</option>
+<option value="WAT00002 ">河川水質監測資料</option>
+<option value="OTH02173 ">河川水質監測資料_new</option>
+<option value="WAT00135 ">河川主題網站</option>
+<option value="WAT00635 ">河川流量測站站況</option>
+<option value="ATM00646 ">河川揚塵監測10分鐘值資料</option>
+<option value="ATM00324 ">河川揚塵監測資料</option>
+<option value="ATM00459 ">河川揚塵監測資料(10分鐘值)</option>
+<option value="WAT00519 ">沼液沼渣農地肥分使用計畫</option>
+<option value="WAT00475 ">波浪統計資料</option>
+<option value="ATM00468 ">法令量測值資料彰化縣EPB</option>
+<option value="WAT00535 ">油及化學品污染模擬案例資料</option>
+<option value="ECO00088 ">社區生態資源資料</option>
+<option value="ECO00095 ">社區生態歷史紀錄</option>
+<option value="ECO00091 ">社區昆蟲資源資料</option>
+<option value="ECO00090 ">社區哺乳兩爬類動物資料</option>
+<option value="ECO00089 ">社區鳥類資源資料</option>
+<option value="FRT00058 ">社區植物資源資料</option>
+<option value="ECO00093 ">社區蝴蝶觀賞地圖</option>
+<option value="ECO00092 ">社區賞鳥推薦地圖</option>
+<option value="FRT00059 ">社區賞櫻地圖</option>
+<option value="OTH01929 ">空品淨化區資訊</option>
+<option value="ATM00383 ">空氣污染防制區劃分結果</option>
+<option value="ATM00758 ">空氣污染物濃度測值</option>
+<option value="ATM00415 ">空氣污染排放量推估結果</option>
+<option value="OTH01860 ">空氣污染實收罰鍰</option>
+<option value="OTH01859 ">空氣污染罰鍰次數</option>
+<option value="OTH01858 ">空氣污染稽查次數</option>
+<option value="ATM00612 ">空氣品質小時值_宜蘭縣_冬山站</option>
+<option value="ATM00611 ">空氣品質小時值_宜蘭縣_宜蘭站</option>
+<option value="ATM00609 ">空氣品質小時值_花蓮縣_花蓮站</option>
+<option value="ATM00620 ">空氣品質小時值_金門縣_金門站</option>
+<option value="ATM00615 ">空氣品質小時值_南投縣_竹山站</option>
+<option value="ATM00583 ">空氣品質小時值_南投縣_南投站</option>
+<option value="ATM00618 ">空氣品質小時值_南投縣_埔里站</option>
+<option value="ATM00605 ">空氣品質小時值_屏東縣_屏東站</option>
+<option value="ATM00607 ">空氣品質小時值_屏東縣_恆春站</option>
+<option value="ATM00606 ">空氣品質小時值_屏東縣_潮州站</option>
+<option value="ATM00574 ">空氣品質小時值_苗栗縣_三義站</option>
+<option value="ATM00573 ">空氣品質小時值_苗栗縣_苗栗站</option>
+<option value="ATM00572 ">空氣品質小時值_苗栗縣_頭份站</option>
+<option value="ATM00565 ">空氣品質小時值_桃園市_大園站</option>
+<option value="ATM00614 ">空氣品質小時值_桃園市_中壢站</option>
+<option value="ATM00567 ">空氣品質小時值_桃園市_平鎮站</option>
+<option value="ATM00564 ">空氣品質小時值_桃園市_桃園站</option>
+<option value="ATM00568 ">空氣品質小時值_桃園市_龍潭站</option>
+<option value="ATM00566 ">空氣品質小時值_桃園市_觀音站</option>
+<option value="ATM00598 ">空氣品質小時值_高雄市_大寮站</option>
+<option value="ATM00604 ">空氣品質小時值_高雄市_小港站</option>
+<option value="ATM00596 ">空氣品質小時值_高雄市_仁武站</option>
+<option value="ATM00601 ">空氣品質小時值_高雄市_左營站</option>
+<option value="ATM00599 ">空氣品質小時值_高雄市_林園站</option>
+<option value="ATM00602 ">空氣品質小時值_高雄市_前金站</option>
+<option value="ATM00603 ">空氣品質小時值_高雄市_前鎮站</option>
+<option value="ATM00594 ">空氣品質小時值_高雄市_美濃站</option>
+<option value="ATM00617 ">空氣品質小時值_高雄市_復興站</option>
+<option value="ATM00600 ">空氣品質小時值_高雄市_楠梓站</option>
+<option value="ATM00597 ">空氣品質小時值_高雄市_鳳山站</option>
+<option value="ATM00595 ">空氣品質小時值_高雄市_橋頭站</option>
+<option value="ATM00548 ">空氣品質小時值_基隆市_基隆站</option>
+<option value="ATM00619 ">空氣品質小時值_連江縣_馬祖站</option>
+<option value="ATM00584 ">空氣品質小時值_雲林縣_斗六站</option>
+<option value="ATM00585 ">空氣品質小時值_雲林縣_崙背站</option>
+<option value="ATM00623 ">空氣品質小時值_雲林縣_麥寮站</option>
+<option value="ATM00588 ">空氣品質小時值_雲林縣_臺西站</option>
+<option value="ATM00613 ">空氣品質小時值_新北市_三重站</option>
+<option value="ATM00552 ">空氣品質小時值_新北市_土城站</option>
+<option value="ATM00616 ">空氣品質小時值_新北市_永和站</option>
+<option value="ATM00549 ">空氣品質小時值_新北市_汐止站</option>
+<option value="ATM00556 ">空氣品質小時值_新北市_林口站</option>
+<option value="ATM00553 ">空氣品質小時值_新北市_板橋站</option>
+<option value="ATM00557 ">空氣品質小時值_新北市_淡水站</option>
+<option value="ATM00755 ">空氣品質小時值_新北市_富貴角站                                  </option>
+<option value="ATM00555 ">空氣品質小時值_新北市_菜寮站</option>
+<option value="ATM00551 ">空氣品質小時值_新北市_新店站</option>
+<option value="ATM00554 ">空氣品質小時值_新北市_新莊站</option>
+<option value="ATM00550 ">空氣品質小時值_新北市_萬里站</option>
+<option value="ATM00571 ">空氣品質小時值_新竹市_新竹站</option>
+<option value="ATM00570 ">空氣品質小時值_新竹縣_竹東站</option>
+<option value="ATM00569 ">空氣品質小時值_新竹縣_湖口站</option>
+<option value="ATM00589 ">空氣品質小時值_嘉義市_嘉義站</option>
+<option value="ATM00587 ">空氣品質小時值_嘉義縣_朴子站</option>
+<option value="ATM00586 ">空氣品質小時值_嘉義縣_新港站</option>
+<option value="ATM00582 ">空氣品質小時值_彰化縣_二林站</option>
+<option value="ATM00580 ">空氣品質小時值_彰化縣_彰化站</option>
+<option value="ATM00581 ">空氣品質小時值_彰化縣_線西站</option>
+<option value="ATM00577 ">空氣品質小時值_臺中市_大里站</option>
+<option value="ATM00579 ">空氣品質小時值_臺中市_西屯站</option>
+<option value="ATM00576 ">空氣品質小時值_臺中市_沙鹿站</option>
+<option value="ATM00578 ">空氣品質小時值_臺中市_忠明站</option>
+<option value="ATM00575 ">空氣品質小時值_臺中市_豐原站</option>
+<option value="ATM00558 ">空氣品質小時值_臺北市_士林站</option>
+<option value="ATM00563 ">空氣品質小時值_臺北市_大同站</option>
+<option value="ATM00559 ">空氣品質小時值_臺北市_中山站</option>
+<option value="ATM00561 ">空氣品質小時值_臺北市_古亭站</option>
+<option value="ATM00562 ">空氣品質小時值_臺北市_松山站</option>
+<option value="ATM00610 ">空氣品質小時值_臺北市_陽明站</option>
+<option value="ATM00560 ">空氣品質小時值_臺北市_萬華站</option>
+<option value="ATM00608 ">空氣品質小時值_臺東縣_臺東站</option>
+<option value="ATM00622 ">空氣品質小時值_臺東縣_關山站</option>
+<option value="ATM00592 ">空氣品質小時值_臺南市_安南站</option>
+<option value="ATM00591 ">空氣品質小時值_臺南市_善化站</option>
+<option value="ATM00590 ">空氣品質小時值_臺南市_新營站</option>
+<option value="ATM00593 ">空氣品質小時值_臺南市_臺南站</option>
+<option value="ATM00621 ">空氣品質小時值_澎湖縣_馬公站</option>
+<option value="ATM00514 ">空氣品質即時污染指標</option>
+<option value="ATM00002 ">空氣品質即時污染指標</option>
+<option value="ATM00487 ">空氣品質即時污染指標(含PM2.5)</option>
+<option value="ATM00794 ">空氣品質即時污染指標(含PM2.5)</option>
+<option value="ATM00795 ">空氣品質即時污染指標(含PM2.5)</option>
+<option value="ATM00678 ">空氣品質指標(AQI)                                       </option>
+<option value="ATM00792 ">空氣品質指標(AQI)(歷史資料)</option>
+<option value="ATM00793 ">空氣品質指標(AQI)(歷史資料)</option>
+<option value="ATM00757 ">空氣品質指標(AQI)概況</option>
+<option value="ATM00474 ">空氣品質淨化區設置成果</option>
+<option value="ATM00032 ">空氣品質預報資料</option>
+<option value="ATM00001 ">空氣品質預報資料_</option>
+<option value="ATM00631 ">空氣品質預警通報</option>
+<option value="ATM00626 ">空氣品質監測小時值(一般污染物,每日更新)</option>
+<option value="ATM00100 ">空氣品質監測小時值(一般污染物,每月更新)</option>
+<option value="ATM00083 ">空氣品質監測小時值資料(一般污染物,每日更新)</option>
+<option value="ATM00419 ">空氣品質監測小時值資料(其它測項,每小時更新)</option>
+<option value="ATM00292 ">空氣品質監測日平均值(一般污染物)</option>
+<option value="ATM00008 ">空氣品質監測日污染指標</option>
+<option value="ATM00759 ">空氣品質監測日最大值</option>
+<option value="ATM00009 ">空氣品質監測月平均值</option>
+<option value="ATM00323 ">空氣品質監測月值</option>
+<option value="ATM00291 ">空氣品質監測即時影像資料(發布)</option>
+<option value="ATM00006 ">空氣品質監測站基本資料</option>
+<option value="WAT00557 ">花蓮縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00581 ">花蓮縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01923 ">花蓮縣各鄉、鎮、市營運中掩埋場資料</option>
+<option value="OTH01918 ">花蓮縣回收處理業名冊</option>
+<option value="OTH01916 ">花蓮縣空地空屋管理暨環境清潔維護自治條例</option>
+<option value="OTH01924 ">花蓮縣花蓮航空站回饋金分配及使用辦法</option>
+<option value="OTH00116 ">花蓮縣重要環保統計資料</option>
+<option value="OTH01920 ">花蓮縣航空噪音防制區</option>
+<option value="OTH01922 ">花蓮縣綠色商店名冊</option>
+<option value="OTH01921 ">花蓮縣環保旅店名單</option>
+<option value="OTH01917 ">花蓮縣環境用藥業者資料</option>
+<option value="OTH01919 ">花蓮縣環境教育設施場所名單</option>
+<option value="WAT00560 ">金門縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00584 ">金門縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH00121 ">金門縣重要環保統計資料</option>
+<option value="WAT00525 ">阿公店溪及愛河環境優化願景聯繫會報</option>
+<option value="ATM00628 ">非甲烷碳氫化合物(NMHC)監測小時值</option>
+<option value="ATM00761 ">非甲烷碳氫化合物(NMHC)監測小時值(每小時提供)                        </option>
+<option value="ATM00027 ">非游離輻射檢測資料</option>
+<option value="OTH02110 ">前瞻基礎建設計畫特別預算</option>
+<option value="WAT00549 ">南投縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00574 ">南投縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH00111 ">南投縣重要環保統計資料</option>
+<option value="OTH01324 ">南科樹谷環評監督委員會會議紀錄</option>
+<option value="OTH01028 ">南科樹谷環境監測資料</option>
+<option value="ATM00044 ">室內空品公告場所</option>
+<option value="ATM00720 ">室內空氣品質公告場所定期檢測結果</option>
+<option value="WAT00555 ">屏東縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00579 ">屏東縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01987 ">屏東縣各鄉鎮空品淨化區設置成果</option>
+<option value="OTH00114 ">屏東縣重要環保統計資料</option>
+<option value="OTH01763 ">屏東縣環保旅店</option>
+<option value="OTH01756 ">屏東縣環境教育設施場所</option>
+<option value="OTH01085 ">建檔公廁明細-宜蘭縣</option>
+<option value="OTH01084 ">建檔公廁明細-花蓮縣</option>
+<option value="OTH01086 ">建檔公廁明細-金門縣</option>
+<option value="OTH01087 ">建檔公廁明細-南投縣</option>
+<option value="OTH01088 ">建檔公廁明細-屏東縣</option>
+<option value="OTH01089 ">建檔公廁明細-苗栗縣</option>
+<option value="OTH01090 ">建檔公廁明細-桃園市</option>
+<option value="OTH01091 ">建檔公廁明細-高雄市</option>
+<option value="OTH01092 ">建檔公廁明細-基隆市</option>
+<option value="OTH01093 ">建檔公廁明細-連江縣</option>
+<option value="OTH01094 ">建檔公廁明細-雲林縣</option>
+<option value="OTH01095 ">建檔公廁明細-新北市</option>
+<option value="OTH01096 ">建檔公廁明細-新竹市</option>
+<option value="OTH01097 ">建檔公廁明細-新竹縣</option>
+<option value="OTH01098 ">建檔公廁明細-嘉義市</option>
+<option value="OTH01099 ">建檔公廁明細-嘉義縣</option>
+<option value="OTH01100 ">建檔公廁明細-彰化縣</option>
+<option value="OTH01101 ">建檔公廁明細-臺中市</option>
+<option value="OTH01102 ">建檔公廁明細-臺北市</option>
+<option value="OTH01103 ">建檔公廁明細-臺東縣</option>
+<option value="OTH01104 ">建檔公廁明細-臺南市</option>
+<option value="OTH01105 ">建檔公廁明細-澎湖縣</option>
+<option value="OTH00811 ">持久性有機污染物斯德哥爾摩公約國家實施計畫成果報告</option>
+<option value="OTH01287 ">政策評估說明書專案小組意見徵詢會議紀錄</option>
+<option value="OTH01033 ">毒化物運作紀錄申報總量</option>
+<option value="OTH01130 ">毒化物運作業者證件核發張數及列管家數統計</option>
+<option value="OTH00207 ">毒性化學物質許可目的用途資料</option>
+<option value="OTH00209 ">毒性化學物質許可證資料</option>
+<option value="OTH00208 ">毒性化學物質禁止運作事項資料</option>
+<option value="OTH01035 ">毒性化學物質環境流布調查成果手冊</option>
+<option value="ATM00241 ">毒性化學物質釋放量公開資訊</option>
+<option value="SOIL00118">流域綜合治理計畫－上游坡地水土保持及治山防洪範圍</option>
+<option value="SOIL00103">活動斷層分布圖</option>
+<option value="SOIL00104">活動斷層位置調查資料控制點</option>
+<option value="FRT00012 ">省產木材副產品波動價差</option>
+<option value="FRT00005 ">省產木材副產品調查比較</option>
+<option value="FRT00011 ">省產木材製品波動價差</option>
+<option value="FRT00004 ">省產木材製品調查比較</option>
+<option value="FRT00009 ">省產針葉原木波動價差</option>
+<option value="FRT00003 ">省產針葉原木調查比較</option>
+<option value="FRT00010 ">省產闊葉原木波動價差</option>
+<option value="FRT00002 ">省產闊葉原木調查比較</option>
+<option value="WAT00473 ">研究船船測原始資料檔案資料庫</option>
+<option value="OTH01468 ">科技計畫清單</option>
+<option value="OTH01479 ">科學工業事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="OTH01397 ">科學研發、產品與製程研發登錄表單</option>
+<option value="OTH01487 ">科學研發用途認定申請表</option>
+<option value="WAT00546 ">苗栗縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00571 ">苗栗縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH00109 ">苗栗縣重要環保統計資料</option>
+<option value="WAT00412 ">計畫成果</option>
+<option value="SOIL00062">重大土石災情報告</option>
+<option value="SOIL00162">重金屬污染農地管理及改善技術評析計畫                                </option>
+<option value="WAT00660 ">重要河川水質概況</option>
+<option value="POP00067 ">重要河川污染情形</option>
+<option value="OTH02156 ">重點事業廢棄物-一般污泥之產出及清理流向                              </option>
+<option value="OTH01822 ">重點事業廢棄物-一般污泥之處理方式</option>
+<option value="OTH01817 ">重點事業廢棄物-生物醫療廢棄物之處理方式</option>
+<option value="OTH02157 ">重點事業廢棄物-有害污泥之產出及清理流向                              </option>
+<option value="OTH01816 ">重點事業廢棄物-有害污泥之處理方式</option>
+<option value="OTH02158 ">重點事業廢棄物-有害性集塵灰之產出及清理流向                            </option>
+<option value="OTH01821 ">重點事業廢棄物-有害性集塵灰之處理方式</option>
+<option value="OTH02161 ">重點事業廢棄物-有機廢液之產出及清理流向                              </option>
+<option value="OTH01818 ">重點事業廢棄物-有機廢液之處理方式</option>
+<option value="OTH02160 ">重點事業廢棄物-廢酸鹼之產出及清理流向                               </option>
+<option value="OTH01819 ">重點事業廢棄物-廢酸鹼之處理方式</option>
+<option value="OTH02159 ">重點事業廢棄物-爐碴之產出及清理流向                                </option>
+<option value="OTH01820 ">重點事業廢棄物-爐碴之處理方式</option>
+<option value="WAT00334 ">降雨逕流非點源污染最佳管理技術(BMPs)指引</option>
+<option value="ATM00732 ">面源網格空氣污染排放量(TWD97)</option>
+<option value="OTH01697 ">食品添加物許可證資料集</option>
+<option value="OTH02204 ">旅館或觀光旅館之興建或擴建類別環境影響評估報告書</option>
+<option value="OTH02212 ">旅館或觀光旅館之興建或擴建類別環境影響說明書</option>
+<option value="OTH01283 ">核能一廠、二廠相關計畫環評監督委員會會議紀錄</option>
+<option value="OTH01025 ">核能一廠用過核燃料中期貯存計畫環境監測資料</option>
+<option value="OTH01323 ">核能四廠環評監督委員會會議紀錄</option>
+<option value="OTH01026 ">核能四廠環境監測資料</option>
+<option value="ATM00078 ">柴油新車審驗資料-合格證明</option>
+<option value="ATM00095 ">柴油新車審驗資料-合格證明函</option>
+<option value="OTH01757 ">桃園市ESCO（能源技術服務業）資訊</option>
+<option value="OTH02086 ">桃園市公民營廢棄物處理機構評鑑A級機構</option>
+<option value="OTH01988 ">桃園市公廁點位資訊</option>
+<option value="WAT00542 ">桃園市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00568 ">桃園市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH02087 ">桃園市全市各區清潔隊一覽表</option>
+<option value="ATM00751 ">桃園市寺廟裝設細懸浮微粒連續自動監測設施補助計畫</option>
+<option value="OTH02088 ">桃園市垃圾車清運點資訊</option>
+<option value="WAT00622 ">桃園市河川水質監測資料</option>
+<option value="ATM00674 ">桃園市空氣中總懸浮微粒及落塵統計</option>
+<option value="ATM00673 ">桃園市空氣污染稽查處份概況年報表</option>
+<option value="ATM00677 ">桃園市空氣品質即時污染指標</option>
+<option value="OTH01739 ">桃園市空氣品質淨化區資訊網</option>
+<option value="OTH02078 ">桃園市政府環境保護局組織沿革</option>
+<option value="OTH01731 ">桃園市政府環境保護局預、決算資料</option>
+<option value="OTH02077 ">桃園市政府環境保護政策</option>
+<option value="OTH02079 ">桃園市洗掃街里程數</option>
+<option value="OTH00107 ">桃園市重要環保統計資料</option>
+<option value="OTH02085 ">桃園市修惜站資訊</option>
+<option value="WAT00619 ">桃園市飲用水水質監測資料</option>
+<option value="OTH02089 ">桃園市資源回收分類方式</option>
+<option value="OTH02090 ">桃園市農藥廢容器回收方式</option>
+<option value="OTH02081 ">桃園市電動二輪車充電站資訊</option>
+<option value="OTH01712 ">桃園市電動二輪車停車場(位)資訊</option>
+<option value="OTH01722 ">桃園市綠色商店名冊</option>
+<option value="OTH01748 ">桃園市酸雨監測資料</option>
+<option value="OTH02082 ">桃園市機車排放空氣污染物檢驗站</option>
+<option value="ATM00752 ">桃園市營建工程空氣污染防制費徵收須知</option>
+<option value="OTH01719 ">桃園市環保寺廟</option>
+<option value="OTH02080 ">桃園市環保志工小隊</option>
+<option value="OTH01718 ">桃園市環保旅店</option>
+<option value="OTH02076 ">桃園市環境保護歲出預、決算統計表</option>
+<option value="OTH01769 ">桃園市環境音量監測</option>
+<option value="ATM00782 ">氣溫監測資料00_測試用</option>
+<option value="ATM00783 ">氣溫監測資料01_測試用</option>
+<option value="ATM00785 ">氣溫監測資料02_測試用</option>
+<option value="ATM00786 ">氣溫監測資料02_測試用</option>
+<option value="ATM00787 ">氣溫監測資料02_測試用</option>
+<option value="ATM00788 ">氣溫監測資料02_測試用</option>
+<option value="ATM00789 ">氣溫監測資料02_測試用</option>
+<option value="ATM00790 ">氣溫監測資料02_測試用</option>
+<option value="ATM00791 ">氣溫監測資料02_測試用</option>
+<option value="WAT00151 ">海水淡化廠營運概況</option>
+<option value="WAT00469 ">海平面資料</option>
+<option value="WAT00534 ">海污遙測監測技術應用國際研討會資料</option>
+<option value="WAT00506 ">海洋保護區面積</option>
+<option value="WAT00498 ">海洋國家公園管理處研究成果報告</option>
+<option value="WAT00627 ">海洋棄置指定區域範圍圖</option>
+<option value="ATM00244 ">海面天氣預報</option>
+<option value="WAT00003 ">海域水質監測資料</option>
+<option value="WAT00015 ">海域水質監測點基本資料</option>
+<option value="WAT00494 ">海象測站基本資料</option>
+<option value="ATM00376 ">海嘯資訊</option>
+<option value="WAT00448 ">海灘水質監測站位置圖(下)</option>
+<option value="WAT00004 ">海灘夏季水質監測資料</option>
+<option value="ECO00008 ">特生中心102年度繁殖鳥大調查資料集</option>
+<option value="ECO00057 ">特生中心103年度繁殖鳥大調查資料</option>
+<option value="ECO00029 ">特生中心103年度繁殖鳥大調查資料集</option>
+<option value="ECO00087 ">特生中心2017新年數鳥資料集</option>
+<option value="ECO00003 ">特生中心社區蝴蝶調查資料集</option>
+<option value="ECO00007 ">特生中心蛾調志工蛾類調查資料集</option>
+<option value="ECO00001 ">特生中心慕光之城蛾類時空分布資料集</option>
+<option value="ECO00002 ">特生中心臉書社團植物調查資料集</option>
+<option value="OTH01753 ">特有生物研究保育中心2015年冬季鳥類調查資料集</option>
+<option value="ECO00048 ">特有生物研究保育中心冬季鳥類調查資料集</option>
+<option value="ECO00085 ">特有生物研究保育中心蛾類調查資料集</option>
+<option value="ECO00006 ">特有生物研究保育中心臉書社團路殺社資料集</option>
+<option value="ECO00004 ">特有生物研究保育中心臉書社團蜘蛛調查資料集</option>
+<option value="ECO00005 ">特有生物研究保育中心臉書社團蝸牛調查資料集</option>
+<option value="ATM00780 ">特殊性工業區人工操作監測值資料檔</option>
+<option value="ATM00775 ">特殊性工業區人工操作監測值資料檔</option>
+<option value="ATM00547 ">特殊性工業區即時監測值資料檔 (一般空氣污染物)</option>
+<option value="ATM00546 ">特殊性工業區即時監測值資料檔 (氣象監測項目)</option>
+<option value="ATM00777 ">特殊性工業區品保品管後監測值資料檔(一般空氣污染物)</option>
+<option value="ATM00772 ">特殊性工業區品保品管後監測值資料檔(一般空氣污染物)</option>
+<option value="ATM00773 ">特殊性工業區品保品管後監測值資料檔(有機光化前驅物)</option>
+<option value="ATM00779 ">特殊性工業區品保品管後監測值資料檔(有機光化前驅物)</option>
+<option value="ATM00774 ">特殊性工業區品保品管後監測值資料檔(氣象監測項目)</option>
+<option value="ATM00778 ">特殊性工業區品保品管後監測值資料檔(氣象監測項目)</option>
+<option value="ATM00545 ">特殊性工業區測站資訊</option>
+<option value="OTH02111 ">病媒防治業地理資料</option>
+<option value="OTH02149 ">病媒防治業許可執照資料                                       </option>
+<option value="OTH02205 ">能源或輸變電工程之開發類別環境影響評估報告書</option>
+<option value="OTH02213 ">能源或輸變電工程之開發類別環境影響說明書</option>
+<option value="OTH02146 ">臭氧8hr平均值(每日提供17筆)                                 </option>
+<option value="OTH01610 ">高雄市「高屏溪-環保之聲」季刊</option>
+<option value="OTH01966 ">高雄市ARM自動資源回收機器設置地點及開放時間                           </option>
+<option value="ATM00713 ">高雄市CEMS工廠名單</option>
+<option value="ATM00712 ">高雄市CEMS項目代碼表</option>
+<option value="OTH01957 ">高雄市CEMS歷史資料</option>
+<option value="ATM00768 ">高雄市GHG統計                                          </option>
+<option value="ATM00716 ">高雄市VOCs監測資料</option>
+<option value="OTH01527 ">高雄市一般噪音管制區</option>
+<option value="OTH02099 ">高雄市中區資源回收廠代處理廢棄物管理規則</option>
+<option value="OTH01976 ">高雄市公共腳踏車即時租賃站資訊</option>
+<option value="WAT00554 ">高雄市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00578 ">高雄市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="WAT00650 ">高雄市加水站水源供應許可核可名單</option>
+<option value="OTH02152 ">高雄市加強街道揚塵洗街作業路線                                   </option>
+<option value="OTH01981 ">高雄市民眾檢舉案件資訊管理系統</option>
+<option value="OTH01964 ">高雄市民眾檢舉違反廢棄物清理法案件獎勵辦法</option>
+<option value="OTH01960 ">高雄市合格病媒防治業</option>
+<option value="WAT00646 ">高雄市地面水體監測站設置位置</option>
+<option value="WAT00645 ">高雄市地面水體監測站監測資料</option>
+<option value="OTH01979 ">高雄市垃圾焚化廠</option>
+<option value="ATM00714 ">高雄市空品淨化區</option>
+<option value="ATM00718 ">高雄市空氣品質人工監測站位置</option>
+<option value="ATM00717 ">高雄市空氣品質手動測站監測數值</option>
+<option value="ATM00715 ">高雄市空氣品質自動監測站位置</option>
+<option value="OTH02100 ">高雄市南區資源回收廠代處理廢棄物注意事項</option>
+<option value="OTH02101 ">高雄市政府環境保護局一般廢棄物清運量統計</option>
+<option value="OTH02102 ">高雄市政府環境保護局-垃圾清運資訊</option>
+<option value="OTH01969 ">高雄市政府環境保護局清潔隊位置</option>
+<option value="OTH00105 ">高雄市重要環保統計資料</option>
+<option value="ATM00512 ">高雄市柴油車排煙檢測站資訊</option>
+<option value="OTH01513 ">高雄市航空噪音管制區</option>
+<option value="OTH02098 ">高雄市清除機構內部審查標準</option>
+<option value="OTH02151 ">高雄市淨灘認養單位                                         </option>
+<option value="WAT00649 ">高雄市給水廠清水水質檢測結果</option>
+<option value="WAT00648 ">高雄市飲用水資訊                                          </option>
+<option value="OTH01974 ">高雄市電動機車充電站</option>
+<option value="OTH01977 ">高雄市綠色商店</option>
+<option value="OTH01962 ">高雄市廢食用油之清除機構</option>
+<option value="OTH01978 ">高雄市廣告物設置管理系統                                      </option>
+<option value="OTH01980 ">高雄市衛生掩埋場</option>
+<option value="OTH01973 ">高雄市噪音監測站地點</option>
+<option value="OTH01975 ">高雄市機車排氣檢驗站</option>
+<option value="OTH01965 ">高雄市應回收廢棄物已登記回收業資料</option>
+<option value="OTH01967 ">高雄市應回收廢棄物已登記處理業資料                                 </option>
+<option value="WAT00647 ">高雄市檢舉違反水污染防治法案件獎勵辦法</option>
+<option value="OTH01959 ">高雄市環保行政概況</option>
+<option value="OTH01963 ">高雄市環保局物種資料庫</option>
+<option value="OTH01983 ">高雄市環保旅店</option>
+<option value="OTH01982 ">高雄市環保餐館</option>
+<option value="OTH01961 ">高雄市環境用藥販賣業</option>
+<option value="OTH01971 ">高雄市環境教育設施場所</option>
+<option value="OTH01970 ">高雄市環境教育機構</option>
+<option value="OTH01968 ">高雄市舊衣物回收箱許可設置資料                                   </option>
+<option value="OTH02107 ">高雄環境保護局招標資料</option>
+<option value="OTH02108 ">高雄環境保護局最新消息</option>
+<option value="OTH02106 ">高雄環境保護局徵才公告</option>
+<option value="OTH01472 ">乾電池汞、鎘含量確認文件資料</option>
+<option value="WAT00013 ">區域性地下水水質監測井基本資料</option>
+<option value="WAT00006 ">區域性地下水水質監測資料</option>
+<option value="OTH02172 ">區域性地下水水質監測資料_new</option>
+<option value="ATM00462 ">國內已制訂之碳足跡產品類別規則文件清單</option>
+<option value="OTH00160 ">國內公害糾紛司法案件資料</option>
+<option value="OTH00161 ">國外公害糾紛司法案件資料</option>
+<option value="SOIL00100">國家公園即時影像</option>
+<option value="OTH00006 ">國際環保新聞週報</option>
+<option value="WAT00539 ">基隆市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00565 ">基隆市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01926 ">基隆市以功代金社福團體清冊</option>
+<option value="ATM00705 ">基隆市空氣品質人工監測站分佈地圖</option>
+<option value="ATM00706 ">基隆市空氣品質人工監測站資料卡</option>
+<option value="ATM00704 ">基隆市空氣品質淨化區場址資訊</option>
+<option value="OTH00118 ">基隆市重要環保統計資料</option>
+<option value="ATM00703 ">基隆市柴油車排煙動力檢測站址</option>
+<option value="OTH01927 ">基隆市紙錢集中焚燒收運單位清冊</option>
+<option value="OTH01925 ">基隆市噪音管制區圖</option>
+<option value="ATM00702 ">基隆市機車排氣檢驗站清冊</option>
+<option value="SOIL00154">執行機關一般廢棄物產生量</option>
+<option value="SOIL00160">執行機關一般廢棄物處理量</option>
+<option value="OTH01594 ">執行機關資源回收設施統計資料</option>
+<option value="SOIL00156">執行機關資源回收量</option>
+<option value="OTH02207 ">探礦、採礦類別環境影響評估報告書</option>
+<option value="OTH02216 ">探礦、採礦類別環境影響說明書</option>
+<option value="OTH01446 ">接受民間捐款鼓勵檢舉重大污染案件專案執行要點</option>
+<option value="WAT00381 ">推動水污染總量管制作業規定</option>
+<option value="ATM00475 ">推動產品碳足跡標示審議會決議事項</option>
+<option value="OTH01420 ">推薦機關(薦舉)環境教育人員認證申請書</option>
+<option value="OTH01549 ">採購標案歷史資訊</option>
+<option value="OTH01475 ">教育部事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="WAT00524 ">淡水河系水環境優化願景聯繫會報委員會議</option>
+<option value="OTH00813 ">清淨家園顧厝邊綠色生活網EcoLife宣導摺頁</option>
+<option value="OTH01445 ">清潔人員執行職務死亡濟助申請程序</option>
+<option value="OTH01514 ">清潔人員執行職務死亡濟助案件統計資料</option>
+<option value="OTH01196 ">清潔隊員節慶祝活動</option>
+<option value="WAT00638 ">淹水潛勢圖</option>
+<option value="WAT00532 ">現有海水淡化廠概況</option>
+<option value="WAT00544 ">疏濬點位資料</option>
+<option value="ATM00197 ">移動污染源空氣污染防制費收費統計</option>
+<option value="FRT00026 ">第二輪檢訂各項圖資</option>
+<option value="OTH01824 ">第二類環保標章環境訴求評定基準</option>
+<option value="OTH01448 ">符合噪音管制標準車輛-國產汽油引擎車</option>
+<option value="OTH01454 ">符合噪音管制標準車輛-國產柴油引擎車</option>
+<option value="OTH01456 ">符合噪音管制標準車輛-國產機車</option>
+<option value="OTH01453 ">符合噪音管制標準車輛-進口汽油引擎車</option>
+<option value="OTH01455 ">符合噪音管制標準車輛-進口柴油引擎車</option>
+<option value="OTH01457 ">符合噪音管制標準車輛-進口機車</option>
+<option value="ATM00625 ">細懸浮微粒資料（PM2.5）</option>
+<option value="OTH01515 ">貨品通關事前聲明確認作業指引</option>
+<option value="OTH01517 ">貨品通關事前聲明確認作業指引折頁</option>
+<option value="OTH01518 ">貨品通關事前聲明確認作業指引簡報</option>
+<option value="OTH01481 ">通訊傳播事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="OTH01015 ">通過先期測試車機商/系統商</option>
+<option value="OTH01047 ">通過逐車審驗運送車輛</option>
+<option value="WAT00561 ">連江縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00585 ">連江縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH00122 ">連江縣重要環保統計資料</option>
+<option value="ATM00252 ">鹿林山測站小時值資料</option>
+<option value="ATM00417 ">鹿林山測站基本資料</option>
+<option value="WAT00409 ">場址列管公文</option>
+<option value="WAT00408 ">場址勘查紀錄表</option>
+<option value="OTH00939 ">斯德哥爾摩公約出國報告</option>
+<option value="OTH01898 ">景點（遊憩據點）</option>
+<option value="OTH01303 ">森林步道</option>
+<option value="FRT00057 ">森林遊樂區範圍界(18區)</option>
+<option value="POP00011 ">焚化廠底渣原始檢測資料</option>
+<option value="POP00008 ">焚化廠空污監測資料</option>
+<option value="POP00010 ">焚化廠飛灰原始檢測資料</option>
+<option value="POP00009 ">焚化廠飛灰穩定化檢測資料</option>
+<option value="POP00005 ">焚化廠基本資料</option>
+<option value="POP00006 ">焚化廠營運月報</option>
+<option value="POP00007 ">焚化廠營運年報</option>
+<option value="ATM00445 ">無人氣象測站基本資料</option>
+<option value="OTH01503 ">登錄證明文件繳費通知單</option>
+<option value="WAT00457 ">發佈警戒土石流潛勢溪流基本資料</option>
+<option value="POP00056 ">結餘量資料(毒性化學物質許可管理)</option>
+<option value="ATM00005 ">紫外線即時監測資料</option>
+<option value="ATM00513 ">紫外線測站位置圖</option>
+<option value="ATM00007 ">紫外線測站基本資料</option>
+<option value="ATM00016 ">紫外線預報</option>
+<option value="OTH01480 ">菸酒事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="OTH00131 ">訴願決定書</option>
+<option value="OTH02024 ">訴願審議委員會委員名單</option>
+<option value="FRT00015 ">進口木材製品波動價差</option>
+<option value="FRT00008 ">進口木材製品調查比較</option>
+<option value="FRT00013 ">進口針葉原木波動價差</option>
+<option value="FRT00006 ">進口針葉原木調查比較</option>
+<option value="FRT00014 ">進口闊葉原木波動價差</option>
+<option value="FRT00007 ">進口闊葉原木調查比較</option>
+<option value="ATM00701 ">鄉鎮天氣資料</option>
+<option value="ATM00345 ">鄉鎮天氣預報</option>
+<option value="OTH01951 ">雲林縣土壤及地下水列管資訊</option>
+<option value="SOIL00150">雲林縣土壤定期監測結果</option>
+<option value="OTH01952 ">雲林縣公廁</option>
+<option value="WAT00550 ">雲林縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00575 ">雲林縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01582 ">雲林縣巨大垃圾統計月報</option>
+<option value="OTH01940 ">雲林縣巨大廢棄物清運資訊</option>
+<option value="OTH01937 ">雲林縣全縣清潔隊</option>
+<option value="OTH01945 ">雲林縣地下水監測</option>
+<option value="OTH01941 ">雲林縣事業廢棄物再利用者</option>
+<option value="ATM00707 ">雲林縣固定污染源監測</option>
+<option value="ATM00708 ">雲林縣固定污染源監測(六輕核定污染物排放量)</option>
+<option value="WAT00644 ">雲林縣垃圾掩埋場地下水檢測報告</option>
+<option value="OTH01592 ">雲林縣垃圾清理月報</option>
+<option value="OTH01944 ">雲林縣河川水質監測</option>
+<option value="ATM00710 ">雲林縣空氣中總懸浮微粒</option>
+<option value="OTH01585 ">雲林縣空氣中總懸浮微粒及落塵量檢驗結果</option>
+<option value="OTH01953 ">雲林縣洗掃街作業資料</option>
+<option value="OTH00112 ">雲林縣重要環保統計資料</option>
+<option value="OTH01949 ">雲林縣柴油車排煙動力檢測站</option>
+<option value="WAT00643 ">雲林縣海洋水質監測資料</option>
+<option value="OTH01931 ">雲林縣病媒防治業及販賣業</option>
+<option value="OTH01932 ">雲林縣堆肥場地址</option>
+<option value="OTH01936 ">雲林縣清除及處理機構</option>
+<option value="ATM00711 ">雲林縣測站監測資料</option>
+<option value="OTH01930 ">雲林縣飲用水水質抽驗檢驗</option>
+<option value="OTH01938 ">雲林縣黃金資收站</option>
+<option value="ATM00709 ">雲林縣落塵量統計</option>
+<option value="OTH01593 ">雲林縣資源回收月報</option>
+<option value="OTH01934 ">雲林縣農藥廢容器回收</option>
+<option value="OTH01948 ">雲林縣電動機車充電站</option>
+<option value="OTH01589 ">雲林縣綠色商店</option>
+<option value="OTH01943 ">雲林縣廢食用油清除機構</option>
+<option value="OTH01939 ">雲林縣衛生掩埋場</option>
+<option value="OTH01935 ">雲林縣衛生掩埋場地址</option>
+<option value="OTH01946 ">雲林縣噪音管制區</option>
+<option value="OTH01947 ">雲林縣噪音管制區基本資料</option>
+<option value="OTH01950 ">雲林縣機車定檢站</option>
+<option value="OTH01590 ">雲林縣機車排氣檢驗站名單</option>
+<option value="OTH01933 ">雲林縣應回收廢棄物回收處理業</option>
+<option value="OTH01928 ">雲林縣營建工地空汙費繳費櫃檯</option>
+<option value="OTH01954 ">雲林縣環保志工環境清潔執行成果</option>
+<option value="OTH01608 ">雲林縣環保旅店</option>
+<option value="OTH01955 ">雲林縣環保餐館</option>
+<option value="OTH01586 ">雲林縣環教場址</option>
+<option value="OTH01603 ">雲林縣環境教育場址</option>
+<option value="ATM00647 ">雲林縣環境道路交通噪音監測站基本資料表</option>
+<option value="SOIL00112">順向坡分布圖</option>
+<option value="OTH00934 ">飲用水設備維護管理稽查成果</option>
+<option value="OTH02210 ">園區之興建或擴建類別環境影響評估報告書</option>
+<option value="OTH02226 ">園區之興建或擴建類別環境影響說明書</option>
+<option value="OTH01396 ">新化學物質及既有化學物質資料登錄工具說明</option>
+<option value="OTH01492 ">新化學物質及既有化學物質資料登錄辦法英文版</option>
+<option value="OTH01501 ">新化學物質少量登錄表單</option>
+<option value="OTH01470 ">新化學物質登錄申請資料保護表</option>
+<option value="OTH01506 ">新化學物質登錄資訊系統工具(Chemist)</option>
+<option value="OTH01469 ">新化學物質資料保護申請表單</option>
+<option value="OTH02243 ">新化學物質資料保護申請表單_測試用</option>
+<option value="OTH01505 ">新化學物質標準登錄表單</option>
+<option value="OTH01502 ">新化學物質簡易登錄表單</option>
+<option value="WAT00541 ">新北市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00567 ">新北市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH00101 ">新北市重要環保統計資料</option>
+<option value="OTH01956 ">新北市廢棄物清除處理機構名單</option>
+<option value="WAT00545 ">新竹市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00570 ">新竹市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01624 ">新竹市政府環境影響評估審查委員會委員名單</option>
+<option value="OTH00119 ">新竹市重要環保統計資料</option>
+<option value="OTH01627 ">新竹市病媒防治業</option>
+<option value="OTH01626 ">新竹市綠色商店</option>
+<option value="OTH01625 ">新竹市環保旅店</option>
+<option value="WAT00543 ">新竹縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00569 ">新竹縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH00108 ">新竹縣重要環保統計資料</option>
+<option value="OTH01319 ">新聞剪報</option>
+<option value="OTH01389 ">會計事務處理注意事項</option>
+<option value="POP00033 ">溫室氣體年排放量</option>
+<option value="ATM00039 ">溫室氣體排放量清冊報告</option>
+<option value="ATM00473 ">煙道即時量測值(氣狀污染物、排放流率)彰化縣EPB</option>
+<option value="ATM00471 ">煙道即時量測值資料檔(不透光率)彰化縣環保局</option>
+<option value="ATM00472 ">煙道基本參數檔彰化縣EPB</option>
+<option value="POP00068 ">督察檢測環境介質數據</option>
+<option value="OTH02185 ">經過山坡地環境影響評估報告書</option>
+<option value="OTH02195 ">經過山坡地環境影響說明書</option>
+<option value="OTH02192 ">經過水土保持區環境影響評估報告書</option>
+<option value="OTH02202 ">經過水土保持區環境影響說明書</option>
+<option value="OTH02188 ">經過水庫集水區環境影響評估報告書</option>
+<option value="OTH02198 ">經過水庫集水區環境影響說明書</option>
+<option value="OTH02187 ">經過地質敏感區環境影響評估報告書</option>
+<option value="OTH02197 ">經過地質敏感區環境影響說明書</option>
+<option value="OTH02193 ">經過活動斷層範圍環境影響評估報告書</option>
+<option value="OTH02215 ">經過活動斷層範圍環境影響說明書</option>
+<option value="OTH02190 ">經過海岸保護區環境影響評估報告書</option>
+<option value="OTH02200 ">經過海岸保護區環境影響說明書</option>
+<option value="OTH02191 ">經過國家公園區環境影響評估報告書</option>
+<option value="OTH02201 ">經過國家公園區環境影響說明書</option>
+<option value="OTH02184 ">經過國家級重要濕地環境影響評估報告書</option>
+<option value="OTH02194 ">經過國家級重要濕地環境影響說明書</option>
+<option value="OTH02189 ">經過飲用水水源水質保護區環境影響評估報告書</option>
+<option value="OTH02199 ">經過飲用水水源水質保護區環境影響說明書</option>
+<option value="SOIL00052">經濟部中央地質調查所出版品目錄</option>
+<option value="OTH01473 ">經濟部事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="OTH01362 ">經濟部輔導設置處理設施許可資料</option>
+<option value="OTH01329 ">補助地方設置巨大廢棄物回收再利用廠一覽</option>
+<option value="OTH01328 ">補助地方設置廚餘堆肥廠一覽</option>
+<option value="OTH01893 ">資源介紹</option>
+<option value="OTH00422 ">資源回收業(站、點)資料</option>
+<option value="OTH00549 ">資源回收電子報</option>
+<option value="OTH01478 ">農業事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="OTH01699 ">農藥廢容器回收方式</option>
+<option value="POP00057 ">運作紀錄資料(毒性化學物質許可管理)</option>
+<option value="OTH01894 ">遊憩注意事項</option>
+<option value="OTH02211 ">道路之開發類別環境影響評估報告書</option>
+<option value="OTH02225 ">道路之開發類別環境影響說明書</option>
+<option value="POP00065 ">道路交通音量監測不合格時段數</option>
+<option value="ATM00026 ">道路交通音量監測結果統計(依時段分)</option>
+<option value="ATM00025 ">道路交通音量監測結果統計(依管制區分)</option>
+<option value="OTH00188 ">違規公司與產品消息資料</option>
+<option value="ATM00693 ">雷達回波圖</option>
+<option value="OTH01622 ">電動二輪車充電站</option>
+<option value="OTH01623 ">電動車充電站</option>
+<option value="OTH01439 ">預鑄式建築物污水處理設施審定登記須知</option>
+<option value="OTH01206 ">預鑄式建築物污水處理設施審定登記認可設施一覽表</option>
+<option value="OTH01705 ">嘉義市公共區域電池回收點</option>
+<option value="WAT00552 ">嘉義市水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="OTH01604 ">嘉義市加強街道揚塵洗掃洗街作業路線</option>
+<option value="OTH01605 ">嘉義市加強街道揚塵洗掃掃街作業路線</option>
+<option value="OTH01729 ">嘉義市免費電動二輪車充電站</option>
+<option value="OTH01726 ">嘉義市垃圾焚化底渣灼燒減量檢驗報告</option>
+<option value="OTH01725 ">嘉義市垃圾焚化廠(固化廠)固化物採樣檢驗報告</option>
+<option value="OTH01727 ">嘉義市社區投幣式充電站</option>
+<option value="OTH01724 ">嘉義市空氣污染防制委員會設置要點</option>
+<option value="ATM00648 ">嘉義市空氣污染防制計畫書</option>
+<option value="OTH01723 ">嘉義市政府空氣污染防制專案辦公室設置要點</option>
+<option value="OTH00120 ">嘉義市重要環保統計資料</option>
+<option value="OTH01730 ">嘉義市茶葉渣回收點</option>
+<option value="OTH01706 ">嘉義市資源回收商站點</option>
+<option value="OTH01728 ">嘉義市機車排氣檢驗站</option>
+<option value="OTH01607 ">嘉義市舊衣回收箱放置點</option>
+<option value="OTH01994 ">嘉義縣乙丙級清除機構基本資料</option>
+<option value="OTH02002 ">嘉義縣公廁建檔基本資料</option>
+<option value="WAT00551 ">嘉義縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00576 ">嘉義縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01993 ">嘉義縣甲乙級廢棄物清除處理機構</option>
+<option value="OTH00113 ">嘉義縣重要環保統計資料</option>
+<option value="OTH01996 ">嘉義縣柴油車排煙動力檢測站</option>
+<option value="OTH01992 ">嘉義縣病媒防治業及販賣業名單</option>
+<option value="OTH02000 ">嘉義縣鹿草垃圾焚化廠室內溫水游泳池</option>
+<option value="OTH02001 ">嘉義縣焚化廠</option>
+<option value="OTH01991 ">嘉義縣等跨縣市飲用水保護區</option>
+<option value="WAT00651 ">嘉義縣飲用水保護區</option>
+<option value="OTH01998 ">嘉義縣綠色商店名單</option>
+<option value="OTH01995 ">嘉義縣噪音管制區圖</option>
+<option value="OTH01997 ">嘉義縣機車排氣檢驗站名冊</option>
+<option value="OTH01999 ">嘉義縣縣治地區廣告淨區</option>
+<option value="OTH02003 ">嘉義縣環保旅店名單</option>
+<option value="OTH02004 ">嘉義縣環保餐館名單</option>
+<option value="OTH01500 ">實驗室測試資料與要求規格</option>
+<option value="OTH01648 ">彰化縣乙級廢棄物清除機構資訊</option>
+<option value="OTH01651 ">彰化縣乙級廢棄物處理機構資訊</option>
+<option value="OTH02046 ">彰化縣大面額金紙(環保紙錢)販售資訊</option>
+<option value="OTH02038 ">彰化縣公害糾紛調處委員資訊</option>
+<option value="OTH01669 ">彰化縣公廁點位資訊</option>
+<option value="OTH01668 ">彰化縣水肥清除業資訊</option>
+<option value="WAT00548 ">彰化縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00573 ">彰化縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="WAT00658 ">彰化縣水質淨化設施資訊</option>
+<option value="OTH01649 ">彰化縣丙級廢棄物清除機構資訊</option>
+<option value="OTH01647 ">彰化縣甲級廢棄物清除機構資訊</option>
+<option value="OTH01650 ">彰化縣甲級廢棄物處理機構資訊</option>
+<option value="OTH01673 ">彰化縣共同清除處理機構資訊</option>
+<option value="OTH02047 ">彰化縣各鄉鎮市紙錢設置集中點</option>
+<option value="OTH01670 ">彰化縣各鄉鎮清潔隊垃圾清運資訊</option>
+<option value="WAT00657 ">彰化縣地下水監測井基本資料</option>
+<option value="OTH02042 ">彰化縣低碳永續家園資訊</option>
+<option value="ATM00741 ">彰化縣空氣品質淨化區資訊</option>
+<option value="OTH01508 ">彰化縣政府公害糾紛緊急紓處小組設置要點</option>
+<option value="OTH00110 ">彰化縣重要環保統計資料</option>
+<option value="OTH02053 ">彰化縣柴油車驗車資訊</option>
+<option value="OTH01666 ">彰化縣海岸管理權責資訊</option>
+<option value="OTH02039 ">彰化縣病媒防治業資訊</option>
+<option value="OTH01652 ">彰化縣清潔隊基本資料</option>
+<option value="OTH02036 ">彰化縣第三類防災資料表摘要</option>
+<option value="WAT00656 ">彰化縣較難水質檢測資訊</option>
+<option value="OTH02062 ">彰化縣農藥廢容器回收方式及地點資訊</option>
+<option value="OTH02051 ">彰化縣電動機車充電站資訊</option>
+<option value="OTH02050 ">彰化縣綠色商店資訊</option>
+<option value="OTH01671 ">彰化縣廢食用油清除機構管理資訊</option>
+<option value="OTH02061 ">彰化縣廢棄車輛回收業者資訊</option>
+<option value="OTH01663 ">彰化縣廢棄物回收業</option>
+<option value="OTH01667 ">彰化縣廢棄物處理業資訊</option>
+<option value="OTH01653 ">彰化縣廢潤滑油回收點資訊</option>
+<option value="OTH02048 ">彰化縣衛生掩埋場資訊</option>
+<option value="POP00063 ">彰化縣噪音管制區區位圖</option>
+<option value="OTH02052 ">彰化縣機車定檢站資訊</option>
+<option value="OTH02034 ">彰化縣營建工地空污費繳費櫃檯</option>
+<option value="OTH02044 ">彰化縣環保志工隊資訊</option>
+<option value="OTH02045 ">彰化縣環保旅館資訊</option>
+<option value="OTH02040 ">彰化縣環境用藥販賣業資訊</option>
+<option value="OTH02054 ">彰化縣環境音量及交通道路噪音及移動式監測站點資訊</option>
+<option value="OTH02041 ">彰化縣環境教育設施場所</option>
+<option value="OTH02043 ">彰化縣環境影響評估委員資料</option>
+<option value="OTH01672 ">彰化縣轄經濟部輔導設立之清除處理設施資訊</option>
+<option value="OTH00981 ">彰濱工業區環境監測資料</option>
+<option value="ATM00420 ">監測車(光化)基本資料</option>
+<option value="ATM00418 ">監測車、河川揚塵監測站基本資料</option>
+<option value="ATM00059 ">碳足跡排放係數</option>
+<option value="OTH00178 ">碳粉匣對應型號</option>
+<option value="WAT00531 ">管制事業、下水道系統下水道查核、處分資料資訊平台</option>
+<option value="WAT00521 ">管制事業下水道系統環工技師專責人員證號資料資訊平台</option>
+<option value="OTH01316 ">綠色生活及消費手冊</option>
+<option value="OTH01315 ">綠色生活及消費指引</option>
+<option value="OTH01271 ">綠色消費暨環境保護產品推動使用作業要點</option>
+<option value="OTH01275 ">綠色消費暨環境保護產品審議會設置要點</option>
+<option value="POP00024 ">綠色商店基本資料</option>
+<option value="ATM00754 ">緊急防制辦法空品狀況</option>
+<option value="OTH01747 ">臺中市乙級廢棄物清除處理機構名單</option>
+<option value="SOIL00137">臺中市土壤及地下水污染控制場址</option>
+<option value="SOIL00138">臺中市土壤及地下水污染整治場址</option>
+<option value="SOIL00139">臺中市土壤監測資料</option>
+<option value="OTH01744 ">臺中市已登記應回收廢棄物回收處理業者名單</option>
+<option value="OTH01715 ">臺中市水肥廠資料</option>
+<option value="WAT00572 ">臺中市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="WAT00617 ">臺中市水塔蓄水池合格之業者</option>
+<option value="OTH01743 ">臺中市丙級廢棄物清除機構名單</option>
+<option value="OTH01746 ">臺中市甲級廢棄物清除處理機構名單</option>
+<option value="OTH01735 ">臺中市合格病媒防治業者資訊</option>
+<option value="WAT00623 ">臺中市地下水監測資料</option>
+<option value="OTH01764 ">臺中市自備飲料杯提供優惠名單</option>
+<option value="OTH01765 ">臺中市建檔公廁資訊</option>
+<option value="OTH00103 ">臺中市重要環保統計資料</option>
+<option value="WAT00615 ">臺中市海域環境品質資訊</option>
+<option value="OTH01709 ">臺中市焚化廠資料</option>
+<option value="WAT00616 ">臺中市飲用水檢驗測定機構</option>
+<option value="OTH01767 ">臺中市綠色包裝認證名單</option>
+<option value="OTH01609 ">臺中市綠色商店</option>
+<option value="OTH01766 ">臺中市綠色餐廳獲獎名單</option>
+<option value="OTH01733 ">臺中市酸雨監測資料</option>
+<option value="OTH01745 ">臺中市廢食用油清除機構</option>
+<option value="OTH01742 ">臺中市廢潤滑油回收點</option>
+<option value="OTH01708 ">臺中市衛生掩埋場資料</option>
+<option value="OTH01714 ">臺中市餘樂園廚餘堆肥廠資料</option>
+<option value="OTH02012 ">臺中市機車排氣檢驗站名冊</option>
+<option value="OTH01768 ">臺中市餐餐具到好餐廳名單</option>
+<option value="OTH01720 ">臺中市環保旅店</option>
+<option value="OTH01721 ">臺中市環保餐館</option>
+<option value="OTH01734 ">臺中市環境音量監測資料</option>
+<option value="OTH01717 ">臺中市環境教育設施場所</option>
+<option value="OTH01716 ">臺中市環境教育機構</option>
+<option value="POP00058 ">臺中雲林農地作物含重金屬鎘污染成因調查及查證計畫</option>
+<option value="OTH01659 ">臺北市ESCO能源技術服務業資訊</option>
+<option value="OTH01629 ">臺北市乙、丙級清除機構基本資料</option>
+<option value="WAT00594 ">臺北市土壤及地下水污染控制場址                                   </option>
+<option value="OTH01639 ">臺北市已核發之廢食用油回收工作證清除業者名單</option>
+<option value="OTH01656 ">臺北市已核發應回收廢棄物回收處理業登記名冊</option>
+<option value="OTH01707 ">臺北市內湖垃圾焚化廠營運管理及環境品質監測報告</option>
+<option value="WAT00595 ">臺北市公共場所飲水機資訊</option>
+<option value="ATM00649 ">臺北市公害陳情案件受理統計月報表</option>
+<option value="OTH01644 ">臺北市公廁點位資訊                                         </option>
+<option value="OTH01711 ">臺北市木柵垃圾焚化廠營運管理及環境品質監測報告</option>
+<option value="WAT00566 ">臺北市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="WAT00603 ">臺北市水質監測站基本資料</option>
+<option value="OTH01710 ">臺北市北投垃圾焚化廠營運管理及環境品質監測報告</option>
+<option value="SOIL00141">臺北市市立焚化廠位置</option>
+<option value="OTH01762 ">臺北市民眾檢舉違反廢棄物清理法及獎勵金發放辦法</option>
+<option value="OTH01761 ">臺北市民眾繳納違反環保法令行政罰鍰方式及注意事項</option>
+<option value="OTH01640 ">臺北市甲級廢棄物清除處理機構名單</option>
+<option value="OTH01654 ">臺北市再生家具</option>
+<option value="OTH01657 ">臺北市回收業機構名冊</option>
+<option value="WAT00613 ">臺北市地下水監測結果</option>
+<option value="OTH01634 ">臺北市行人專用清潔箱</option>
+<option value="OTH01642 ">臺北市事業廢棄物再利用者登記資料</option>
+<option value="WAT00621 ">臺北市垃圾掩埋場污水廠水質檢測報告</option>
+<option value="OTH01628 ">臺北市垃圾清運路線圖</option>
+<option value="OTH01616 ">臺北市垃圾清運點位資訊</option>
+<option value="OTH01630 ">臺北市垃圾資源回收、廚餘回收限時收受點</option>
+<option value="OTH01646 ">臺北市延慧書庫</option>
+<option value="WAT00604 ">臺北市河川水質</option>
+<option value="WAT00596 ">臺北市河川水質檢測結果</option>
+<option value="OTH01655 ">臺北市社區資源回收站資訊</option>
+<option value="ATM00651 ">臺北市空品淨化區資訊</option>
+<option value="ATM00668 ">臺北市空氣中總懸浮微粒及落塵量檢驗結果統計</option>
+<option value="ATM00655 ">臺北市空氣污染稽查處分概況年報表</option>
+<option value="ATM00661 ">臺北市空氣品質即時污染指標</option>
+<option value="ATM00662 ">臺北市空氣品質監測站基本資料</option>
+<option value="WAT00614 ">臺北市非包裝飲用水檢驗收費標準</option>
+<option value="ATM00659 ">臺北市非營業用卡拉OK噪音告發案件點位資訊</option>
+<option value="ATM00650 ">臺北市政府環境保護局污染源稽查(查核)處分概況月報表</option>
+<option value="OTH01638 ">臺北市政府環境保護局洗街車資料</option>
+<option value="OTH00102 ">臺北市重要環保統計資料</option>
+<option value="ATM00658 ">臺北市娛樂營業場所噪音告發案件點位資訊</option>
+<option value="OTH01615 ">臺北市核准身障福利團體設置舊衣回收箱</option>
+<option value="ATM00652 ">臺北市柴油車排煙動力檢測站址</option>
+<option value="WAT00593 ">臺北市病媒防治業者名單</option>
+<option value="POP00059 ">臺北市航空噪音防制區圖                                       </option>
+<option value="OTH01643 ">臺北市專用垃圾袋代售點名冊</option>
+<option value="OTH01633 ">臺北市張貼板欄核准地點一覽表</option>
+<option value="OTH01614 ">臺北市登革熱戶外化學防疫軌跡記錄</option>
+<option value="WAT00592 ">臺北市飲用水水質檢驗資料</option>
+<option value="WAT00591 ">臺北市飲用水檢驗測定機構</option>
+<option value="ATM00642 ">臺北市溫室氣體排放統計</option>
+<option value="ATM00660 ">臺北市溫室氣體排放統計—本市總排放量及人均排放量</option>
+<option value="OTH01645 ">臺北市資源回收分類方式</option>
+<option value="OTH01632 ">臺北市路燈桿旗幟申請參考一覽表</option>
+<option value="OTH01658 ">臺北市農藥廢容器回收方式</option>
+<option value="OTH01613 ">臺北市電動機車充電地址及充電格位</option>
+<option value="OTH01641 ">臺北市廢食用油資訊</option>
+<option value="SOIL00140">臺北市廢棄物處理場再生土領用方式及領據</option>
+<option value="ATM00669 ">臺北市噪音監測結果</option>
+<option value="ATM00656 ">臺北市噪音稽查處分概況年報表</option>
+<option value="OTH01612 ">臺北市機車定檢站位置</option>
+<option value="ATM00654 ">臺北市機動車輛排放空氣污染物檢查檢驗告發情形季報表</option>
+<option value="ATM00653 ">臺北市營建工地空污費繳費櫃檯</option>
+<option value="ATM00657 ">臺北市營建工程噪音告發案件點位資訊</option>
+<option value="OTH01529 ">臺北市環保局再生家具</option>
+<option value="OTH01631 ">臺北市環保局廢棄汽機車查報拖吊應用系統</option>
+<option value="OTH02073 ">臺北市環保局廢棄暨未懸掛號牌車輛管理系統</option>
+<option value="WAT00597 ">臺北市環保局操作維護之水質淨化設施資料</option>
+<option value="OTH01662 ">臺北市環保旅店</option>
+<option value="ATM00672 ">臺北市環境及交通噪音監測站地點</option>
+<option value="ATM00667 ">臺北市環境空氣品質監測結果月報表</option>
+<option value="OTH01637 ">臺北市環境保護局12區.直屬清潔隊.溝渠清理隊聯絡資訊</option>
+<option value="OTH01661 ">臺北市環境教育設施場所</option>
+<option value="OTH01660 ">臺北市環境教育機構</option>
+<option value="ATM00670 ">臺北市環境輻射監測</option>
+<option value="ATM00671 ">臺北市環境輻射監測站基本資料</option>
+<option value="WAT00662 ">臺北港物流倉儲區環境監測結果</option>
+<option value="ATM00635 ">臺東縣99-104年度PM2.5採樣資料及分析結果</option>
+<option value="SOIL00132">臺東縣土壤及地下水監測</option>
+<option value="OTH01579 ">臺東縣公民營清除處理機構</option>
+<option value="OTH01578 ">臺東縣公廁點位資訊</option>
+<option value="WAT00582 ">臺東縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01580 ">臺東縣河川水質季監測報告</option>
+<option value="ATM00636 ">臺東縣空氣品質手動測站監測數值</option>
+<option value="OTH00115 ">臺東縣重要環保統計資料</option>
+<option value="WAT00598 ">臺東縣飲用水水質監測</option>
+<option value="OTH01552 ">臺東縣電動二輪車充電站明細</option>
+<option value="ATM00637 ">臺東縣機車排氣檢驗站明細</option>
+<option value="OTH01553 ">臺東縣機動車輛排放空氣污染物檢查</option>
+<option value="OTH01581 ">臺東縣環境用藥販賣業及病媒防治業</option>
+<option value="SOIL00136">臺南市土壤及地下水污染控制場址</option>
+<option value="SOIL00135">臺南市土壤及地下水污染緊急應變場址</option>
+<option value="SOIL00134">臺南市土壤及地下水污染整治場址</option>
+<option value="SOIL00133">臺南市土壤定期監測結果</option>
+<option value="OTH01688 ">臺南市公有廣告欄一覽表</option>
+<option value="OTH01704 ">臺南市公廁地址</option>
+<option value="OTH01700 ">臺南市水肥場地址</option>
+<option value="WAT00577 ">臺南市水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH01689 ">臺南市全市清潔隊一覽表</option>
+<option value="WAT00609 ">臺南市地下水監測資料</option>
+<option value="OTH01696 ">臺南市事業廢棄物再利用者登記資料</option>
+<option value="POP00060 ">臺南市垃圾清運點</option>
+<option value="OTH01703 ">臺南市尚介肥銷售統計</option>
+<option value="WAT00608 ">臺南市河川水質監測資料</option>
+<option value="ATM00666 ">臺南市空氣品質即時污染指標</option>
+<option value="ATM00664 ">臺南市空氣品質淨化區資料</option>
+<option value="ATM00665 ">臺南市空氣品質監測資料</option>
+<option value="WAT00610 ">臺南市非包裝飲用水檢驗收費標準</option>
+<option value="WAT00612 ">臺南市城西垃圾掩埋場滲出水廠放流水檢測報告</option>
+<option value="OTH01687 ">臺南市政府環境保護局有機培養土兌換實施方式</option>
+<option value="OTH00104 ">臺南市重要環保統計資料</option>
+<option value="OTH01684 ">臺南市核准身障福利團體設置舊衣回收箱</option>
+<option value="OTH01692 ">臺南市柴油車排煙動力檢測站址</option>
+<option value="WAT00606 ">臺南市海洋水質監測資料</option>
+<option value="OTH01677 ">臺南市病媒防治業者名單</option>
+<option value="OTH01701 ">臺南市堆肥場地址</option>
+<option value="ATM00663 ">臺南市連續自動監測設施CEMS監測數據</option>
+<option value="OTH01685 ">臺南市焚化廠地址</option>
+<option value="OTH01682 ">臺南市登革熱戶外化學防疫軌跡記錄</option>
+<option value="WAT00607 ">臺南市飲用水水質檢驗資料</option>
+<option value="OTH01690 ">臺南市電動機車充電站址</option>
+<option value="OTH01679 ">臺南市綠色商店名單</option>
+<option value="OTH01702 ">臺南市廢食用油回收-再生皂兌換要點</option>
+<option value="OTH01695 ">臺南市廢食用油清除機構基本資料</option>
+<option value="OTH01694 ">臺南市廢棄物清除處理機構</option>
+<option value="OTH01683 ">臺南市衛生掩埋場地址</option>
+<option value="OTH01698 ">臺南市噪音管制圖</option>
+<option value="OTH01691 ">臺南市機車定檢站地址</option>
+<option value="OTH01686 ">臺南市應回收廢棄物回收處理業</option>
+<option value="OTH01693 ">臺南市營建工地空汙費繳費櫃檯</option>
+<option value="WAT00605 ">臺南市環保局操作維護之水質淨化設施資料</option>
+<option value="OTH01681 ">臺南市環保志義工環境清潔執行成果</option>
+<option value="OTH01678 ">臺南市環保旅店名單</option>
+<option value="OTH01680 ">臺南市環境教育設施場所名單</option>
+<option value="SOIL00107">臺灣地體構造圖-不連續面</option>
+<option value="SOIL00110">臺灣地體構造圖-休止火山</option>
+<option value="SOIL00111">臺灣地體構造圖-地名</option>
+<option value="SOIL00109">臺灣地體構造圖-地體構造單元</option>
+<option value="SOIL00108">臺灣地體構造圖-地體構造單元界線</option>
+<option value="SOIL00106">臺灣地體構造圖-褶皺</option>
+<option value="SOIL00105">臺灣地體構造圖-斷層</option>
+<option value="WAT00507 ">臺灣周邊海域溫鹽分布</option>
+<option value="ECO00068 ">臺灣沿海及離島地區海洋生物多樣性資料庫</option>
+<option value="OTH02084 ">臺灣桃園國際機場固定式航空噪音監測站監測資料</option>
+<option value="ECO00023 ">臺灣新年數鳥嘉年華資料集</option>
+<option value="OTH01276 ">認識環保標章及申請流程說明</option>
+<option value="ATM00700 ">豪大雨特報</option>
+<option value="ATM00413 ">酸雨日平均</option>
+<option value="ATM00446 ">酸雨成份分析值</option>
+<option value="ATM00762 ">酸雨監測小時值(每小時提供)                                    </option>
+<option value="ATM00198 ">酸雨監測值                                             </option>
+<option value="ATM00689 ">颱風各地區24H雨量預測(文字)</option>
+<option value="ATM00690 ">颱風各地區24H雨量預測(圖)</option>
+<option value="ATM00684 ">颱風各地區實際最大平均風力及陣風</option>
+<option value="ATM00687 ">颱風各地區總雨量預測(文字)</option>
+<option value="ATM00688 ">颱風各地區總雨量預測(圖)</option>
+<option value="ATM00685 ">颱風各地區警戒風力預測(文字)</option>
+<option value="ATM00686 ">颱風各地區警戒風力預測(圖)</option>
+<option value="ATM00691 ">颱風警報單(圖)</option>
+<option value="WAT00399 ">審核事業或污水下水道系統放流水水質濃度限值處理原則</option>
+<option value="POP00066 ">廢(污)水產生量及排放量</option>
+<option value="OTH00009 ">廢行動通訊產品回收點資料</option>
+<option value="OTH01665 ">廢食用油流向清運資料統計(屬事業廢棄物部分)</option>
+<option value="OTH01360 ">廢家具修繕DIY</option>
+<option value="OTH01851 ">廢棄物實收罰鍰</option>
+<option value="OTH01850 ">廢棄物罰鍰次數</option>
+<option value="OTH01866 ">廢棄物稽查次數</option>
+<option value="OTH02155 ">廢棄物質最終處置資訊網相關新聞                                   </option>
+<option value="OTH02154 ">廢棄物質最終處置資訊網會議資料                                   </option>
+<option value="OTH01361 ">廚餘堆肥製作DIY</option>
+<option value="OTH00179 ">廠商獲頒產品數統計(第一類)</option>
+<option value="OTH00180 ">廠商獲頒產品數統計(第二類)</option>
+<option value="WAT00518 ">模場試驗專案期末報告電子檔</option>
+<option value="WAT00493 ">潮汐預報</option>
+<option value="WAT00668 ">潮汐預報</option>
+<option value="WAT00495 ">潮位資料統計</option>
+<option value="WAT00508 ">澎湖海域水質監測系統</option>
+<option value="WAT00559 ">澎湖縣水量、水質自動監測連線傳輸監測紀錄值資料集</option>
+<option value="WAT00583 ">澎湖縣水量水質自動監測連線傳輸監測紀錄值即時資料集</option>
+<option value="OTH00117 ">澎湖縣重要環保統計資料</option>
+<option value="WAT00452 ">獎勵民眾檢舉違反水污染防治法案件指導原則</option>
+<option value="ATM00731 ">線源網格空氣污染排放量(TWD97)</option>
+<option value="FRT00055 ">衛星判釋全島崩塌地</option>
+<option value="WAT00410 ">調查作業執行進度管考統計表</option>
+<option value="OTH02153 ">噪音受理檢舉每月平均                                        </option>
+<option value="OTH00221 ">噪音陳情案件數(依年度)</option>
+<option value="OTH00222 ">噪音陳情案件數(依音源)</option>
+<option value="OTH00219 ">噪音陳情管道</option>
+<option value="OTH01863 ">噪音實收罰鍰</option>
+<option value="OTH00220 ">噪音監測站資料</option>
+<option value="OTH01862 ">噪音罰鍰次數</option>
+<option value="OTH01861 ">噪音稽查次數</option>
+<option value="ECO00035 ">墾丁國家公園海域長期生態研究計畫-	海草床監測資料</option>
+<option value="ECO00038 ">墾丁國家公園海域長期生態研究計畫-大型藻類資料</option>
+<option value="ECO00031 ">墾丁國家公園海域長期生態研究計畫-仔稚魚資料</option>
+<option value="ECO00042 ">墾丁國家公園海域長期生態研究計畫-甲殼十足類資料</option>
+<option value="OTH00211 ">墾丁國家公園海域長期生態研究計畫-有機碳循環資料</option>
+<option value="WAT00071 ">墾丁國家公園海域長期生態研究計畫-沉積量資料</option>
+<option value="ECO00040 ">墾丁國家公園海域長期生態研究計畫-珊瑚資料</option>
+<option value="ECO00039 ">墾丁國家公園海域長期生態研究計畫-食用的螺貝類資料</option>
+<option value="WAT00098 ">墾丁國家公園海域長期生態研究計畫-海水水質資料</option>
+<option value="WAT00070 ">墾丁國家公園海域長期生態研究計畫-粒度分析資料</option>
+<option value="ECO00032 ">墾丁國家公園海域長期生態研究計畫-魚類群聚資料</option>
+<option value="OTH00212 ">墾丁國家公園海域長期生態研究計畫-遊憩活動資料</option>
+<option value="OTH00213 ">墾丁國家公園海域長期生態研究計畫-漁業活動資料</option>
+<option value="ECO00033 ">墾丁國家公園海域長期生態研究計畫-橈足類與浮游動物</option>
+<option value="ECO00041 ">墾丁國家公園海域長期生態研究計畫-螺貝類資料</option>
+<option value="ATM00412 ">機車定檢站位置圖</option>
+<option value="ATM00011 ">機車排氣定檢站資料</option>
+<option value="ATM00443 ">機車排氣檢驗站執行機車排氣檢驗業務費用</option>
+<option value="ATM00119 ">機車新車審驗資料</option>
+<option value="ATM00117 ">機車排氣定期檢驗資料</option>
+<option value="POP00027 ">機動車輛測定機構許可項目資料</option>
+<option value="OTH00005 ">機動車輛測定機構許可資料</option>
+<option value="OTH02208 ">機場之開發類別環境影響評估報告書</option>
+<option value="OTH02217 ">機場之開發類別環境影響說明書</option>
+<option value="OTH01314 ">機關綠色採購績效評核作業要點</option>
+<option value="WAT00514 ">歷年土石流潛勢溪流圖TWD67</option>
+<option value="WAT00513 ">歷年土石流潛勢溪流圖TWD97</option>
+<option value="SOIL00121">歷年土壤調查_環保署土壤重金屬含量調查(100公頃)</option>
+<option value="SOIL00120">歷年土壤調查_環保署土壤重金屬含量調查(1600公頃)</option>
+<option value="SOIL00123">歷年土壤調查_環保署土壤重金屬含量調查(1公頃)</option>
+<option value="SOIL00122">歷年土壤調查_環保署土壤重金屬含量調查(25公頃)</option>
+<option value="SOIL00124">歷年土壤調查_環保署土壤重金屬含量調查(319公頃)</option>
+<option value="SOIL00128">歷年土壤調查環保署農地調查計畫中部地區污染調查計畫</option>
+<option value="SOIL00127">歷年土壤調查環保署農地調查計畫桃園地區污染調查計畫</option>
+<option value="OTH01752 ">歷年公共建設計畫執行情形</option>
+<option value="WAT00527 ">歷年燈號變換情形</option>
+<option value="SOIL00125">歷年環保署農地_全國重金屬污染潛勢之管制及調查計畫</option>
+<option value="SOIL00126">歷年環保署農地全國重金屬污染潛勢管制及調查計畫2期</option>
+<option value="SOIL00129">歷年環保署農地營運中含鉛製程事業之土壤污染潛勢調查</option>
+<option value="ATM00509 ">縣市(宜蘭縣)小時值-每小時</option>
+<option value="ATM00488 ">縣市(直轄市)小時值-每小時</option>
+<option value="ATM00508 ">縣市(花蓮縣)小時值-每小時</option>
+<option value="ATM00510 ">縣市(金門縣)小時值-每小時</option>
+<option value="ATM00489 ">縣市(非直轄市)小時值-每小時</option>
+<option value="ATM00499 ">縣市(南投縣)小時值-每小時</option>
+<option value="ATM00506 ">縣市(屏東縣)小時值-每小時</option>
+<option value="ATM00496 ">縣市(苗栗縣)小時值-每小時</option>
+<option value="ATM00493 ">縣市(桃園市)小時值-每小時</option>
+<option value="ATM00505 ">縣市(高雄市)小時值-每小時</option>
+<option value="ATM00490 ">縣市(基隆市)小時值-每小時</option>
+<option value="ATM00511 ">縣市(連江縣)小時值-每小時</option>
+<option value="ATM00500 ">縣市(雲林縣)小時值-每小時</option>
+<option value="ATM00492 ">縣市(新北市)小時值-每小時</option>
+<option value="ATM00494 ">縣市(新竹市)小時值-每小時</option>
+<option value="ATM00495 ">縣市(新竹縣)小時值-每小時</option>
+<option value="ATM00501 ">縣市(嘉義市)小時值-每小時</option>
+<option value="ATM00502 ">縣市(嘉義縣)小時值-每小時</option>
+<option value="ATM00498 ">縣市(彰化縣)小時值-每小時</option>
+<option value="ATM00497 ">縣市(臺中市)小時值-每小時</option>
+<option value="ATM00491 ">縣市(臺北市)小時值-每小時</option>
+<option value="ATM00507 ">縣市(臺東縣)小時值-每小時</option>
+<option value="ATM00504 ">縣市(臺南市)小時值-每小時</option>
+<option value="ATM00503 ">縣市(澎湖縣)小時值-每小時</option>
+<option value="ATM00344 ">縣市天氣預報</option>
+<option value="OTH01262 ">縣市清運機具統計資料</option>
+<option value="OTH01516 ">輸入管理常見問答集</option>
+<option value="WAT00533 ">應用衛星航拍熱點監控圖資</option>
+<option value="OTH01330 ">應列管事業廢棄物產出申報量統計</option>
+<option value="OTH02020 ">應回收廢棄物(農藥廢容器)回收量資料</option>
+<option value="OTH02013 ">應回收廢棄物(廢容器類)回收量資料</option>
+<option value="OTH02019 ">應回收廢棄物(廢乾電池類)回收量資料</option>
+<option value="OTH02018 ">應回收廢棄物(廢照明光源類)回收量資料</option>
+<option value="OTH02015 ">應回收廢棄物(廢鉛蓄電池類)回收量資料</option>
+<option value="OTH02017 ">應回收廢棄物(廢電子電器及廢資訊物品類)回收量資料</option>
+<option value="OTH02016 ">應回收廢棄物(廢輪胎類)回收量資料</option>
+<option value="OTH02014 ">應回收廢棄物(廢機動車輛類)回收量資料</option>
+<option value="OTH00091 ">應回收廢棄物回收量資料</option>
+<option value="OTH00010 ">應回收廢棄物回收業者資料</option>
+<option value="OTH00093 ">應回收廢棄物受補貼機構（回收業）</option>
+<option value="OTH00094 ">應回收廢棄物受補貼機構（處理業）</option>
+<option value="OTH01808 ">應回收廢棄物處理業者(廢家電資訊類)最大處理量資料</option>
+<option value="OTH01804 ">應回收廢棄物處理業者(廢容器類)最大處理量資料</option>
+<option value="OTH01810 ">應回收廢棄物處理業者(廢乾電池類)最大處理量資料</option>
+<option value="OTH01809 ">應回收廢棄物處理業者(廢照明光源類)最大處理量資料</option>
+<option value="OTH01806 ">應回收廢棄物處理業者(廢鉛蓄電池類)最大處理量資料</option>
+<option value="OTH01807 ">應回收廢棄物處理業者(廢輪胎類)最大處理量資料</option>
+<option value="OTH01805 ">應回收廢棄物處理業者(廢機動車輛類)最大處理量資料</option>
+<option value="OTH00011 ">應回收廢棄物處理業者資料</option>
+<option value="OTH00200 ">應回收廢棄物稽核認證行程</option>
+<option value="OTH00539 ">應設置資源回收設施之電子電器販賣業者資料</option>
+<option value="OTH00177 ">檢測機構環保標章檢測項目登錄認可清單</option>
+<option value="SOIL00152">濱海公有掩埋場統計表</option>
+<option value="OTH01476 ">營建署事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="POP00029 ">營運中公有掩埋場掩埋場容量統計表</option>
+<option value="OTH01864 ">環保人員數</option>
+<option value="OTH01402 ">環保示範區及鄰近推薦景點</option>
+<option value="OTH00133 ">環保低碳活動</option>
+<option value="OTH01486 ">環保旅店旅館資訊</option>
+<option value="OTH00015 ">環保專案摘要資料</option>
+<option value="OTH01775 ">環保專案摘要資料_土壤及地下水</option>
+<option value="OTH01773 ">環保專案摘要資料_大氣空氣</option>
+<option value="OTH01779 ">環保專案摘要資料_公害糾紛</option>
+<option value="OTH01772 ">環保專案摘要資料_水質保護</option>
+<option value="OTH01786 ">環保專案摘要資料_其他</option>
+<option value="OTH01777 ">環保專案摘要資料_毒物管理</option>
+<option value="OTH02242 ">環保專案摘要資料_科技計畫</option>
+<option value="OTH01783 ">環保專案摘要資料_區域環境管理</option>
+<option value="OTH01785 ">環保專案摘要資料_國際性議題</option>
+<option value="OTH01776 ">環保專案摘要資料_廢棄物管理</option>
+<option value="OTH01774 ">環保專案摘要資料_噪音振動</option>
+<option value="OTH01782 ">環保專案摘要資料_環境教育</option>
+<option value="OTH01780 ">環保專案摘要資料_環境資訊系統</option>
+<option value="OTH01781 ">環保專案摘要資料_環境監測及檢測</option>
+<option value="OTH01784 ">環保專案摘要資料_環境影響評估</option>
+<option value="OTH01778 ">環保專案摘要資料_環境衛生</option>
+<option value="OTH01408 ">環保專責（技術）人員合格證書申請表</option>
+<option value="OTH01407 ">環保專責（技術）人員訓練簡章</option>
+<option value="OTH01611 ">環保專業訓練近期開班訊息</option>
+<option value="OTH01436 ">環保替代役</option>
+<option value="OTH01512 ">環保集點制度補助作業要點</option>
+<option value="OTH00007 ">環保新聞</option>
+<option value="OTH01280 ">環保署工程施工查核小組、問答集</option>
+<option value="OTH01621 ">環保署公職人員財產申報統計表</option>
+<option value="OTH00018 ">環保署公聽會資料</option>
+<option value="OTH01750 ">環保署年度施政績效報告</option>
+<option value="OTH01749 ">環保署考核直轄市及縣（市）政府環境保護績效作業要點</option>
+<option value="OTH01482 ">環保署事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="OTH01618 ">環保署社會參與辦理情形</option>
+<option value="OTH01751 ">環保署促參案件管考</option>
+<option value="OTH01548 ">環保署書面之公共工程及採購契約</option>
+<option value="OTH00098 ">環保署基金會名錄</option>
+<option value="OTH00425 ">環保署單位預算</option>
+<option value="OTH01400 ">環保署裁罰處分</option>
+<option value="OTH01617 ">環保署廉政宣導辦理情形</option>
+<option value="OTH01620 ">環保署廉政會報會議紀錄</option>
+<option value="OTH00060 ">環保署補、捐(獎)助地方政府情形表</option>
+<option value="OTH00059 ">環保署補、捐(獎)助團體及個人情形表</option>
+<option value="WAT00528 ">環保署補助地方政府設置完成之現地處理設施</option>
+<option value="OTH01619 ">環保署遊說法辦理情形</option>
+<option value="OTH01083 ">環保署環境影響評估審查委員會委員名單</option>
+<option value="OTH00975 ">環保署環境影響評估審查委員會會議紀錄</option>
+<option value="OTH02181 ">環保署環境影響評估審查委員會簡報資料</option>
+<option value="OTH00099 ">環保署職員官等性別統計資料</option>
+<option value="POP00025 ">環保標章產品(環保產品)</option>
+<option value="OTH00175 ">環保標章產品審查通過及有效數資料(第一類)</option>
+<option value="OTH00176 ">環保標章產品審查通過及有效數資料(第二類)</option>
+<option value="OTH00171 ">環保標章規格標準</option>
+<option value="OTH01825 ">環保標章規格標準之各基質管制項目及檢測方法一覽表</option>
+<option value="OTH01826 ">環保標章規格標準之各項環境荷爾蒙規定</option>
+<option value="OTH00189 ">環保標章認證實驗室資料</option>
+<option value="OTH00190 ">環保標章審議會決議事項</option>
+<option value="OTH00172 ">環保標章廠商資料</option>
+<option value="OTH00173 ">環保標章檢測項目</option>
+<option value="OTH00174 ">環保標章驗證機構資料</option>
+<option value="OTH01430 ">環保證照訓練近期開班訊息</option>
+<option value="OTH01388 ">環訓所104年度單位決算</option>
+<option value="OTH01399 ">環訓所年度年報彙編</option>
+<option value="OTH02234 ">環評主管機關受理審查之因應對策</option>
+<option value="OTH02231 ">環評主管機關受理審查之環境影響差異分析報告</option>
+<option value="OTH02230 ">環評主管機關受理審查之環境影響評估報告書</option>
+<option value="OTH02229 ">環評主管機關受理審查之環境影響說明書</option>
+<option value="OTH02235 ">環評主管機關受理審查之環境影響調查報告</option>
+<option value="OTH02232 ">環評主管機關受理審查之變更內容對照表</option>
+<option value="OTH02233 ">環評主管機關受理審查環境現況差異分析及對策檢討報告</option>
+<option value="OTH01176 ">環評監督成果統計</option>
+<option value="OTH01281 ">環評監督委員會設置要點</option>
+<option value="OTH01282 ">環評監督委員會監督委員名單</option>
+<option value="OTH01174 ">環評監督追蹤之作業架構</option>
+<option value="OTH01175 ">環評監督辦理流程</option>
+<option value="OTH01857 ">環境用藥查核次(件)數</option>
+<option value="OTH01438 ">環境用藥許可資料</option>
+<option value="OTH02113 ">環境用藥販賣業地理資料</option>
+<option value="OTH02148 ">環境用藥販賣業許可執照資料                                     </option>
+<option value="OTH00057 ">環境用藥微生物製劑常見菌種特性資料</option>
+<option value="OTH02112 ">環境用藥製造業地理資料</option>
+<option value="SOIL00145">環境地質資料－惡地圖資</option>
+<option value="SOIL00113">環境地質資料－落石圖資</option>
+<option value="OTH02150 ">環境防蟲用天然物質資料                                       </option>
+<option value="OTH01428 ">環境奈米科技論壇</option>
+<option value="ATM00010 ">環境空氣戴奧辛監測資料</option>
+<option value="OTH02163 ">環境保護人員訓練所會計月報連結</option>
+<option value="OTH02206 ">環境保護工程之興建類別環境影響評估報告書</option>
+<option value="OTH02214 ">環境保護工程之興建類別環境影響說明書</option>
+<option value="OTH00806 ">環境保護基金附屬單位決算</option>
+<option value="OTH01263 ">環境保護基金會計月報</option>
+<option value="POP00041 ">環境保護許可管理系統(暨解除列管)對象基本資料</option>
+<option value="OTH01427 ">環境科技論壇論文集</option>
+<option value="OTH02121 ">環境負荷資料</option>
+<option value="POP00064 ">環境音量監測不合格時段數</option>
+<option value="ATM00023 ">環境音量監測結果統計(依時段分)</option>
+<option value="ATM00024 ">環境音量監測結果統計(依管制區分)</option>
+<option value="OTH01418 ">環境教育(行政)人員(專長)認證申請書</option>
+<option value="OTH01416 ">環境教育(行政)人員(經歷)認證申請書</option>
+<option value="OTH01414 ">環境教育(行政)人員(學歷)認證申請書</option>
+<option value="OTH01419 ">環境教育(教學)人員(專長)認證申請書</option>
+<option value="OTH01417 ">環境教育(教學)人員(經歷)認證申請書</option>
+<option value="OTH01415 ">環境教育(教學、行政)人員(學歷)認證申請書</option>
+<option value="OTH01421 ">環境教育人員(訓練)認證申請書</option>
+<option value="OTH01524 ">環境教育人員認證展延 【常見問答】</option>
+<option value="OTH01525 ">環境教育人員認證展延研習30小時課程規劃參考表</option>
+<option value="OTH01526 ">環境教育人員認證展延研習30小時課程認可審查作業說明</option>
+<option value="OTH01426 ">環境教育人員認證得採計之專業領域課程(ODS)</option>
+<option value="OTH01425 ">環境教育人員認證得採計之專業領域課程(ODT)</option>
+<option value="OTH00062 ">環境教育人員認證資料</option>
+<option value="OTH01441 ">環境教育及訓練電子報</option>
+<option value="OTH01404 ">環境教育申報單位之有效護照開通率</option>
+<option value="OTH01410 ">環境教育活動人時</option>
+<option value="OTH01409 ">環境教育活動人數</option>
+<option value="OTH01406 ">環境教育活動數</option>
+<option value="OTH01636 ">環境教育基金管理會委員會議紀錄</option>
+<option value="OTH01635 ">環境教育基金管理會委員會議資料</option>
+<option value="OTH01411 ">環境教育終身學習有效護照人數</option>
+<option value="OTH01413 ">環境教育終身學習網影片專區使用人次</option>
+<option value="OTH01412 ">環境教育終身學習護照註冊人數</option>
+<option value="OTH01444 ">環境教育設施場所手冊</option>
+<option value="OTH01491 ">環境教育設施場所手冊</option>
+<option value="OTH01424 ">環境教育設施場所認證申請作業指引</option>
+<option value="OTH01423 ">環境教育設施場所認證申請書</option>
+<option value="OTH00001 ">環境教育設施場所認證資料</option>
+<option value="OTH01895 ">環境教育設施認證場所</option>
+<option value="OTH00128 ">環境教育課程開辦統計資料</option>
+<option value="OTH01422 ">環境教育機構認證申請書</option>
+<option value="OTH00002 ">環境教育機構認證資料</option>
+<option value="OTH00097 ">環境教育講習件數統計資料</option>
+<option value="OTH00591 ">環境現況差異分析及對策檢討報告專案小組審查會議紀錄</option>
+<option value="OTH01069 ">環境荷爾蒙管理計畫執行成果</option>
+<option value="OTH02164 ">環境雲團隊測試_20190621</option>
+<option value="OTH02166 ">環境雲團隊測試_20190709</option>
+<option value="OTH02167 ">環境雲團隊測試_20190711_6</option>
+<option value="OTH01398 ">環境督察總隊對污染源裁處資訊</option>
+<option value="OTH01297 ">環境影響差異分析報告專案小組審查會議紀錄</option>
+<option value="OTH01437 ">環境影響評估技術顧問機構評鑑成果</option>
+<option value="OTH01845 ">環境影響評估個案監督次數</option>
+<option value="OTH02227 ">環境影響評估書件以及其中涵蓋的生物類群列表</option>
+<option value="POP00072 ">環境影響評估書件資料</option>
+<option value="OTH02123 ">環境影響評估案件概況</option>
+<option value="OTH00008 ">環境影響評估案件摘要資料</option>
+<option value="OTH01296 ">環境影響評估報告書初稿專案小組初審會議紀錄</option>
+<option value="OTH02174 ">環境影響評估報告書附表五：水量、水質</option>
+<option value="OTH02175 ">環境影響評估報告書附表五：空氣</option>
+<option value="OTH02176 ">環境影響評估報告書附表五：施工階段</option>
+<option value="OTH02223 ">環境影響評估報告書附表五：廢棄物、毒化物</option>
+<option value="OTH01395 ">環境影響評估報告書修正審查結論</option>
+<option value="00518    ">環境影響評估報告書審查結論</option>
+<option value="OTH02224 ">環境影響評估報告書審查結論</option>
+<option value="OTH02182 ">環境影響評估報告書環境敏感區位調查表</option>
+<option value="OTH02237 ">環境影響評估開發案公開會議資料</option>
+<option value="OTH02238 ">環境影響評估開發案公開說明會資料</option>
+<option value="OTH02239 ">環境影響評估開發案公聽會資料</option>
+<option value="OTH02241 ">環境影響評估開發案基本資料</option>
+<option value="OTH02240 ">環境影響評估開發案現場勘察資料</option>
+<option value="OTH02236 ">環境影響評估開發案範疇界定資料</option>
+<option value="OTH01844 ">環境影響說明書完成審查件數</option>
+<option value="OTH02178 ">環境影響說明書附表五：水量、水質</option>
+<option value="OTH02179 ">環境影響說明書附表五：空氣</option>
+<option value="OTH02180 ">環境影響說明書附表五：施工階段</option>
+<option value="OTH02177 ">環境影響說明書附表五：廢棄物、毒化物</option>
+<option value="OTH01394 ">環境影響說明書修正審查結論</option>
+<option value="OTH01530 ">環境影響說明書專案小組初審會議紀錄</option>
+<option value="OTH01442 ">環境影響說明書審查結論</option>
+<option value="OTH02183 ">環境影響說明書環境敏感區位調查表</option>
+<option value="OTH01300 ">環境影響調查報告書專案小組審查會議紀錄</option>
+<option value="POP00028 ">環境檢驗測定機構許可項目資料</option>
+<option value="OTH00004 ">環境檢驗測定機構許可資料</option>
+<option value="ATM00629 ">總碳氫化合物（THC）監測小時值</option>
+<option value="ATM00760 ">總碳氫化合物(THC)監測小時值(每小時提供)                           </option>
+<option value="ATM00730 ">點源網格空氣污染排放量(TWD97)</option>
+<option value="OTH01474 ">醫療事業廢棄物再利用機構許可及登記檢核資料</option>
+<option value="POP00054 ">證件資料(毒性化學物質許可管理)</option>
+<option value="ECO00022 ">蘇花公路改善工程蛾類調查資料集</option>
+<option value="OTH02209 ">鐵路之開發類別環境影響評估報告書</option>
+<option value="OTH02219 ">鐵路之開發類別環境影響說明書</option>
+<option value="OTH01823 ">攤商之廢食用油產源基本資料</option>
+<option value="OTH01298 ">變更內容對照表專案小組初審會議紀錄</option>
+<option value="WAT00411 ">驗證作業執行進度管考統計表</option>
+<option value="WAT00526 ">鹽水溪污染整治小組及再生願景聯繫會報</option>
+<option value="ATM00476 ">觀測網月資料</option>
+</select></td></tr>
+                <tr>
+                    <td align="right">
+                        <input id="btn_submit" type="submit" value="確認送出" onclick="SubmitData();" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+</form></div>
+
+        </div>
+    <div id="MaskDiv" class="bg_black" style="display: none;"></div>
+    <div id="marquee" style="background-color: #2a5889;color: #FFF;font-size: 14px;padding: 5px 45px;font-weight: bold;">
+    </div>
+    <div id="WRAPPER_br">
+        <!--boying 20170303 修改UI
+        <div class="WRAPPER_DATAepa_TOP">
+            
+    <p class="news">
+        <a style="cursor: pointer;" onclick="document.getElementById('NewsDiv').style.display='';document.getElementById('MaskDiv').style.display='';return false;" onkeypress="document.getElementById('NewsDiv').style.display='';document.getElementById('MaskDiv').style.display='';">最新公告
+特有生物研究保育中心109/10/1下架13個資料集：【台灣...        </a>
+    </p>
+
+            <h6><span>:::</span>
+                <a href="/Home/Index/">回首頁</a>  ╲  
+                <a href="/AboutUs/SiteMap/">網站地圖</a>  ╲  
+                <a href="/AboutUs/Questions/">常見問答</a> ╲  
+                <a href="https://epamail.epa.gov.tw/front/mailboxhome" target="_blank">意見回饋</a> ╲ 
+                <a href="#" onclick="document.getElementById('RegisterDiv').style.display='';document.getElementById('MaskDiv').style.display='';return false;" onkeypress="document.getElementById('RegisterDiv').style.display='';document.getElementById('MaskDiv').style.display='';">權限登記</a>
+            </h6>
+            <br class="CLEAR" />
+        </div>
+        -->
+        <!--boying 20170303 新增文字和Logo-->
+        <div class="WRAPPER_DATAepa_BANNER">
+            <div class="Banner">
+                
+    <div class="WRAPPER_DATAepa_BANNER_inside">
+        <div class="BannerBox">
+            <h1 class="p2"></h1>
+        </div>
+    </div>
+
+                <div class="print_logo"></div>
+                <p class="logostr">行政院環境保護署。環境資源資料開放平臺</p>
+            </div>
+        </div>
+        
+        <div class="WRAPPER_DATAepa_TOPbuttom">
+            <div id='cssmenu'>
+                
+                <ul>
+                    <li class='has-sub'>
+                        <a href='/DevelopZone/NewsList/'>最新消息</a>
+                    </li>
+                        <!--boying 20170303 拿掉:::-->
+                        <!--<li class='has-sub'>:::<a href="#" onclick="document.getElementById('QuestionDiv').style.display='';document.getElementById('MaskDiv').style.display='';return false;" onkeypress="document.getElementById('QuestionDiv').style.display='';document.getElementById('MaskDiv').style.display='';"><span style="color: #FF0;">問卷調查</span></a>-->
+                        <li class='has-sub'>
+                            <a href="#" onclick="document.getElementById('QuestionDiv').style.display='';document.getElementById('MaskDiv').style.display='';return false;" onkeypress="document.getElementById('QuestionDiv').style.display='';document.getElementById('MaskDiv').style.display='';"><span class="response">問卷調查</span></a>
+                            <ul>
+                                <li><a href="#" onclick="document.getElementById('QuestionDiv').style.display='';document.getElementById('MaskDiv').style.display='';return false;" onkeypress="document.getElementById('QuestionDiv').style.display='';document.getElementById('MaskDiv').style.display='';"><span>服務調查</span></a></li>
+                            </ul>
+                        </li>
+                    <li class='has-sub'>
+                        <a href='/DevelopZone/MemberSample/'>會員API介接註冊</a>
+                    </li>
+
+                    <li class='has-sub'>
+                        <a href='/DevelopZone/'><span>開發指南</span></a>
+                        <ul>
+                            <li><a href='/DevelopZone/DataList/'><span>資料清單</span></a></li>
+                            <li><a href='/DataList.csv'><span>資料清單下載</span></a></li>
+                            <li><a href='/DevelopZone/Sample/'><span>使用範例</span></a></li>
+                            <li><a href='/DevelopZone/Reference/'><span>引用紀錄</span></a></li>
+                            <li><a href='/Data/DataChangeRecord/'><span>異動紀錄</span></a></li>
+                            <li><a href='/DevelopZone/MemberSample/'><span>API介接服務條款</span></a></li>
+                            <li><a href='/License/License/'><span>資料規範</span></a></li>
+                            <li class='last'><a href='/License/Notice/'><span>隱私權保護宣告</span></a></li>
+                                <!-- <li class='has-sub'><a href="#" onclick="document.getElementById('RegisterDiv').style.display='';document.getElementById('MaskDiv').style.display='';return false;" onkeypress="document.getElementById('RegisterDiv').style.display='';document.getElementById('MaskDiv').style.display='';"><span>權限登記</span></a>
+        </li> -->
+                            <li style="display: none;"><a href='/DevelopZone/F4V_devLOD_01/'><span>LOD說明</span></a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class='has-sub'>
+                        <a href='/AboutUs/Origin/'><span>關於我們</span></a>
+                        <ul>
+                            <li><a href='https://epamail.epa.gov.tw/front/mailboxhome' target="_blank"><span>意見信箱</span></a></li>
+                            <li><a href='/AboutUs/Origin/'><span>平台緣起</span></a></li>
+                            <li><a href='/AboutUs/Questions/'><span>常見問答</span></a></li>
+                            <li><a href="/AboutUs/Institutions"><span>協力單位</span></a></li>
+                            <li class='last'><a href='/AboutUs/SiteMap/'><span>網站地圖</span></a></li>
+                        </ul>
+                    </li>
+                    <li class='has-sub'>
+                        <a href="/Home/"><span>回首頁</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+
+
+
+<div id="epa__home__modal"
+    style="background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: auto;
+      font-family: '微軟正黑體';
+      z-index: 999;
+      color: #44546A;
+    "
+  >
+    <div
+      style="
+        background-color: white;
+        width: 80%;
+        max-width: 750px;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto auto 20px auto;
+        overflow: auto;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 15px rgba(0, 0, 0, 0.2);
+      "
+    >
+      <h2
+        style="color:#1d8db2; margin-top: 1rem;margin-bottom: 1.25rem;"
+      >
+        試行版「環保署環境資料開放平臺」發布公告
+      </h2>
+      <p style="margin: 1rem initial;">
+        本署為提升服務品質已推出新版
+        <a href="https://data.epa.gov.tw/" target="_blank"
+          style="color:#39abc7;text-decoration: none;font-weight: 600;"
+        >
+          「環保署環境資料開放平臺」(data.epa.gov.tw)
+        </a>
+        (試行版)，提供資料資源之歷史/即時資料下載與 API 介接；<br>
+        現有之「環境資源資料開放平臺」(opendata.epa.gov.tw)預計併行 1 個月之後停止服務，<br>
+        <b
+          style="color:#48a96f;font-weight: 600;font-size: 1.1rem;"
+        >
+          請改用新平臺
+        <a href="https://data.epa.gov.tw/" target="_blank" style="color:#39abc7;text-decoration: none;font-weight: 600;">
+          (data.epa.gov.tw)
+        </a>
+        進行 API 介接，為確保您的使用權益，請於一個月內至本署新平臺重新申請API Key。
+        </b>
+      </p>
+
+      <p style="margin: 1rem initial;">
+        關於本署新平臺相關授權之申請，請參考：<br>
+        <a href="https://data.epa.gov.tw/api_term" target="_blank" style="color:#39abc7;text-decoration: none;font-weight: 900;">會員註冊 (https://data.epa.gov.tw/api_term)</a><br>
+        <a href="https://data.epa.gov.tw/paradigm" target="_blank" style="color:#39abc7;text-decoration: none;font-weight: 600;">取得 API Key 之程序 (https://data.epa.gov.tw/paradigm)
+        </a><br>
+        若有任何疑問，歡迎寄信至 a0-od@epa.gov.tw <br>
+        或來電詢問 (02)2311-7722 分機 #2393 <br>
+      </p>
+      <p style="text-align: center; margin-bottom: 0; margin: 1rem initial;">
+        <button
+          style="
+            background-color:#f7f6f1;
+            border:none;
+            padding: 10px 20px;
+            font-weight: 900;
+            color:gray;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 5px #e7e7e4;
+          "
+          onclick="(function(){
+            document.getElementById('epa__home__modal').style.display='none';
+          })()"
+        >了解</button>
+      </p>
+    </div>
+  </div>
+  
+<div class="WRAPPER_DATAepa_MIDDLE">
+    <div class="MIDDLE_TOP">
+        <div class="Search">
+<form action="/Data/KeywordQuery" id="frm" method="post" name="frm"><input name="__RequestVerificationToken" type="hidden" value="SF3no6YFpCBluAhFlJyGnNqAaFVMESgS87djy2NNR8lvaQRw5ZhnDn6m5BLIZvIEZU8BClY38qZXYiDHYCgZ2RweJxFDRuKBWaRKyf2kKqTGMFy2W5GnigMzEwaluz3MIhZyL2vVlq-L_oTJlkXx-pIhX-l8N4L_1USDDoyTHjc1" />                <input type="hidden" name="SK" value="5a85657868f4300faab051b60ad62651" />
+                <input type="hidden" name="Filter.QueryDataName" value="true" />
+                <input type="hidden" name="Filter.QueryCategory" value="true" />
+                <input type="hidden" name="Filter.QueryDataProvide" value="true" />
+                <input type="hidden" name="Filter.QueryDataKeywords" value="true" />
+                <div class="gull_out">
+                    <!--boying 20170427 加上id-->
+                    <input class="gull" id="Keyword" name="Filter.QueryKeyword" type="search" onfocus="if (this.value=='哈囉 ! 找什麼資料嗎 ? ') this.value='';" onblur="if (this.value=='') this.value='哈囉 ! 找什麼資料嗎 ? ';" value="哈囉 ! 找什麼資料嗎 ? " />
+                </div>
+                <!---->
+                <!--boying 20170427 將onclick和onkeypress獨立置script區塊-->
+                <p><a href="#" onclick="SubmitKeywordQuery();" onkeypress="SubmitKeywordQuery();"></a></p>
+</form>            <br class="CLEAR" />
+        </div>
+        <div class="TotalCount">
+
+            
+
+            
+                            <div class="Cell_s" onclick="location.href='/DevelopZone/DataList/'">
+                                <div class="Icon"><img src="..//Images/image_20170327/opendata_04-12.png" /></div>
+                                <div class="Text">
+                                    <div class="Count">1,370項</div>
+                                    <div class="Unit">環境資料</div>
+                                </div>
+                            </div>
+                            <div class="Cell_s" onclick="location.href='/AboutUs/Institutions'">
+                                <div class="Icon"><img src="..//Images/image_20170327/opendata_14.png" /></div>
+                                <div class="Text">
+                                    <div class="Count">44個</div>
+                                    <div class="Unit">協力單位</div>
+                                </div>
+                            </div>
+                            <div class="Cell_s" onclick="location.href='/DevelopZone/Sample/'">
+                                <div class="Icon"><img src="..//Images/image_20170327/opendata_16.png" /></div>
+                                <div class="Text">
+                                    <div class="Count"></div>
+                                    <div class="Unit">使用範例</div>
+                                </div>
+                            </div>
+                            <div class="Cell_s" onclick="location.href='/AppArea/AppList/'">
+                                <div class="Icon"><img src="..//Images/image_20170327/opendata_19.png" /></div>
+                                <div class="Text">
+                                    <div class="Count">17項</div>
+                                    <div class="Unit">應用服務</div>
+                                </div>
+                            </div>
+                            <div class="Cell_s" onclick="location.href='/DevelopZone/ReferenceChart'">
+                                <div class="Icon"><img src="..//Images/image_20170327/opendata_09.png" /></div>
+                                <div class="Text">
+                                    <div class="Count">46,457萬次</div>
+                                    <div class="Unit">引用下載</div>
+                                </div>
+                            </div>
+                            <div class="Cell_s" onclick="window.open('https://opendata.epa.gov.tw/api/index.html','_new')">
+                                <div class="Icon"><img src="/Images/image_20170327/opendata_05.png" /></div>
+                                <div class="Text">
+                                    <div class="Count">956項</div>
+                                    <div class="Unit">OPEN API</div>
+                                </div>
+                            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="Middle">
+        <div class="DataSet">
+            <div id="ToRight" class="ToRight"></div>
+            <div id="ToLeft" class="ToLeft"></div>
+            <div id="TypeGroup" class="TypeGroup">
+                <div style="margin-bottom: 15px;color: gray;"><h1>資料集類別查詢</h1><h2 style="color:#39abc7;font-size: 1.8em;">月熱門資料集</h2></div>
+                
+
+                    <div class="Cell" onclick="location.href = /Data/CategoryQuery/?Filter.QueryItem[0]=true">
+                        <div class="Top">
+                            <div class="Icon"><img src="..//Images/image_20170327/opendata_26.png" /></div>
+                            <div class="Title"><a href="/Data/CategoryQuery/?Filter.QueryItem[0]=true" style="color:#49A9E4">大氣</a></div>
+                        </div>
+                        <div class="Mid" title="引用次數: 3,154,856
+更新時間: 2019/07/15">
+                            <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="/Data/Details/AQI/" style="vertical-align:middle;">空氣品質指標(AQI)                                        </a>
+                        </div>
+                        <div class="Bot">
+                            <div>引用次數 3,154,856 次</div>
+                            <div style="text-align:right;">共 284 項</div>
+                        </div>
+                    </div>
+                    <div class="Cell" onclick="location.href = /Data/CategoryQuery/?Filter.QueryItem[0]=true">
+                        <div class="Top">
+                            <div class="Icon"><img src="..//Images/image_20170327/opendata_29.png" /></div>
+                            <div class="Title"><a href="/Data/CategoryQuery/?Filter.QueryItem[0]=true" style="color:#81D4E9">水</a></div>
+                        </div>
+                        <div class="Mid" title="引用次數: 7,081
+更新時間: 2020/09/23">
+                            <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="/Data/Details/WQXRiver/" style="vertical-align:middle;">河川水質監測資料 </a>
+                        </div>
+                        <div class="Bot">
+                            <div>引用次數 7,081 次</div>
+                            <div style="text-align:right;">共 120 項</div>
+                        </div>
+                    </div>
+                    <div class="Cell" onclick="location.href = /Data/CategoryQuery/?Filter.QueryItem[0]=true">
+                        <div class="Top">
+                            <div class="Icon"><img src="..//Images/image_20170327/opendata_32.png" /></div>
+                            <div class="Title"><a href="/Data/CategoryQuery/?Filter.QueryItem[0]=true" style="color:#826012">地</a></div>
+                        </div>
+                        <div class="Mid" title="引用次數: 470
+更新時間: 2019/01/04">
+                            <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="/Data/Details/SOIL00064/" style="vertical-align:middle;">土石流警戒資料 </a>
+                        </div>
+                        <div class="Bot">
+                            <div>引用次數 470 次</div>
+                            <div style="text-align:right;">共 74 項</div>
+                        </div>
+                    </div>
+                    <div class="Cell" onclick="location.href = /Data/CategoryQuery/?Filter.QueryItem[0]=true">
+                        <div class="Top">
+                            <div class="Icon"><img src="..//Images/image_20170327/opendata_35.png" /></div>
+                            <div class="Title"><a href="/Data/CategoryQuery/?Filter.QueryItem[0]=true" style="color:#419066">林</a></div>
+                        </div>
+                        <div class="Mid" title="引用次數: 258
+更新時間: 2020/10/15">
+                            <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="/Data/Details/FRT00018/" style="vertical-align:middle;">木材市價單一樹種報表 </a>
+                        </div>
+                        <div class="Bot">
+                            <div>引用次數 258 次</div>
+                            <div style="text-align:right;">共 27 項</div>
+                        </div>
+                    </div>
+                    <div class="Cell" onclick="location.href = /Data/CategoryQuery/?Filter.QueryItem[0]=true">
+                        <div class="Top">
+                            <div class="Icon"><img src="..//Images/image_20170327/opendata_59.png" /></div>
+                            <div class="Title"><a href="/Data/CategoryQuery/?Filter.QueryItem[0]=true" style="color:#62B264">生態</a></div>
+                        </div>
+                        <div class="Mid" title="引用次數: 292
+更新時間: 2015/02/16">
+                            <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="/Data/Details/EndemicAnimals/" style="vertical-align:middle;">台灣特有種動物清單資料集 </a>
+                        </div>
+                        <div class="Bot">
+                            <div>引用次數 292 次</div>
+                            <div style="text-align:right;">共 21 項</div>
+                        </div>
+                    </div>
+                    <div class="Cell" onclick="location.href = /Data/CategoryQuery/?Filter.QueryItem[0]=true">
+                        <div class="Top">
+                            <div class="Icon"><img src="..//Images/image_20170327/opendata_52.png" /></div>
+                            <div class="Title"><a href="/Data/CategoryQuery/?Filter.QueryItem[0]=true" style="color:#595959">生活環境與其他</a></div>
+                        </div>
+                        <div class="Mid" title="引用次數: 975
+更新時間: 2020/05/27">
+                            <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="/Data/Details/EPMonthly/" style="vertical-align:middle;">Environmental Policy Monthly </a>
+                        </div>
+                        <div class="Bot">
+                            <div>引用次數 975 次</div>
+                            <div style="text-align:right;">共 785 項</div>
+                        </div>
+                    </div>
+                    <div class="Cell" onclick="location.href = /Data/CategoryQuery/?Filter.QueryItem[0]=true">
+                        <div class="Top">
+                            <div class="Icon"><img src="..//Images/image_20170327/opendata_55.png" /></div>
+                            <div class="Title"><a href="/Data/CategoryQuery/?Filter.QueryItem[0]=true" style="color:#44546A">污染防治</a></div>
+                        </div>
+                        <div class="Mid" title="引用次數: 229,791
+更新時間: 2020/10/16">
+                            <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="/Data/Details/POP00049/" style="vertical-align:middle;">固定污染源CEMS監測數據紀錄值資料集(15分鐘紀錄值) </a>
+                        </div>
+                        <div class="Bot">
+                            <div>引用次數 229,791 次</div>
+                            <div style="text-align:right;">共 76 項</div>
+                        </div>
+                    </div>
+
+</div>
+
+            <div id="DataGroup" class="DataGroup">
+                <div style="margin-bottom: 15px;color: gray;"><h1>資料集型態查詢</h1><h2 style="color:#39abc7;font-size: 1.8em;">月熱門資料集</h2></div>
+                
+
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[1]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/opendata_05.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[1]=true" style="color:#49A9E4">監測資料</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 3,154,856
+更新時間: 2016/12/01">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/AQI/" style="vertical-align:middle;">空氣品質指標(AQI)          ... </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 3,154,856 次</div>
+                                <div style="text-align:right;">共 184 項</div>
+                            </div>
+                        </div>
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[2]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/s_07.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[2]=true" style="color:#81D4E9">基本資料</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 11,288
+更新時間: 2018/09/13">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/ATM00766/" style="vertical-align:middle;">PM2.5日均值(每日提供)       ... </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 11,288 次</div>
+                                <div style="text-align:right;">共 370 項</div>
+                            </div>
+                        </div>
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[3]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/s_12.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[3]=true" style="color:#826012">調查資料</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 727,042
+更新時間: 2015/08/04">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/ATM00083/" style="vertical-align:middle;">空氣品質監測小時值資料(一般污染物,每日更... </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 727,042 次</div>
+                                <div style="text-align:right;">共 128 項</div>
+                            </div>
+                        </div>
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[4]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/s_26.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[4]=true" style="color:#419066">預報資料</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 140,749
+更新時間: 2014/10/01">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/AQFN/" style="vertical-align:middle;">空氣品質預報資料 </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 140,749 次</div>
+                                <div style="text-align:right;">共 5 項</div>
+                            </div>
+                        </div>
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[6]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/s_05.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[6]=true" style="color:#62B264">統計資料</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 1,163
+更新時間: 2016/02/23">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/POP00041/" style="vertical-align:middle;">環境保護許可管理系統(暨解除列管)對象基本... </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 1,163 次</div>
+                                <div style="text-align:right;">共 161 項</div>
+                            </div>
+                        </div>
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[7]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/s_18.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[7]=true" style="color:#595959">檔案資料</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 41
+更新時間: 2016/02/02">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/ATM00291/" style="vertical-align:middle;">空氣品質監測即時影像資料(發布) </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 41 次</div>
+                                <div style="text-align:right;">共 218 項</div>
+                            </div>
+                        </div>
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[8]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/s_20.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[8]=true" style="color:#44546A">地理圖資</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 7
+更新時間: 2016/07/27">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/OTH01513/" style="vertical-align:middle;">高雄市航空噪音管制區 </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 7 次</div>
+                                <div style="text-align:right;">共 13 項</div>
+                            </div>
+                        </div>
+                        <div class="Cell" onclick="location.href='///Data/TypeQuery/?Filter.QueryItem[9]=true'">
+                            <div class="Top">
+                                <div class="Icon"><img src="../..//Images/image_20170327/s_23.png" /></div>
+                                <div class="Title"><a href="///Data/TypeQuery/?Filter.QueryItem[9]=true" style="color:#49A9E4">連結資料</a></div>
+                            </div>
+                            <div class="Mid" title="引用次數: 78
+更新時間: 2016/08/05">
+                                <img src="/Images/icon_hot.png" alt="" style="float:left;" /><a href="///Data/Details/OTH01665/" style="vertical-align:middle;">廢食用油流向清運資料統計(屬事業廢棄物部分... </a>
+                            </div>
+                            <div class="Bot">
+                                <div>引用次數 78 次</div>
+                                <div style="text-align:right;">共 255 項</div>
+                            </div>
+                        </div>
+
+            </div>
+
+            <div class="HiddenGroup">
+                        <div class="Cell">
+                        </div>
+                        <div class="Cell">
+                        </div>
+                        <div class="Cell">
+                        </div>
+                        <div class="Cell">
+                        </div>
+                        <div class="Cell">
+                        </div>
+                        <div class="Cell">
+                        </div>
+                        <div class="Cell">
+                        </div>
+                        <div class="Cell">
+                        </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="WRAPPER_DATAepa_MIDDLE_NEWS">
+    <h1><img src="/Images/icon_new.png" alt="" />最新資料集</h1>
+        <div id="marquee2" style="overflow:hidden;width:80%;margin-left:10%;">
+            <table>
+                <tr>
+                    <td id="marquee2_id1" style="padding:0;">
+                        <table>
+                            <tr>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02174">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環境影響評估報告書附表五：水量、水質</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02175">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:21rem;">環境影響評估報告書附表五：空氣</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02176">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:23.8rem;">環境影響評估報告書附表五：施工階段</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02177">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環境影響說明書附表五：廢棄物、毒化物</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02178">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:22.4rem;">環境影響說明書附表五：水量、水質</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02179">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:18.2rem;">環境影響說明書附表五：空氣</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02180">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:21rem;">環境影響說明書附表五：施工階段</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02181">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環保署環境影響評估審查委員會簡報資料</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02182">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環境影響評估報告書環境敏感區位調查表</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02183">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:22.4rem;">環境影響說明書環境敏感區位調查表</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="marquee2_td2" style="padding:0;">
+                        <table>
+                            <tr>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02174">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環境影響評估報告書附表五：水量、水質</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02175">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:21rem;">環境影響評估報告書附表五：空氣</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02176">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:23.8rem;">環境影響評估報告書附表五：施工階段</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02177">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環境影響說明書附表五：廢棄物、毒化物</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02178">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:22.4rem;">環境影響說明書附表五：水量、水質</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02179">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:18.2rem;">環境影響說明書附表五：空氣</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02180">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:21rem;">環境影響說明書附表五：施工階段</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02181">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環保署環境影響評估審查委員會簡報資料</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02182">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:25.2rem;">環境影響評估報告書環境敏感區位調查表</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+<td class="news_box">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img src="/Images/icon_new_s.png" alt="" style="vertical-align:middle;" />
+                                                    </td>
+                                                    <td>
+                                                        <a href="/Data/Contents/OTH02183">
+                                                            <div>2020/6/29</div>
+                                                            <div style="width:22.4rem;">環境影響說明書環境敏感區位調查表</div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+</div>
+<script>
+    $(document).ready(function () {
+        var more = $('<li id="more"><h4><a href="#">更多</h4><br class="CLEAR" /></li>');
+        var less = $('<li id="less"><h4><a href="#">更少</h4><br class="CLEAR" /></li>');
+
+        //boying 20170427 取出滑動狀態
+        var SlideStatus = GetCookie("SlideStatus");
+        console.log(SlideStatus);
+        if (SlideStatus != undefined)
+        {
+            if (SlideStatus == 'RIGHT')
+            {
+                $("#ToLeft").show();
+                $("#ToRight").hide();
+                $('#TypeGroup').hide();
+                $('#DataGroup').show();
+            }
+        }
+        //------
+        //boying 20170427 keyword為空時放入 "哈囉 ! 找什麼資料嗎 ? "
+        var KeywordValue = document.getElementById('Keyword').value;
+        if (KeywordValue == '') {
+            document.getElementById('Keyword').value = "哈囉 ! 找什麼資料嗎 ? ";
+        }
+        //---
+        $('ul#list').children('li:gt(5)').hide();
+        $('ul#list').append(more);
+
+        $('body').on('click', '#more', function (e) {
+            e.preventDefault();
+            $(this).remove();
+            $('ul#list').children().show();
+            $('ul#list').append(less);
+            return false;
+        });
+
+        $('body').on('click', '#less', function (e) {
+            e.preventDefault();
+            $(this).remove();
+            $('ul#list').children('li:gt(5)').hide();
+            $('ul#list').append(more);
+            return false;
+        });
+
+        
+
+        var r = 'no';
+        var d = new Date();
+        var limitDate = Date.parse("2017-01-01 00:00:00");
+
+        if (d < limitDate && r != 'yes') {
+            $("#NewsDiv").show();
+            $("#MaskDiv").show();
+        }
+        
+
+        var marqueeText = $("#NewsDiv .index_newsbox p.data:eq(0)").text().trim();
+        if (marqueeText.length > 90) {
+            marqueeText = marqueeText.substring(0, 90) + "...";
+        }
+        $("#marquee").append("系統公告 " + marqueeText);
+        $("#marquee").click(function () {
+            $("#NewsDiv").show();
+        });
+    });
+
+    //20170411 boying 左右滑動
+    $.getScript('/' + "/Scripts/jquery-ui-1.10.3.js", function () {
+        var effect = 'slide';
+        var options = { direction: 'left' };
+        var options2 = { direction: 'right' };
+        var duration = 1000;
+
+        $("#ToRight").click(
+            function () {
+                $("html").css('overflowX', 'hidden');
+                $('#TypeGroup').toggle(effect, options, duration, function () { SlideComplete('right') });
+                $('#DataGroup').toggle(effect, options2, duration);
+                $("#ToRight").hide();
+                document.cookie = "SlideStatus=RIGHT";
+            }
+        )
+        $("#ToLeft").click(
+            function () {
+                $("html").css('overflowX', 'hidden');
+                $('#TypeGroup').toggle(effect, options, duration, function () { SlideComplete('left') });
+                $('#DataGroup').toggle(effect, options2, duration).ajaxSuccess;
+                $("#ToLeft").hide();
+                document.cookie = "SlideStatus=LEFT";
+            }
+        )
+    });
+
+    // 最新公告 跑馬燈
+    var marquee = document.getElementById('marquee2');
+    var div = document.getElementById('marquee2_td2');
+    function scrollMarquee() {
+        if (div.offsetWidth - marquee.scrollLeft <= 0) {
+            marquee.scrollLeft = 0;
+        } else {
+            marquee.scrollLeft++;
+        }
+    }
+    var timer = setInterval(scrollMarquee, 20);
+    $("#marquee2").mouseover(function () {
+        clearInterval(timer);
+    }).mouseleave(function () {
+        timer = setInterval(scrollMarquee, 20);
+    })
+
+
+    function SlideComplete(dur) {
+        if (dur == 'left')
+            $("#ToRight").show();
+        else
+            $("#ToLeft").show();
+        document.documentElement.style.overflowX = "visible";
+    }
+
+    function GetCookie(key) {
+        var aryCookie = document.cookie.split(";");
+        for (var i = 0; i < aryCookie.length; i++)
+        {
+            var cookieName = aryCookie[i].split("=");
+            if (cookieName[0] == key)
+            {
+                return cookieName[1];
+            }
+        }
+    }
+    
+    function SubmitKeywordQuery() {
+        var KeywordValue = document.getElementById('Keyword').value;
+        if (KeywordValue == '哈囉 ! 找什麼資料嗎 ? ')
+        {
+            document.getElementById('Keyword').value = "";
+        }
+        document.getElementById('frm').submit();
+        return false;
+    }
+    //-------
+	
+	//--- 新平台公告 ---
+    // ShowNewBulletin();
+    // function ShowNewBulletin() {
+    //     window.open('https://opendata.epa.gov.tw/Bulletin20200618.html', '系統公告', config = 'height=400px,width=600px,scrollbars=yes');
+    // }
+    //--- 新平台公告 end ---
+	
+</script>
+
+
+        <!--boying 20170302 修改UI-->
+        <div class="WRAPPER_DATAepa_BOTTOM">
+            <div class="title"></div>
+            <div class = "info">
+                <p>10042臺北市中正區中華路一段83號&nbsp;<a href="http://www.epa.gov.tw/ct.asp?xItem=19790&amp;ctNode=30631&amp;mp=epa" target="_blank">地圖</a>&nbsp;&nbsp;客服中心 電話：(02)2311-7722 #2393 信箱：a0-od@epa.gov.tw</p>
+                <p>瀏覽人次 6,838,124 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;資料更新日期 109年10月17日</p>
+            </div>
+            <div class = "other">
+                <p>請使用1024*768px螢幕解析度獲得最佳網頁瀏覽環境</p>
+                <a class="whiteA" href="http://www.epa.gov.tw/ct.asp?xItem=5278&ctNode=30609&mp=epa">隱私權政策</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="whiteA" href="http://www.epa.gov.tw/ct.asp?xItem=5277&ctNode=30609&mp=epa">資訊安全政策</a>
+            </div>
+        </div>
+        <!---->
+    </div>
+</body>
+</html>
+
