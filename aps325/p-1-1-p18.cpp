@@ -4,17 +4,12 @@
 using namespace std;
 int f();
 int g();
-int gx();
 int main(){
-    while(1){
         string s;cin>>s;
         if(s=="f")
             cout<< f();
         else if(s=="g")
             cout<< g();
-
-    }
-    
 
 }
 
@@ -32,17 +27,15 @@ int f(){
 }
 
 int g(){
-    return gx()+2*gx()-3;
-}
-
-int gx(){
-    string s;cin>>s;
-    if(s=="f")
-        return f();
-    else if(s=="g")
-        return g();
-    else{
-        int n=atoi(s.c_str());
-        return n;
-    }
+    int gx[2]={};
+    for(int i=0;i<2;i++){
+        string s;cin>>s;
+        if(s=="f")
+            gx[i]=f();
+        else if(s=="g")
+            gx[i]=g();
+        else
+            gx[i]=atoi(s.c_str());
+    }       
+    return gx[0]+2*gx[1]-3;
 }
