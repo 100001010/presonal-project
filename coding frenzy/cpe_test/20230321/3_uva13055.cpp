@@ -14,7 +14,7 @@ int main(){
         string str;cin>>str;
         
         if(str == "Sleep"){
-            cin>>str;
+            cin>>str,
             sta.push(str);
             //cout<<str<<endl;
         }else if(str == "Test"){

@@ -4,12 +4,12 @@ using namespace std;
 int main(){
     #ifdef fre
         freopen("in.txt","r",stdin);
-        freopen("out.text","w",stdout);
+        freopen("out.txt","w",stdout);
     #endif
     int a,b;
     while(cin>>a>>b&&(a!=0||b!=0)){
         int t=0,ans=0;
-        while(a!=0||b!=0){
+        while(a||b){
             t=(a%10+b%10+t)/10;
             if(t){
                 ans+=1;
