@@ -11,9 +11,9 @@ int main(){
         freopen("out.txt","w",stdout);
     #endif
     string s;
-    getline(cin, s);getline(cin, s);
+    getline(cin, s);
 
-    while (getline(cin, s))
+    while (getline(cin, s)){
         vector<string> vec;
         vector<double> time;
 
@@ -30,17 +30,19 @@ int main(){
             if(up==vec[i]){
                 time[time.size()-1]++;
             }else{
-                total++;
+                
                 time.push_back(1);
                 up=vec[i];
             }
+            total++;
         }
-        up=vec[0];
+        up=vec[0];cout<<vec[0]<<" "<<time[0]/total<<endl;
+        int j=1;
         for(int i=1;i<vec.size();i++){
             if(up==vec[i]){
                 continue;
             }else{
-                cout<<vec[i]<<" "<<time[i]/total<<endl;
+                cout<<vec[i]<<" "<<time[j++]/total<<endl;
             }
         }
         cout<<endl;
