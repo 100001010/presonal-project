@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 int point=-1;
-int f(string s,int n){
+int f(string &s,int n){
     point++;
     if(s[point]=='0'){
         return 0; 
@@ -15,10 +15,10 @@ int f(string s,int n){
 }
 
 int main(){
-    // #ifdef fre
+    #ifdef fre
         freopen("in.txt","r",stdin);
         freopen("out.txt","w",stdout);
-    // #endif
+    #endif
     string s;
     int n;
     cin>>s>>n;
