@@ -26,6 +26,24 @@
         "span": "cpp",
         "string_view": "cpp",
         "unordered_map": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "*.tcc": "cpp",
+        "__bit_reference": "cpp",
+        "__node_handle": "cpp",
+        "atomic": "cpp",
+        "chrono": "cpp",
+        "cstddef": "cpp",
+        "__memory": "cpp",
+        "limits": "cpp",
+        "locale": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "charconv": "cpp",
+        "format": "cpp",
+        "functional": "cpp",
+        "utility": "cpp",
+        "map": "cpp"
     }
 }

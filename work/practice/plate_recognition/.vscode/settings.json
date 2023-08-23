@@ -8,6 +8,23 @@
         "vector": "cpp",
         "fstream": "cpp",
         "locale": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "__tree": "cpp",
+        "atomic": "cpp",
+        "deque": "cpp",
+        "filesystem": "cpp",
+        "ios": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "unordered_map": "cpp",
+        "stack": "cpp",
+        "sstream": "cpp",
+        "array": "cpp",
+        "span": "cpp",
+        "string_view": "cpp",
+        "__bit_reference": "cpp"
     }
 }
