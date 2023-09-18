@@ -11,9 +11,9 @@ int main(){
             ans[toupper(c)]++;
     }
     for(int j=1000;j>0;j--)
-    for(int i=65;i<=90;i++){
-        if(ans[i]==j){
-            cout<<char(i)<<" "<<ans[i]<<endl;
+        for(int i=65;i<=90;i++){
+            if(ans[i]==j){
+                cout<<char(i)<<" "<<ans[i]<<endl;
+            }
         }
-    }
 }

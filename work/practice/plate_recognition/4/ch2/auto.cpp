@@ -627,7 +627,7 @@ int main(){
     push_acelin_data(acelin_data,dvr_white_list);
     push_aaeon_data(aaeon_data,dvr_white_list);
     
-    print_queue_data(acelin_data);
+    //print_queue_data(acelin_data);
     //cout<<"======================================================================\n";
     //print_queue_data(aaeon_data);
     //cout<<"======================================================================\n";

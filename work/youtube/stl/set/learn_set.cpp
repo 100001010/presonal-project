@@ -1,5 +1,6 @@
 #include<iostream>
 #include<set>
+#include<vector>
 using namespace std;
 template <typename a> void print(a s,int n){
     cout<<n<<":";
@@ -184,33 +185,60 @@ int main(){
     //基本上，指定位置是沒有意義的，因為會重新排序
     set <int>s19({5,24,1,2,34,1});
     print(s19,19);
-    s19.insert(s19.begin(),{4,1,3,2,32,14,1});
+    int test=10;
+    s19.insert(s19.begin(),test);
     print(s19,19);
 
-    //iterator insert(const_iterator Where,const value_type& Val);
+    //template <class ValTy>
+    //iterator insert(const_iterator Where,ValTy&& Val);
     //基本上，指定位置是沒有意義的，因為會重新排序
     set <int>s20({4,14,3});
     print(s20,20);
     s20.insert(s20.begin(),2);
     print(s20,20);
-    
-    //
+   
+    //template <class InputIterator>
+    //void insert(InputIterator First,InputIterator Last);
+    set <int> s21_t({1,3,2});
+    set <int> s21({5,9,7});
+    print(s21,21);
+    s21.insert(s21_t.begin(),advance(s21_t.begin(),2));
+    print(s21,21);
+
+    set<int> s24;
+    vector<int>v24={3,5,2,1};
+    print(s24,24);
+    s24.insert(v24.begin(),v24.end());
+    print(s24,24);
+
+
+    //void insert(initializer_list<value_type>IList);
+    set <int> s23({5,9,7}); 
+    print(s23,23);
+    s23.insert({1,3,2});
+    print(s23,23);
+
 //
-*/
+
 //lower_bound():傳回迭代器，指向集合中索引鍵等於或大於特定索引鍵的第一個項目=============================================
     //const_iterator lower_bound(const Key& key) const;
     //iterator lower_bound(const Key& key);
-    set <int> s31({1,3,7,5,9});
-    print (s31,31);
-    if(s31.lower_bound(6)==s31.end()){
+    
+    set <int> s24({1,3,7,5,9});
+    print (s24,24);
+    if(s24.lower_bound(6)==s24.end()){
         cout<<"沒有大於等於6的元素\n";
+    }else{
+        cout<<*s24.lower_bound(6);
     }
-
-
-
-
-
-
+//
+ 
+//max_size():傳回set可以容納的最大長度================================================================================
+    //size_type max_size() const;
+    set <int> s25({4,1,23,9});
+    cout<<s25.max_size();
+//
+*/
 
 
 
@@ -231,3 +259,5 @@ int main(){
 
 
 }
+
+
