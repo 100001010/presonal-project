@@ -1,43 +1,47 @@
 #include<iostream>
 using namespace std;
 int main(){
-    /*
-    int i;
+    
+    int i;    
     char c;
-    float f;
+    float f; //double IEEE 756
     bool b;
-
-    cout<<"inout : i=";
+/*
+    cout<<"input : i=";
     cin>>i;
     cout<<i<<endl;
 
     i=9;
-    cout<<i<<endl;
+    cout<<i<<endl;//9
     i=i+1;
-    cout<<i<<endl;
+    cout<<i<<endl;//10
     i=4-3;
-    cout<<i<<endl;
+    cout<<i<<endl;//1
     i=5*2;
-    cout<<i<<endl;
+    cout<<i<<endl;//10
     i=5/2;
-    cout<<i<<endl;
+    cout<<i<<endl;//2
     i=9%5;
-    cout<<i<<endl;
+    cout<<i<<endl;//4
 
     i=i+1;
     cout<<i<<endl;
-    i+=1;
+    i+=10;
     cout<<i<<endl;
     i++;// vs ++i
-    cout<<i<<endl;
+    i=0;
+    cout<<endl<<i++<<endl;//i=1
+    cout<<++i<<endl;
     i--;
     cout<<i<<endl;
 
 
-    cout<<"inout : c=";
+
+ //ASCII
+    cout<<"input : c=";
     cin>>c;
     cout<<c<<endl;
-    
+
     c='d';
     cout<<c<<endl;
     c=c+1;
@@ -48,12 +52,12 @@ int main(){
     cout<<c<<endl;
 
 
-    cout<<"inout : f=";
+    cout<<"input : f=";
     cin>>f;
     cout<<f<<endl;
     
-
-    cout<<"inout : b=";
+*/
+    cout<<"input : b=";
     cin>>b;
     cout<<b<<endl;
     b=true;
@@ -63,5 +67,5 @@ int main(){
 
     
 
-*/
+
 }

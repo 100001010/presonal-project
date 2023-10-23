@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
+    
     int i1=1,i2=2;
-
+/*
     bool b;
 
     b=i1==1;
@@ -15,8 +16,11 @@ int main(){
     cout<<b<<endl;
 
 
-    if(i1==1)
+    if(i1==1){
         cout<<"i1=1"<<endl;
+        cout<<"i1=1"<<endl;
+    }
+        
     else 
         cout<<"i1!=1"<<endl;
 
@@ -29,18 +33,19 @@ int main(){
         cout<<3<<endl;
     else
         cout<<4<<endl;
-
-    switch (i2)
+*/
+    switch (i1)
     {
-    case 1:
-        cout<<1<<endl;
-        break;
+        case 1:
+            cout<<1<<endl;
+            
     
-    case 2:
-        cout<<2<<endl;
-        break;
-    default:
-        cout<<"f"<<endl;
-        break;
+        case 2:
+            cout<<2<<endl;
+            
+        default:
+            cout<<"f"<<endl;
+            break;
     }
+    
 }

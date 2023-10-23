@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     /*
+    
     cout<<int(' ')<<endl<<int('0')<<endl<<int('A')<<endl<<int('a')<<endl;
 
     cout<<char(48)<<endl<<char(65)<<endl<<char(97)<<endl;
@@ -11,13 +12,13 @@ int main(){
     cout<<c<<endl;
     cout<<c++<<endl;
     cout<<++c<<endl;
-    cout<<c<<endl;
-
+    cout<<int(c)<<endl;
+    int i=67;
     float f=i/4;
     cout<<f<<endl;
     f=float(i)/4;
     cout<<f<<endl;
-    
+ 
     i=1138388700;
     cout<<float(i)<<endl;
     i=float(i);
@@ -39,13 +40,18 @@ int main(){
     b=0;
     b=3.5;
     cout<<b<<endl;
-
+*/
+    int i;
     i=2;
     i<<=3;
     cout<<i<<endl;
+1 0 0 0 0
+4 3 2 1 0
+
+
 
     i=2;
     i>>=1;
     cout<<i<<endl;
-*/
+
 }

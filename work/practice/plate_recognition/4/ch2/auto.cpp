@@ -1,6 +1,6 @@
 #include<iostream>
-#include <fstream>
-#include <string>
+#include<fstream>
+#include<string>
 #include<sstream>
 #include<queue>
 #include<vector>

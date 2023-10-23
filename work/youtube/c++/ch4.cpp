@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int a[10]={};
-    while(a[0]!=10){
+/*    while(a[0]!=10){
         cout<<a[0]++;
     }
 
@@ -11,10 +11,12 @@ int main(){
     }while(1!=1);
 
     cout<<endl;
-    a[7]=100;
+    
     for(int i=0;i<10;i++){
         cout<<a[i]<<endl;
     }
+*/
+    a[7]=100;
     cout<<endl;
     for(int i=0;i<10;i++){
         if(a[i]==0)
@@ -27,4 +29,5 @@ int main(){
             break;
         cout<<i;
     }
+    
 }
