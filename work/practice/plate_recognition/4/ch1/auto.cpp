@@ -594,7 +594,7 @@ void print_final_data_csv(queue <Final_plate_data> final){
     out_file.close();
 }
 void print_delay_aaeon(queue <Aaeon_delay> &aaeon_delay){
-    ofstream out_file;
+    ofstream out_file; 
     out_file.open("delay.csv");
     out_file<<"dvr_time,aaeon_time,延遲秒數"<<endl;
     int delay_time[100]={};
@@ -627,6 +627,7 @@ int main(){
     push_acelin_data(acelin_data,dvr_white_list);
     push_aaeon_data(aaeon_data,dvr_white_list);
     
+
 
     //print_queue_data(acelin_data);
     //cout<<"======================================================================\n";
