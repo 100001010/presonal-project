@@ -1,22 +1,42 @@
-#include <iostream>
-#include <queue>
+#include<iostream>
 using namespace std;
-int main()
-{
-    queue<int> q;
+class Queue{
+    private:
+        int max_size;
+        int *p;
+        int front =0;
+        int end=0;
+    public:
+        Queue(int size){
+            this->max_size=size;
+            p= new int [max_size];
+        }
+        int size(){
+            return end-front;
+        }
+        bool empty(){
+            return this->size()==0? 1:0;
+        }
+        bool full(){
+            return !(end-front==max_size-1);
+        }
+        bool push(int i){
+            if(full()){
+                
+            }
+        }
 
-    cout << q.empty() << endl; // 1 or ture
-
-    for (int i = 0; i < 10; i++)
-        q.push(i); //{0,1,2,3,4~9}
-
-    cout << q.front() << endl; // 0
-    q.pop();                   //{1,2,3~9}
-    cout << q.back() << endl;  // 9
-
-    cout << q.empty() << endl; // 0
-
-    cout << q.size() << endl;
-
-    
+};
+int main(){
+    Queue q(10);
+    for(int i=0;i<5;i++)
+        q.push(i);
+    cout<<q.size();
+    cout<<q.empty();
+    for(int i=0;i<5;i++){
+        cout<<q.front();
+        q.pop();
+    } 
+    cout<<q.size();
+    cout<<q.empty();
 }
